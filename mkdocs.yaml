@@ -9,7 +9,8 @@ plugins:
 nav:
   - About: index.md
   - Auth providers: auth-providers.md
-  - Plugins: plugins.md
+  - Bundled plugins: bundled-plugins.md
+  - Known issues: known-issues.md
   - Home extensions: home-extensions.md
   - Scaffolder actions: scaffolder-actions.md
   - Search extensions: search-extensions.md
