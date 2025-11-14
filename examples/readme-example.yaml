@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: readme-example
+  annotations:
+    # branch with suffix / is what backstage automatically adds
+    # and it is required for the README plugin
+    backstage.io/source-location: url:https://github.com/AxisCommunications/backstage-plugins/tree/main/plugins/readme/
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:guest

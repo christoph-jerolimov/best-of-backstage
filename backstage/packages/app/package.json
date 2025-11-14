@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@axis-backstage/plugin-jira-dashboard": "^2.2.1",
-    "@axis-backstage/plugin-readme": "^0.16.0",
+    "@axis-backstage/plugin-readme": "^0.17.0",
     "@backstage-community/plugin-adr": "^0.17.1",
     "@backstage-community/plugin-announcements": "^0.16.0",
     "@backstage-community/plugin-badges": "^0.14.0",

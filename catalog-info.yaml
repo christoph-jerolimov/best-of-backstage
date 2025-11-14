@@ -6,7 +6,9 @@ metadata:
   description: A Backstage container image with an opinionated compilation of plugins
   annotations:
     github.com/project-slug: christoph-jerolimov/best-of-backstage
-    backstage.io/source-location: url:https://github.com/christoph-jerolimov/best-of-backstage
+    # branch with suffix / is what backstage automatically adds
+    # and it is required for the README plugin
+    backstage.io/source-location: url:https://github.com/christoph-jerolimov/best-of-backstage/tree/main/
     backstage.io/techdocs-ref: dir:.
 spec:
   type: container-image

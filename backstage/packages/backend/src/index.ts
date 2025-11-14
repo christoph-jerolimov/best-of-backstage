@@ -121,6 +121,11 @@ if (isBackendEnabled('playlist', true)) {
   backend.add(import('@backstage-community/plugin-playlist-backend'));
 }
 
+// readme plugin
+if (isBackendEnabled('readme', true)) {
+  backend.add(import('@axis-backstage/plugin-readme-backend'));
+}
+
 // todo plugin
 if (isBackendEnabled('todo', true)) {
   backend.add(import('@backstage-community/plugin-todo-backend'));

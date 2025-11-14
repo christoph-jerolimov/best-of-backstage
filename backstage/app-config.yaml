@@ -132,6 +132,10 @@ catalog:
     - type: file
       target: ../../../examples/npm-example.yaml
 
+    # readme plugin
+    - type: file
+      target: ../../../examples/readme-example.yaml
+
     # todo plugin
     - type: file
       target: ../../../examples/todo-example.yaml
