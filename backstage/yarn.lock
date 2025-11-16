@@ -2033,36 +2033,36 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-npm-backend@npm:^1.13.0":
-  version: 1.13.0
-  resolution: "@backstage-community/plugin-npm-backend@npm:1.13.0"
+"@backstage-community/plugin-npm-backend@npm:^1.14.0":
+  version: 1.14.0
+  resolution: "@backstage-community/plugin-npm-backend@npm:1.14.0"
   dependencies:
-    "@backstage-community/plugin-npm-common": "npm:^1.13.0"
+    "@backstage-community/plugin-npm-common": "npm:^1.14.0"
     "@backstage/backend-defaults": "npm:^0.13.0"
     "@backstage/backend-plugin-api": "npm:^1.4.4"
     "@backstage/errors": "npm:^1.2.7"
     "@backstage/plugin-catalog-node": "npm:^1.19.1"
     express: "npm:^4.17.1"
     express-promise-router: "npm:^4.1.0"
-  checksum: 10c0/a97927a6b8f81111127a12fa7666f5cdd7465070e1df5fabdcedf1d2926914775e33c11b45c47b99417506b5799fd83b9b12ce45ed97d57145ffb30aef9be259
+  checksum: 10c0/0f87bf6770d9fd1e24cb3283f5043b3f462eb0645bfc88c59e46da1a9a7465da6252ee495faf4ecbdaf38ecf002ef0fdf56749146cad01ab4d024e4a80f9a951
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-npm-common@npm:^1.13.0":
-  version: 1.13.0
-  resolution: "@backstage-community/plugin-npm-common@npm:1.13.0"
+"@backstage-community/plugin-npm-common@npm:^1.14.0":
+  version: 1.14.0
+  resolution: "@backstage-community/plugin-npm-common@npm:1.14.0"
   dependencies:
     "@backstage/catalog-model": "npm:^1.7.5"
     "@backstage/errors": "npm:^1.2.7"
-  checksum: 10c0/98b4fda189190f79beac065e1dfa23956dca5273eba5aeb065decc39d13f84e3c5ebdbda796c792fcd4b9c12db8cb81dd6c2f306bb636e01c435c06e5c5a005c
+  checksum: 10c0/161f7e8454f47d4e42492acd6f08548b5fb8d3d675192d03f2914fe42a036d917e3598be56cee6217663b17c5a2c17c62f976932ff84d6073a4fce71337d9807
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-npm@npm:^1.13.0":
-  version: 1.13.0
-  resolution: "@backstage-community/plugin-npm@npm:1.13.0"
+"@backstage-community/plugin-npm@npm:^1.14.0":
+  version: 1.14.0
+  resolution: "@backstage-community/plugin-npm@npm:1.14.0"
   dependencies:
-    "@backstage-community/plugin-npm-common": "npm:^1.13.0"
+    "@backstage-community/plugin-npm-common": "npm:^1.14.0"
     "@backstage/catalog-model": "npm:^1.7.5"
     "@backstage/core-components": "npm:^0.18.2"
     "@backstage/core-plugin-api": "npm:^1.11.1"
@@ -2075,7 +2075,7 @@ __metadata:
     react-use: "npm:^17.2.4"
   peerDependencies:
     react: ^16.13.1 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/ce1bb4afd9ea8ee744991fab1e48c28d26f8315a7a9b2f29f068d6ba7ae661918ef668fa72f633edf034a15318c43d0249c1970fa2d1677d61a56fb33ee70ee5
+  checksum: 10c0/85865eecd57297af2c6abd04df1bc721be80baaf4d268744e5f51c345454a679f032f459c18a9af73d9267ad8dc0e76dc39b6c0eb6f385e1e336b66e2dfebcea
   languageName: node
   linkType: hard
 
@@ -12501,6 +12501,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/zen-observable@npm:^0.8.0":
+  version: 0.8.7
+  resolution: "@types/zen-observable@npm:0.8.7"
+  checksum: 10c0/c6c5ef1d759e1dae5bc598f9ef40a10a9535fd85d65cd7e236ad28fca627866d30b1db6b430d213161e946c5001799caf8293e7831de6841d8ac2e65400ff48f
+  languageName: node
+  linkType: hard
+
 "@typescript-eslint/eslint-plugin@npm:^8.17.0":
   version: 8.46.2
   resolution: "@typescript-eslint/eslint-plugin@npm:8.46.2"
@@ -13225,7 +13232,7 @@ __metadata:
     "@backstage-community/plugin-badges": "npm:^0.14.0"
     "@backstage-community/plugin-bookmarks": "npm:^0.4.3"
     "@backstage-community/plugin-mcp-chat": "npm:^0.1.0"
-    "@backstage-community/plugin-npm": "npm:^1.13.0"
+    "@backstage-community/plugin-npm": "npm:^1.14.0"
     "@backstage-community/plugin-playlist": "npm:^0.12.0"
     "@backstage-community/plugin-todo": "npm:^0.13.0"
     "@backstage-community/plugin-wheel-of-names": "npm:^0.5.0"
@@ -13258,11 +13265,13 @@ __metadata:
     "@testing-library/react": "npm:^14.0.0"
     "@testing-library/user-event": "npm:^14.0.0"
     "@types/react-dom": "npm:*"
+    "@types/zen-observable": "npm:^0.8.0"
     cross-env: "npm:^7.0.0"
     react: "npm:^18.0.2"
     react-dom: "npm:^18.0.2"
     react-router: "npm:^6.3.0"
     react-router-dom: "npm:^6.3.0"
+    zen-observable: "npm:^0.10.0"
   languageName: unknown
   linkType: soft
 
@@ -13820,7 +13829,7 @@ __metadata:
     "@backstage-community/plugin-announcements-backend": "npm:^0.15.1"
     "@backstage-community/plugin-badges-backend": "npm:^0.17.0"
     "@backstage-community/plugin-mcp-chat-backend": "npm:^0.2.1"
-    "@backstage-community/plugin-npm-backend": "npm:^1.13.0"
+    "@backstage-community/plugin-npm-backend": "npm:^1.14.0"
     "@backstage-community/plugin-playlist-backend": "npm:^0.14.0"
     "@backstage-community/plugin-search-backend-module-announcements": "npm:^0.9.1"
     "@backstage-community/plugin-todo-backend": "npm:^0.14.0"

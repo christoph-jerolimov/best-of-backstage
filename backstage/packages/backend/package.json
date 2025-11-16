@@ -22,7 +22,7 @@
     "@backstage-community/plugin-announcements-backend": "^0.15.1",
     "@backstage-community/plugin-badges-backend": "^0.17.0",
     "@backstage-community/plugin-mcp-chat-backend": "^0.2.1",
-    "@backstage-community/plugin-npm-backend": "^1.13.0",
+    "@backstage-community/plugin-npm-backend": "^1.14.0",
     "@backstage-community/plugin-playlist-backend": "^0.14.0",
     "@backstage-community/plugin-search-backend-module-announcements": "^0.9.1",
     "@backstage-community/plugin-todo-backend": "^0.14.0",

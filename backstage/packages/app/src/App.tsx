@@ -3,6 +3,7 @@ import { createApp } from '@backstage/frontend-defaults';
 import homePlugin from '@backstage/plugin-home/alpha';
 import catalogPlugin from '@backstage/plugin-catalog/alpha';
 
+import { appPluginWithOverrides } from './features/app/plugin';
 import { navModule } from './modules/nav';
 import { customHomePageModule } from './modules/homepage/module';
 // import playlistPlugin from './modules/playlist/plugin';
@@ -12,6 +13,7 @@ import wheelOfNamesPlugin from './modules/wheel-of-names/plugin';
 
 export default createApp({
   features: [
+    appPluginWithOverrides,
     navModule,
     homePlugin,
     customHomePageModule,
