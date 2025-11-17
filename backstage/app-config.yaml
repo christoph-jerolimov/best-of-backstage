@@ -19,6 +19,16 @@ app:
     #     config:
     #       path: /
 
+i18n:
+  defaultLocale: en
+  availableLanguages: 
+    - en
+    - de
+    - fr
+    - es
+    - ja
+    - zh
+
 organization:
   name: Demo
 
