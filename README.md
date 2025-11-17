@@ -29,8 +29,8 @@
 <h1 align="center">feat. ${\color{#36baa2}Backstage}$ COMMUNITY PLUGINS</h1>
 
 <h2 align="center">
-ADR -
 Announcements -
+Architecture Decision Records (ADR) -
 Badges -
 BitBucket -
 Bookmarks -
@@ -122,16 +122,15 @@ Wheel of names
 ## Roadmap / Missing yet
 
 * [x] Setup a Backstage app with the New Frontend System
-* [x] An initial set of Backstage Core plugins like Home and DevTools
-* [x] An initial set of Backstage Community plugins like Announcements, MCP Chat
-* [ ] Add LICENSE, SECURITY and no support hint
+* [x] Initial set of Backstage Core plugins like Home and DevTools
+* [x] Initial set of Backstage Community plugins like Announcements, MCP Chat
 * [ ] Alternative auth providers
 * [ ] Containerfile / container image
 * [ ] Dependabot configuration
 * [ ] Playwright tests
 * [ ] GitHub workflows to verify/test PRs
-* [ ] Some kind of documentation?
+* [ ] Documentation
 * [ ] Support for home extensions
 * [ ] Additional scaffolder actions/extensions
 * [ ] Additional search extensions (?)
-* [ ] Localization (is it not yet available in the NFS?)
+* [ ] Localization support (enabled but there are no translations yet)
