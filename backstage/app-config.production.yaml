@@ -1,6 +1,6 @@
 app:
   # Should be the same as backend.baseUrl when using the `app-backend` plugin.
-  baseUrl: http://localhost:7007
+  baseUrl: http://localhost:3000
 
 backend:
   # Note that the baseUrl should be the URL that the browser and other clients
@@ -8,19 +8,19 @@ backend:
   # reachable not just from within the backend host, but from all of your
   # callers. When its value is "http://localhost:7007", it's strictly private
   # and can't be reached by others.
-  baseUrl: http://localhost:7007
+  baseUrl: http://localhost:3000
   # The listener can also be expressed as a single <host>:<port> string. In this case we bind to
   # all interfaces, the most permissive setting. The right value depends on your specific deployment.
-  listen: ':7007'
+  listen: ':3000'
 
   # config options: https://node-postgres.com/apis/client
-  database:
-    client: pg
-    connection:
-      host: ${POSTGRES_HOST}
-      port: ${POSTGRES_PORT}
-      user: ${POSTGRES_USER}
-      password: ${POSTGRES_PASSWORD}
+  # database:
+  #   client: pg
+  #   connection:
+  #     host: ${POSTGRES_HOST}
+  #     port: ${POSTGRES_PORT}
+  #     user: ${POSTGRES_USER}
+  #     password: ${POSTGRES_PASSWORD}
       # https://node-postgres.com/features/ssl
       # you can set the sslmode configuration option via the `PGSSLMODE` environment variable
       # see https://www.postgresql.org/docs/current/libpq-ssl.html Table 33.1. SSL Mode Descriptions (e.g. require)
@@ -30,26 +30,47 @@ backend:
 
 auth:
   providers:
-    guest: {}
+    guest:
+      dangerouslyAllowOutsideDevelopment: true
 
 catalog:
-  # Overrides the default list locations from app-config.yaml as these contain example data.
-  # See https://backstage.io/docs/features/software-catalog/#adding-components-to-the-catalog for more details
-  # on how to get entities into the catalog.
+  import:
+    entityFilename: catalog-info.yaml
+    pullRequestBranchName: backstage-integration
+  rules:
+    - allow: [Component, System, API, Resource, Location]
   locations:
-    # Local example data, replace this with your production config, these are intended for demo use only.
-    # File locations are relative to the backend process, typically in a deployed context, such as in a Docker container, this will be the root
-    - type: file
-      target: ./examples/entities.yaml
+    # Local example data, file locations are relative to the backend process, typically `packages/backend`
+    # own catalog-info
+    - type: url
+      target: https://github.com/christoph-jerolimov/best-of-backstage/blob/main/catalog-info.yaml
 
-    # Local example template
-    - type: file
-      target: ./examples/template/template.yaml
+    # scaffolder / software template
+    - type: url
+      target: https://github.com/christoph-jerolimov/best-of-backstage/blob/main/catalog-examples/template/template.yaml
       rules:
         - allow: [Template]
 
-    # Local example organizational data
-    - type: file
-      target: ./examples/org.yaml
-      rules:
-        - allow: [User, Group]
+    # adr plugin
+    - type: url
+      target: https://github.com/christoph-jerolimov/best-of-backstage/blob/main/catalog-examples/adr-example.yaml
+
+    # bookmarks plugin
+    - type: url
+      target: https://github.com/christoph-jerolimov/best-of-backstage/blob/main/catalog-examples/bookmarks-example.yaml
+
+    # npm plugin
+    - type: url
+      target: https://github.com/christoph-jerolimov/best-of-backstage/blob/main/catalog-examples/npm-example.yaml
+
+    # readme plugin
+    - type: url
+      target: https://github.com/christoph-jerolimov/best-of-backstage/blob/main/examples/readme-example.yaml
+
+    # todo plugin
+    - type: url
+      target: https://github.com/christoph-jerolimov/best-of-backstage/blob/main/catalog-examples/todo-example.yaml
+
+    # jira plugin
+    - type: url
+      target: https://github.com/christoph-jerolimov/best-of-backstage/blob/main/catalog-examples/jira-example.yaml
