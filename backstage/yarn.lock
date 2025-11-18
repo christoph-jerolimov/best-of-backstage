@@ -3277,6 +3277,28 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@backstage/plugin-app-visualizer@npm:^0.1.25":
+  version: 0.1.25
+  resolution: "@backstage/plugin-app-visualizer@npm:0.1.25"
+  dependencies:
+    "@backstage/core-components": "npm:^0.18.3"
+    "@backstage/core-plugin-api": "npm:^1.12.0"
+    "@backstage/frontend-plugin-api": "npm:^0.13.0"
+    "@backstage/ui": "npm:^0.9.0"
+    "@remixicon/react": "npm:^4.6.0"
+    react-aria-components: "npm:^1.13.0"
+  peerDependencies:
+    "@types/react": ^17.0.0 || ^18.0.0
+    react: ^17.0.0 || ^18.0.0
+    react-dom: ^17.0.0 || ^18.0.0
+    react-router-dom: ^6.3.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  checksum: 10c0/8d947cde92a0e31361e9d6671feea5a900ec16b38a59b78206bf4a133a96e85f78ba7647176ee73ab4511a77ee528c659755bea8452a694ac9e337929d378103
+  languageName: node
+  linkType: hard
+
 "@backstage/plugin-app@npm:^0.3.2":
   version: 0.3.2
   resolution: "@backstage/plugin-app@npm:0.3.2"
@@ -13180,6 +13202,7 @@ __metadata:
     "@backstage/frontend-plugin-api": "npm:^0.13.0"
     "@backstage/frontend-test-utils": "npm:^0.4.1"
     "@backstage/integration-react": "npm:^1.2.12"
+    "@backstage/plugin-app-visualizer": "npm:^0.1.25"
     "@backstage/plugin-catalog": "npm:^1.32.0"
     "@backstage/plugin-devtools": "npm:^0.1.33"
     "@backstage/plugin-home": "npm:^0.8.14"

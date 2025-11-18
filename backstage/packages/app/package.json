@@ -32,6 +32,7 @@
     "@backstage/frontend-defaults": "^0.3.3",
     "@backstage/frontend-plugin-api": "^0.13.0",
     "@backstage/integration-react": "^1.2.12",
+    "@backstage/plugin-app-visualizer": "^0.1.25",
     "@backstage/plugin-catalog": "^1.32.0",
     "@backstage/plugin-devtools": "^0.1.33",
     "@backstage/plugin-home": "^0.8.14",
