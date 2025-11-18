@@ -34,11 +34,26 @@ jobs:
         id: build-image
         uses: redhat-actions/buildah-build@v2
         with:
+          archs: amd64, arm64
           context: backstage
           containerfiles: backstage/Containerfile
           image: best-of-backstag
           tags: latest
           oci: true
+
+      - name: Echo Outputs
+        run: |
+          echo "Image: ${{ steps.build-image.outputs.image }}"
+          echo "Tags: ${{ steps.build-image.outputs.tags }}"
+          echo "Tagged Image: ${{ steps.build-image.outputs.image-with-tag }}"
+
+      - name: Check images created
+        run: buildah images | grep '${{ env.IMAGE_NAME }}'
+
+      - name: Check manifest
+        run: |
+          set -x
+          buildah manifest inspect ${{ steps.build-image.outputs.image }}:${{ env.IMAGE_TAG }}
 
       - name: Push to GitHub
         uses: redhat-actions/push-to-registry@v2
