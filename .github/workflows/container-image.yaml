@@ -1,0 +1,50 @@
+name: Container Image
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/container-image.yaml
+      - backstage/**
+  schedule:
+    - cron: '0 8 * * MON'  # Monday at 8am, we might increase this when reaching beta
+
+# Sets permissions of the GITHUB_TOKEN to allow pushing a conatainer image to ghcr.io
+permissions:
+  contents: read
+  packages: write
+  attestations: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Harden Runner
+        uses: step-security/harden-runner@c6295a65d1254861815972266d5933fd6e532bdf # v2.11.1
+        with:
+          egress-policy: audit
+
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Build Image
+        id: build-image
+        uses: redhat-actions/buildah-build@v2
+        with:
+          context: backstage
+          containerfiles: backstage/Containerfile
+          image: best-of-backstag
+          tags: latest
+          oci: true
+
+      - name: Push to GitHub
+        uses: redhat-actions/push-to-registry@v2
+        with:
+          image: ${{ steps.build-image.outputs.image }}
+          tags: ${{ steps.build-image.outputs.tags }}
+          registry: ghcr.io/${{ github.repository_owner }}
+          username: ${{ github.actor }}
+          password: ${{ github.token }}
