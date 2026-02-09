@@ -12,7 +12,10 @@ import { NavContentBlueprint } from '@backstage/frontend-plugin-api';
 
 import { SidebarSearchModal } from '@backstage/plugin-search';
 import { NotificationsSidebarItem } from '@backstage/plugin-notifications';
-import { UserSettingsSignInAvatar, Settings as SettingsSidebarItem } from '@backstage/plugin-user-settings';
+import {
+  UserSettingsSignInAvatar,
+  Settings as SettingsSidebarItem,
+} from '@backstage/plugin-user-settings';
 
 import MenuIcon from '@material-ui/icons/Menu';
 import SearchIcon from '@material-ui/icons/Search';

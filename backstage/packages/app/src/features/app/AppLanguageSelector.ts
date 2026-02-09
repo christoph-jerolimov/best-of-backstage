@@ -90,12 +90,14 @@ export class AppLanguageSelector implements AppLanguageApi {
   #languages: string[];
   #language: string;
   #observable: Observable<{ language: string }>;
-  #subscribers = new Set<ZenObservable.SubscriptionObserver<{ language: string }>>();
+  #subscribers = new Set<
+    ZenObservable.SubscriptionObserver<{ language: string }>
+  >();
 
   private constructor(languages: string[], initialLanguage: string) {
     this.#languages = languages;
     this.#language = initialLanguage;
-    this.#observable = new ObservableImpl<{ language: string }>((subscriber) => {
+    this.#observable = new ObservableImpl<{ language: string }>(subscriber => {
       subscriber.next({ language: this.#language });
       this.#subscribers.add(subscriber);
       return () => {

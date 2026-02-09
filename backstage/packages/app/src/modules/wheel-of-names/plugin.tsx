@@ -1,9 +1,16 @@
-import { convertLegacyPageExtension, convertLegacyPlugin, convertLegacyRouteRef } from '@backstage/core-compat-api';
+import {
+  convertLegacyPageExtension,
+  convertLegacyPlugin,
+  convertLegacyRouteRef,
+} from '@backstage/core-compat-api';
 import { NavItemBlueprint } from '@backstage/frontend-plugin-api';
 
 import RouletteIcon from '@material-ui/icons/Casino';
 
-import { wheelOfNamesPlugin, WheelOfNamesPage } from '@backstage-community/plugin-wheel-of-names';
+import {
+  wheelOfNamesPlugin,
+  WheelOfNamesPage,
+} from '@backstage-community/plugin-wheel-of-names';
 
 const wheelOfNamesNavItem = NavItemBlueprint.make({
   params: {
@@ -14,12 +21,9 @@ const wheelOfNamesNavItem = NavItemBlueprint.make({
   disabled: true,
 });
 
-export default convertLegacyPlugin(
-  wheelOfNamesPlugin,
-  {
-    extensions: [
-      wheelOfNamesNavItem,
-      convertLegacyPageExtension(WheelOfNamesPage),
-    ],
-  },
-);
+export default convertLegacyPlugin(wheelOfNamesPlugin, {
+  extensions: [
+    wheelOfNamesNavItem,
+    convertLegacyPageExtension(WheelOfNamesPage),
+  ],
+});
