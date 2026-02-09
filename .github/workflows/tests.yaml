@@ -35,5 +35,14 @@ jobs:
       - run: yarn build:all
         working-directory: backstage
 
+      - run: yarn lint:all
+        working-directory: backstage
+
+      - run: yarn prettier:check
+        working-directory: backstage
+
+      # - run: yarn list-deprecations
+      #   working-directory: backstage
+
       - run: yarn test
         working-directory: backstage

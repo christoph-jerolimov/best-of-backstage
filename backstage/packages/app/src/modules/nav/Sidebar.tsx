@@ -8,7 +8,7 @@ import {
 } from '@backstage/core-components';
 import { compatWrapper } from '@backstage/core-compat-api';
 import { Sidebar } from '@backstage/core-components';
-import { NavContentBlueprint } from '@backstage/frontend-plugin-api';
+import { NavContentBlueprint } from '@backstage/plugin-app-react';
 
 import { SidebarSearchModal } from '@backstage/plugin-search';
 import { NotificationsSidebarItem } from '@backstage/plugin-notifications';
