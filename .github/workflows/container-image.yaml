@@ -27,13 +27,13 @@ jobs:
         with:
           egress-policy: audit
 
+      - name: Checkout
+        uses: actions/checkout@v5
+
       - name: Install podman
         run: |
           sudo apt-get update
           sudo apt-get -y install podman
-
-      - name: Checkout
-        uses: actions/checkout@v5
 
       - name: Build Image with Podman
         run: |
