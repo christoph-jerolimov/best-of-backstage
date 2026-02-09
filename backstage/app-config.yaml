@@ -21,7 +21,7 @@ app:
 
 i18n:
   defaultLocale: en
-  availableLanguages: 
+  availableLanguages:
     - en
     - de
     - fr

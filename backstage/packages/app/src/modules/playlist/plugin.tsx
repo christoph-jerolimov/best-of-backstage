@@ -1,7 +1,22 @@
-import { ApiBlueprint, discoveryApiRef, fetchApiRef, NavItemBlueprint } from '@backstage/frontend-plugin-api';
-import { convertLegacyPageExtension, convertLegacyPlugin, convertLegacyRouteRef } from '@backstage/core-compat-api';
+import {
+  ApiBlueprint,
+  discoveryApiRef,
+  fetchApiRef,
+  NavItemBlueprint,
+} from '@backstage/frontend-plugin-api';
+import {
+  convertLegacyPageExtension,
+  convertLegacyPlugin,
+  convertLegacyRouteRef,
+} from '@backstage/core-compat-api';
 
-import { playlistPlugin, PlaylistIndexPage, playlistApiRef, PlaylistClient, PlaylistPage } from '@backstage-community/plugin-playlist';
+import {
+  playlistPlugin,
+  PlaylistIndexPage,
+  playlistApiRef,
+  PlaylistClient,
+  PlaylistPage,
+} from '@backstage-community/plugin-playlist';
 
 import PlaylistPlayIcon from '@material-ui/icons/PlaylistPlay';
 
@@ -27,14 +42,11 @@ export const playlistServiceApi = ApiBlueprint.make({
     }),
 });
 
-export default convertLegacyPlugin(
-  playlistPlugin,
-  {
-    extensions: [
-      playlistNavItem,
-      convertLegacyPageExtension(PlaylistIndexPage),
-      convertLegacyPageExtension(PlaylistPage),
-      playlistServiceApi,
-    ],
-  },
-);
+export default convertLegacyPlugin(playlistPlugin, {
+  extensions: [
+    playlistNavItem,
+    convertLegacyPageExtension(PlaylistIndexPage),
+    convertLegacyPageExtension(PlaylistPage),
+    playlistServiceApi,
+  ],
+});

@@ -1,6 +1,12 @@
 import { Navigate } from 'react-router';
 
-import { coreExtensionData, createExtension, createFrontendModule, NavItemBlueprint, PageBlueprint } from '@backstage/frontend-plugin-api';
+import {
+  coreExtensionData,
+  createExtension,
+  createFrontendModule,
+  NavItemBlueprint,
+  PageBlueprint,
+} from '@backstage/frontend-plugin-api';
 import homePagePlugin from '@backstage/plugin-home/alpha';
 
 import HomeIcon from '@material-ui/icons/Home';
@@ -28,17 +34,11 @@ const customizedHomePage = createExtension({
   attachTo: { id: 'page:home', input: 'props' },
   output: [coreExtensionData.reactElement],
   factory() {
-    return [
-      coreExtensionData.reactElement(homePage),
-    ];
+    return [coreExtensionData.reactElement(homePage)];
   },
 });
 
 export const customHomePageModule = createFrontendModule({
   pluginId: 'home',
-  extensions: [
-    homePageNavItem,
-    homePageRedirect,
-    customizedHomePage,
-  ],
+  extensions: [homePageNavItem, homePageRedirect, customizedHomePage],
 });

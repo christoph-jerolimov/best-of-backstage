@@ -1,7 +1,7 @@
-import { appLanguageApiRef } from "@backstage/core-plugin-api/alpha";
-import { ApiBlueprint, configApiRef } from "@backstage/frontend-plugin-api";
+import { appLanguageApiRef } from '@backstage/core-plugin-api/alpha';
+import { ApiBlueprint, configApiRef } from '@backstage/frontend-plugin-api';
 
-import { AppLanguageSelector } from "./AppLanguageSelector";
+import { AppLanguageSelector } from './AppLanguageSelector';
 
 export const AppLanguageApi = ApiBlueprint.make({
   name: 'app-language',
@@ -12,8 +12,12 @@ export const AppLanguageApi = ApiBlueprint.make({
         configApi: configApiRef,
       },
       factory: ({ configApi }) => {
-        const defaultLanguage = configApi.getOptionalString('i18n.defaultLanguage');
-        const availableLanguages = configApi.getOptionalStringArray('i18n.availableLanguages');
+        const defaultLanguage = configApi.getOptionalString(
+          'i18n.defaultLanguage',
+        );
+        const availableLanguages = configApi.getOptionalStringArray(
+          'i18n.availableLanguages',
+        );
 
         return AppLanguageSelector.createWithStorage({
           defaultLanguage,

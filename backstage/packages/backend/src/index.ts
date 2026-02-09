@@ -9,16 +9,22 @@
 import { createBackend } from '@backstage/backend-defaults';
 
 const isBackendEnabled = (plugin: string, defaultValue: boolean) => {
-  const envName = `PLUGIN_${plugin.toLocaleUpperCase('en').replaceAll(/[^A-Z]/g, '_')}`;
+  const envName = `PLUGIN_${plugin
+    .toLocaleUpperCase('en')
+    .replaceAll(/[^A-Z]/g, '_')}`;
   const envValue = process.env[envName];
   const enabled = !envValue ? defaultValue : envValue !== 'false';
   if (enabled) {
-    console.log(`Enable (load) "${plugin}" plugin backend because env ${envName} is ${envValue} (default: ${defaultValue})`);
+    console.log(
+      `Enable (load) "${plugin}" plugin backend because env ${envName} is ${envValue} (default: ${defaultValue})`,
+    );
   } else {
-    console.log(`SKIP "${plugin}" plugin backend because env ${envName} is ${envValue} (default: ${defaultValue})`);
+    console.log(
+      `SKIP "${plugin}" plugin backend because env ${envName} is ${envValue} (default: ${defaultValue})`,
+    );
   }
   return enabled;
-}
+};
 
 const backend = createBackend();
 
@@ -98,7 +104,9 @@ if (isBackendEnabled('adr', true)) {
 // announcements plugin
 if (isBackendEnabled('announcements', true)) {
   backend.add(import('@backstage-community/plugin-announcements-backend'));
-  backend.add(import('@backstage-community/plugin-search-backend-module-announcements'));
+  backend.add(
+    import('@backstage-community/plugin-search-backend-module-announcements'),
+  );
 }
 
 // mcp actions plugin

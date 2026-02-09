@@ -1,7 +1,15 @@
-import { convertLegacyPageExtension, convertLegacyPlugin, convertLegacyRouteRef } from '@backstage/core-compat-api';
+import {
+  convertLegacyPageExtension,
+  convertLegacyPlugin,
+  convertLegacyRouteRef,
+} from '@backstage/core-compat-api';
 import { NavItemBlueprint } from '@backstage/frontend-plugin-api';
 
-import { mcpChatPlugin, McpChatPage, MCPChatIcon } from '@backstage-community/plugin-mcp-chat';
+import {
+  mcpChatPlugin,
+  McpChatPage,
+  MCPChatIcon,
+} from '@backstage-community/plugin-mcp-chat';
 
 const mcpChatNavItem = NavItemBlueprint.make({
   params: {
@@ -11,12 +19,6 @@ const mcpChatNavItem = NavItemBlueprint.make({
   },
 });
 
-export default convertLegacyPlugin(
-  mcpChatPlugin,
-  {
-    extensions: [
-      mcpChatNavItem,
-      convertLegacyPageExtension(McpChatPage),
-    ],
-  },
-);
+export default convertLegacyPlugin(mcpChatPlugin, {
+  extensions: [mcpChatNavItem, convertLegacyPageExtension(McpChatPage)],
+});

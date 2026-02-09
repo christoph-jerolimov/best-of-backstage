@@ -1,8 +1,15 @@
 import { compatWrapper, convertLegacyPlugin } from '@backstage/core-compat-api';
 
-import { EntityContentBlueprint, EntityCardBlueprint } from '@backstage/plugin-catalog-react/alpha';
+import {
+  EntityContentBlueprint,
+  EntityCardBlueprint,
+} from '@backstage/plugin-catalog-react/alpha';
 
-import { jiraPlugin, isJiraAvailable, hasJiraQuery } from '@roadiehq/backstage-plugin-jira';
+import {
+  jiraPlugin,
+  isJiraAvailable,
+  hasJiraQuery,
+} from '@roadiehq/backstage-plugin-jira';
 
 const entityJiraOverviewContent = EntityContentBlueprint.make({
   name: 'entityJiraOverviewContent',
@@ -56,14 +63,11 @@ const entityJiraQueryCard = EntityCardBlueprint.make({
   disabled: true,
 });
 
-export default convertLegacyPlugin(
-  jiraPlugin,
-  {
-    extensions: [
-      entityJiraOverviewContent,
-      entityJiraQueryContent,
-      entityJiraOverviewCard,
-      entityJiraQueryCard,
-    ],
-  },
-);
+export default convertLegacyPlugin(jiraPlugin, {
+  extensions: [
+    entityJiraOverviewContent,
+    entityJiraQueryContent,
+    entityJiraOverviewCard,
+    entityJiraQueryCard,
+  ],
+});
