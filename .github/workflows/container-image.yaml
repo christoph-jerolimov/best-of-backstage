@@ -8,7 +8,7 @@ on:
       - .github/workflows/container-image.yaml
       - backstage/**
   schedule:
-    - cron: '0 8 * * MON'  # Monday at 8am, we might increase this when reaching beta
+    - cron: '0 8 * * MON'  # Monday at 8am, we might increase this at some point
 
 # Sets permissions of the GITHUB_TOKEN to allow pushing a conatainer image to ghcr.io
 permissions:
@@ -39,36 +39,7 @@ jobs:
         run: |
           podman build -t best-of-backstage backstage
 
-      - name: Build Image
-        id: build-image
-        uses: redhat-actions/buildah-build@v2
-        with:
-          archs: amd64 #,linux/arm64
-          context: backstage
-          containerfiles: backstage/Containerfile
-          image: best-of-backstag
-          tags: latest
-          oci: true
-
-      - name: Echo Outputs
+      - name: Push to GitHub Container Registry
         run: |
-          echo "Image: ${{ steps.build-image.outputs.image }}"
-          echo "Tags: ${{ steps.build-image.outputs.tags }}"
-          echo "Tagged Image: ${{ steps.build-image.outputs.image-with-tag }}"
-
-      - name: Check images created
-        run: buildah images
-
-      - name: Check manifest
-        run: |
-          set -x
-          buildah manifest inspect ${{ steps.build-image.outputs.image }}:latest
-
-      - name: Push to GitHub
-        uses: redhat-actions/push-to-registry@v2
-        with:
-          image: ${{ steps.build-image.outputs.image }}
-          tags: ${{ steps.build-image.outputs.tags }}
-          registry: ghcr.io/${{ github.repository_owner }}
-          username: ${{ github.actor }}
-          password: ${{ github.token }}
+            echo ${{ github.token }} | podman login ghcr.io -u ${{ github.actor }} --password-stdin
+            podman push best-of-backstage:latest ghcr.io/${{ github.repository_owner }}/best-of-backstage:latest
