@@ -3,8 +3,14 @@ name: Tests
 on:
   push:
     branches: ["main"]
+    paths:
+      - .github/workflows/tests.yaml
+      - backstage/**
   pull_request:
     branches: ["main"]
+    paths:
+      - .github/workflows/tests.yaml
+      - backstage/**
 
 jobs:
   build:
@@ -13,22 +19,21 @@ jobs:
     strategy:
       matrix:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
-        node-version: [20.x, 22.x]
+        node_version: [20.x, 22.x]
 
     steps:
-    - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v4
-      with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'npm'
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v6
+        with:
+          node-version: ${{ matrix.node_version }}
 
-    - run: yarn install --frozen-lockfile
-      working-directory: ./backstage
+      - run: yarn install --frozen-lockfile
+        working-directory: backstage
 
-    - run: yarn build:all
-      working-directory: ./backstage
+      - run: yarn build:all
+        working-directory: backstage
 
-    - run: yarn test
-      working-directory: ./backstage
+      - run: yarn test
+        working-directory: backstage
