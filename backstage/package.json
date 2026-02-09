@@ -61,7 +61,7 @@
     "jest": "^30",
     "jsdom": "^27",
     "node-gyp": "^10.0.0",
-    "prettier": "^2.3.2",
+    "prettier": "^3.0.0",
     "typescript": "~5.9.0"
   },
   "resolutions": {
