@@ -11,7 +11,6 @@ app:
     - nav-item:home: false
     - nav-item:catalog: false
     - nav-item:devtools: false
-    - nav-item:notifications: false # does not add a notifications item so far
     - nav-item:user-settings: false
 
     # Configure the catalog index page to be the root page, this is normally mounted on /catalog
