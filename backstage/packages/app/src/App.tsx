@@ -6,10 +6,12 @@ import catalogPlugin from '@backstage/plugin-catalog/alpha';
 import { appPluginWithOverrides } from './features/app/plugin';
 import { navModule } from './modules/nav';
 import { customHomePageModule } from './modules/homepage/module';
-// import playlistPlugin from './modules/playlist/plugin';
-import jiraPlugin from './modules/jira/plugin';
-import mcpChatPlugin from './modules/mcp-chat/plugin';
-import wheelOfNamesPlugin from './modules/wheel-of-names/plugin';
+
+import gcalendarPlugin from './plugins/gcalendar';
+import jiraPlugin from './plugins/jira';
+// import playlistPlugin from './plugins/playlist';
+import mcpChatPlugin from './plugins/mcp-chat';
+import wheelOfNamesPlugin from './plugins/wheel-of-names';
 
 export default createApp({
   features: [
@@ -18,8 +20,10 @@ export default createApp({
     homePlugin,
     customHomePageModule,
     catalogPlugin,
-    // playlistPlugin, // FIXME(christoph-jerolimov): playlist plugin integration doesn't work so far
+
+    gcalendarPlugin,
     jiraPlugin,
+    // playlistPlugin, // FIXME(christoph-jerolimov): playlist plugin integration doesn't work so far,
     mcpChatPlugin,
     wheelOfNamesPlugin,
   ],

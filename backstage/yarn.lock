@@ -1980,6 +1980,32 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@backstage-community/plugin-gcalendar@npm:^0.17.0":
+  version: 0.17.0
+  resolution: "@backstage-community/plugin-gcalendar@npm:0.17.0"
+  dependencies:
+    "@backstage/core-components": "npm:^0.18.6"
+    "@backstage/core-plugin-api": "npm:^1.12.2"
+    "@backstage/errors": "npm:^1.2.7"
+    "@material-ui/core": "npm:^4.12.2"
+    "@material-ui/icons": "npm:^4.9.1"
+    "@maxim_mazurok/gapi.client.calendar": "npm:^3.0.20220408"
+    "@tanstack/react-query": "npm:^4.1.3"
+    "@types/react": "npm:^16.13.1 || ^17.0.0 || ^18.0.0"
+    classnames: "npm:^2.3.1"
+    dompurify: "npm:^3.0.0"
+    lodash: "npm:^4.17.21"
+    luxon: "npm:^3.0.0"
+    material-ui-popup-state: "npm:^1.9.3"
+    react-use: "npm:^17.2.4"
+  peerDependencies:
+    react: ^16.13.1 || ^17.0.0 || ^18.0.0
+    react-dom: ^16.13.1 || ^17.0.0 || ^18.0.0
+    react-router-dom: 6.0.0-beta.0 || ^6.3.0
+  checksum: 10c0/9bba56daefe3cd5af0945f6560c112251132db0f95cce69884ffc05b8a279aa2d19afb8f263f728e09e2380061f6b6cbf5971f55d6d6d58b3556dfb2ce3497c0
+  languageName: node
+  linkType: hard
+
 "@backstage-community/plugin-mcp-chat-backend@npm:^0.6.1":
   version: 0.6.1
   resolution: "@backstage-community/plugin-mcp-chat-backend@npm:0.6.1"
@@ -7639,6 +7665,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@material-ui/types@npm:^6.0.1":
+  version: 6.0.2
+  resolution: "@material-ui/types@npm:6.0.2"
+  peerDependencies:
+    "@types/react": "*"
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  checksum: 10c0/2fc370b4305ba40ca9183b806c185b911a4c9e5d12163718933db01107aa3c8d42b9049e7e168f4169304614fb53725b5825b8f5412e63e1141ff62a75877825
+  languageName: node
+  linkType: hard
+
 "@material-ui/utils@npm:^4.11.2, @material-ui/utils@npm:^4.11.3":
   version: 4.11.3
   resolution: "@material-ui/utils@npm:4.11.3"
@@ -7650,6 +7688,15 @@ __metadata:
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
   checksum: 10c0/af6d227bee05cae9044a683da94f9463748aa6166ddabc85e5301612a66067a35b20661f212a3118556ce40d6f0d3d9a70f559bfb41c036b57f710e5901c5809
+  languageName: node
+  linkType: hard
+
+"@maxim_mazurok/gapi.client.calendar@npm:^3.0.20220408":
+  version: 3.0.20220805
+  resolution: "@maxim_mazurok/gapi.client.calendar@npm:3.0.20220805"
+  dependencies:
+    "@types/gapi.client": "npm:*"
+  checksum: 10c0/69278e1523e89c45e40f7b2e20a5b8372bd54689bb8bce32a49f565f865fdd6ce62d837b0a83b1e3c92b237cf4db54e0ea82e586c398c35d96925317166b0fa4
   languageName: node
   linkType: hard
 
@@ -12274,6 +12321,32 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tanstack/query-core@npm:4.43.0":
+  version: 4.43.0
+  resolution: "@tanstack/query-core@npm:4.43.0"
+  checksum: 10c0/29100c4a4805e44596a08a2002a3775e631bc7351b801e3cb4d31f765b1ab9c4a467d9d253d42986a65cd331c23f8a1380d22884683f3e7e17ed93f3fc856f38
+  languageName: node
+  linkType: hard
+
+"@tanstack/react-query@npm:^4.1.3":
+  version: 4.43.0
+  resolution: "@tanstack/react-query@npm:4.43.0"
+  dependencies:
+    "@tanstack/query-core": "npm:4.43.0"
+    use-sync-external-store: "npm:^1.6.0"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+    react-native: "*"
+  peerDependenciesMeta:
+    react-dom:
+      optional: true
+    react-native:
+      optional: true
+  checksum: 10c0/4b142ee02a7203494a4547a8f6455b5aadb9cf37f83ed9707420b0d38282dac58fd9d89f44a0b5e6fc15d4cf1cd4e95ab9f58fce83e52a1e14a94e83671298c7
+  languageName: node
+  linkType: hard
+
 "@tanstack/react-table@npm:^8.21.3":
   version: 8.21.3
   resolution: "@tanstack/react-table@npm:8.21.3"
@@ -12706,6 +12779,13 @@ __metadata:
     "@types/qs": "npm:*"
     "@types/serve-static": "npm:^1"
   checksum: 10c0/f42b616d2c9dbc50352c820db7de182f64ebbfa8dba6fb6c98e5f8f0e2ef3edde0131719d9dc6874803d25ad9ca2d53471d0fec2fbc60a6003a43d015bab72c4
+  languageName: node
+  linkType: hard
+
+"@types/gapi.client@npm:*":
+  version: 1.0.8
+  resolution: "@types/gapi.client@npm:1.0.8"
+  checksum: 10c0/5b9a26ad4ae7d915c7711ee0084dddcc9d143c9f8ff4b7aba8811f8e94af0140639e9093ada17f8146c3a07f9a189c72fb9ae29d4c8108e330a65de3319a32f8
   languageName: node
   linkType: hard
 
@@ -14147,6 +14227,7 @@ __metadata:
     "@backstage-community/plugin-announcements": "npm:^2.3.0"
     "@backstage-community/plugin-badges": "npm:^0.17.0"
     "@backstage-community/plugin-bookmarks": "npm:^0.7.1"
+    "@backstage-community/plugin-gcalendar": "npm:^0.17.0"
     "@backstage-community/plugin-mcp-chat": "npm:^0.3.1"
     "@backstage-community/plugin-npm": "npm:^1.17.0"
     "@backstage-community/plugin-playlist": "npm:^0.15.0"
@@ -17709,6 +17790,18 @@ __metadata:
   dependencies:
     domelementtype: "npm:^2.3.0"
   checksum: 10c0/bba1e5932b3e196ad6862286d76adc89a0dbf0c773e5ced1eb01f9af930c50093a084eff14b8de5ea60b895c56a04d5de8bbc4930c5543d029091916770b2d2a
+  languageName: node
+  linkType: hard
+
+"dompurify@npm:^3.0.0":
+  version: 3.3.1
+  resolution: "dompurify@npm:3.3.1"
+  dependencies:
+    "@types/trusted-types": "npm:^2.0.7"
+  dependenciesMeta:
+    "@types/trusted-types":
+      optional: true
+  checksum: 10c0/fa0a8c55a436ba0d54389195e3d2337e311f56de709a2fc9efc98dbbc7746fa53bb4b74b6ac043b77a279a8f2ebd8685f0ebaa6e58c9e32e92051d529bc0baf8
   languageName: node
   linkType: hard
 
@@ -24043,6 +24136,21 @@ __metadata:
     react: ^17.0.0 || ^18.0.0 || ^19.0.0
     react-dom: ^17.0.0 || ^18.0.0 || ^19.0.0
   checksum: 10c0/0476686d1029b823a0f78960dc7d7820e28ec93f84dbf8c300b82bef420812cf6fcaaf961bc8d29ca2c286d19e25c8799fdbc36370ef4c9006d3e0704dc2bf7e
+  languageName: node
+  linkType: hard
+
+"material-ui-popup-state@npm:^1.9.3":
+  version: 1.9.3
+  resolution: "material-ui-popup-state@npm:1.9.3"
+  dependencies:
+    "@babel/runtime": "npm:^7.12.5"
+    "@material-ui/types": "npm:^6.0.1"
+    classnames: "npm:^2.2.6"
+    prop-types: "npm:^15.7.2"
+  peerDependencies:
+    "@material-ui/core": ^4.0.0 || ^5.0.0-beta
+    react: ^15.0.0 || ^16.0.0 || ^17.0.0
+  checksum: 10c0/8c7caf1183728df53554f04fca119bcc4a125d9f0aeb1ae46314b6cfc632d7c9ffda17d62d0dbaa5c58b9343d8e9537df2d8f289d2f161c9d8a774ab41b40daf
   languageName: node
   linkType: hard
 

@@ -20,6 +20,7 @@
     "@backstage-community/plugin-announcements": "^2.3.0",
     "@backstage-community/plugin-badges": "^0.17.0",
     "@backstage-community/plugin-bookmarks": "^0.7.1",
+    "@backstage-community/plugin-gcalendar": "^0.17.0",
     "@backstage-community/plugin-mcp-chat": "^0.3.1",
     "@backstage-community/plugin-npm": "^1.17.0",
     "@backstage-community/plugin-playlist": "^0.15.0",
