@@ -13,6 +13,7 @@ import jiraPlugin from './plugins/jira';
 // import playlistPlugin from './plugins/playlist';
 import mcpChatPlugin from './plugins/mcp-chat';
 import quayPlugin from './plugins/quay';
+import rbacPlugin from './plugins/rbac';
 import wheelOfNamesPlugin from './plugins/wheel-of-names';
 
 export default createApp({
@@ -29,6 +30,7 @@ export default createApp({
     // playlistPlugin, // FIXME(christoph-jerolimov): playlist plugin integration doesn't work so far,
     mcpChatPlugin,
     quayPlugin,
+    rbacPlugin,
     wheelOfNamesPlugin,
   ],
 });

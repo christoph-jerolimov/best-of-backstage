@@ -30,6 +30,7 @@
     "@backstage-community/plugin-npm": "^1.17.0",
     "@backstage-community/plugin-playlist": "^0.15.0",
     "@backstage-community/plugin-quay": "^1.30.0",
+    "@backstage-community/plugin-rbac": "^1.48.0",
     "@backstage-community/plugin-todo": "^0.16.0",
     "@backstage-community/plugin-wheel-of-names": "^0.7.0",
     "@backstage/cli": "^0.35.3",
