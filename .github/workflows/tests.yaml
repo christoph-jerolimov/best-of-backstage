@@ -47,5 +47,8 @@ jobs:
       - run: yarn test
         working-directory: backstage
 
+      - run: yarn playwright install chromium
+        working-directory: backstage
+
       - run: yarn test:e2e
         working-directory: backstage
