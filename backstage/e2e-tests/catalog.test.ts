@@ -9,7 +9,7 @@ const test = base.extend<{ backstage: Backstage }>({
 test('Catalog', async ({ backstage }) => {
   await backstage.login();
 
-  await backstage.navLink('Catalog').click();
+  await backstage.sidebarItem('Catalog').click();
 
   await expect(backstage.header.getByText('Demo Catalog')).toBeVisible();
 });

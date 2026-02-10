@@ -9,7 +9,7 @@ const test = base.extend<{ backstage: Backstage }>({
 test('Announcements', async ({ backstage }) => {
   await backstage.login();
 
-  await backstage.navLink('Announcements').click();
+  await backstage.sidebarItem('Announcements').click();
 
   await expect(backstage.header.getByText('Announcements')).toBeVisible();
   await expect(backstage.content.getByText('No announcements found.')).toBeVisible();

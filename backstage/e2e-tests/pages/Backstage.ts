@@ -4,13 +4,16 @@ export class Backstage {
   constructor(public readonly page: Page) {
   }
 
-  async login() {
-    await this.page.goto('/');
+  async login(url = '/') {
+    await this.page.goto(url);
+
     // TODO: ensure we are on the login page?
     await this.page.getByRole('button', { name: 'Enter' }).click();
+
+    await this.page.waitForURL(url);
   }
 
-  get nav() {
+  get sidebar() {
     return this.page.locator('nav');
   }
 
@@ -22,7 +25,7 @@ export class Backstage {
     return this.page.locator('article, .bui-HeaderPage + *');
   }
 
-  navLink(name: string) {
-    return this.page.locator('nav').getByRole('link', { name });
+  sidebarItem(name: string) {
+    return this.sidebar.getByRole('link', { name });
   }
 }

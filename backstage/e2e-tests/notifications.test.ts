@@ -9,7 +9,7 @@ const test = base.extend<{ backstage: Backstage }>({
 test('Notifications', async ({ backstage }) => {
   await backstage.login();
 
-  await backstage.navLink('Notifications').click();
+  await backstage.sidebarItem('Notifications').click();
 
   await expect(backstage.header.getByText('Notifications')).toBeVisible();
   await expect(backstage.content.getByText('Unread notifications (0)')).toBeVisible();
