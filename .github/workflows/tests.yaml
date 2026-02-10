@@ -41,8 +41,8 @@ jobs:
       - run: yarn prettier:check
         working-directory: backstage
 
-      # - run: yarn list-deprecations
-      #   working-directory: backstage
+      - run: yarn list-deprecations
+        working-directory: backstage
 
       - run: yarn test
         working-directory: backstage
