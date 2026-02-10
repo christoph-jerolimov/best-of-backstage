@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: quay-example
+  annotations:
+    quay.io/repository-slug: ORGANIZATION/REPOSITORY
+spec:
+  type: library
+  lifecycle: production
+  owner: user:guest

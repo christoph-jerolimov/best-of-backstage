@@ -60,6 +60,9 @@ backend.add(
 backend.add(
   import('@backstage-community/plugin-scaffolder-backend-module-sonarqube'),
 );
+backend.add(
+  import('@backstage-community/plugin-scaffolder-backend-module-quay'),
+);
 // backend.add(import('@backstage-community/plugin-scaffolder-backend-module-jenkins'));
 
 backend.add(import('@aws/aws-core-plugin-for-backstage-scaffolder-actions'));

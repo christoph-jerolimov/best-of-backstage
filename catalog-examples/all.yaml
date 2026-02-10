@@ -9,6 +9,7 @@ spec:
     - ./components/jira-example.yaml
     - ./components/nexus-example.yaml
     - ./components/npm-example.yaml
+    - ./components/quay-example.yaml
     - ./components/readme-example.yaml
     - ./components/todo-example.yaml
     - ./template/template.yaml

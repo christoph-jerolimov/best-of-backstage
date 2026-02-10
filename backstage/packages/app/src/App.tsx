@@ -12,6 +12,7 @@ import gcalendarPlugin from './plugins/gcalendar';
 import jiraPlugin from './plugins/jira';
 // import playlistPlugin from './plugins/playlist';
 import mcpChatPlugin from './plugins/mcp-chat';
+import quayPlugin from './plugins/quay';
 import wheelOfNamesPlugin from './plugins/wheel-of-names';
 
 export default createApp({
@@ -27,6 +28,7 @@ export default createApp({
     jiraPlugin,
     // playlistPlugin, // FIXME(christoph-jerolimov): playlist plugin integration doesn't work so far,
     mcpChatPlugin,
+    quayPlugin,
     wheelOfNamesPlugin,
   ],
 });
