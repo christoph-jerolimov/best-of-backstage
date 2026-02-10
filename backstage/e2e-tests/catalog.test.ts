@@ -1,12 +1,15 @@
-import { test, expect } from '@playwright/test';
+import { test as base, expect } from '@playwright/test';
 
-test('Catalog', async ({ page }) => {
-  await page.goto('/');
+import { Backstage } from './pages/Backstage';
 
-  // Guest login
-  await page.getByRole('button', { name: 'Enter' }).click();
+const test = base.extend<{ backstage: Backstage }>({
+  backstage: ({ page }, use) => use(new Backstage(page)),
+});
 
-  await page.locator('nav').getByRole('link', { name: 'Catalog' }).click();
+test('Catalog', async ({ backstage }) => {
+  await backstage.login();
 
-  await expect(page.locator('header').getByText('Demo Catalog')).toBeVisible();
+  await backstage.navLink('Catalog').click();
+
+  await expect(backstage.header.getByText('Demo Catalog')).toBeVisible();
 });
