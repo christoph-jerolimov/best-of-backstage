@@ -12,7 +12,5 @@ const npmTranslation = TranslationBlueprint.make({
 
 export default createFrontendModule({
   pluginId: 'app',
-  extensions: [
-    npmTranslation,
-  ],
+  extensions: [npmTranslation],
 });

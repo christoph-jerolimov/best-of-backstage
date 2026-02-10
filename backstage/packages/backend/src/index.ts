@@ -26,31 +26,49 @@ backend.add(import('@backstage/plugin-proxy-backend'));
 // scaffolder plugin
 backend.add(import('@backstage/plugin-scaffolder-backend'));
 backend.add(import('@backstage/plugin-scaffolder-backend-module-azure'));
-backend.add(import('@backstage/plugin-scaffolder-backend-module-bitbucket-cloud'));
-backend.add(import('@backstage/plugin-scaffolder-backend-module-bitbucket-server'));
-backend.add(import('@backstage/plugin-scaffolder-backend-module-confluence-to-markdown'));
+backend.add(
+  import('@backstage/plugin-scaffolder-backend-module-bitbucket-cloud'),
+);
+backend.add(
+  import('@backstage/plugin-scaffolder-backend-module-bitbucket-server'),
+);
+backend.add(
+  import('@backstage/plugin-scaffolder-backend-module-confluence-to-markdown'),
+);
 backend.add(import('@backstage/plugin-scaffolder-backend-module-cookiecutter'));
 backend.add(import('@backstage/plugin-scaffolder-backend-module-gcp'));
 backend.add(import('@backstage/plugin-scaffolder-backend-module-gerrit'));
 backend.add(import('@backstage/plugin-scaffolder-backend-module-gitea'));
 backend.add(import('@backstage/plugin-scaffolder-backend-module-github'));
 backend.add(import('@backstage/plugin-scaffolder-backend-module-gitlab'));
-backend.add(import('@backstage/plugin-scaffolder-backend-module-notifications'));
+backend.add(
+  import('@backstage/plugin-scaffolder-backend-module-notifications'),
+);
 backend.add(import('@backstage/plugin-scaffolder-backend-module-rails'));
 backend.add(import('@backstage/plugin-scaffolder-backend-module-sentry'));
 backend.add(import('@backstage/plugin-scaffolder-backend-module-yeoman'));
 
-backend.add(import('@backstage-community/plugin-scaffolder-backend-module-annotator'));
-backend.add(import('@backstage-community/plugin-scaffolder-backend-module-regex'));
-backend.add(import('@backstage-community/plugin-scaffolder-backend-module-servicenow'));
-backend.add(import('@backstage-community/plugin-scaffolder-backend-module-sonarqube'));
+backend.add(
+  import('@backstage-community/plugin-scaffolder-backend-module-annotator'),
+);
+backend.add(
+  import('@backstage-community/plugin-scaffolder-backend-module-regex'),
+);
+backend.add(
+  import('@backstage-community/plugin-scaffolder-backend-module-servicenow'),
+);
+backend.add(
+  import('@backstage-community/plugin-scaffolder-backend-module-sonarqube'),
+);
 // backend.add(import('@backstage-community/plugin-scaffolder-backend-module-jenkins'));
 
 backend.add(import('@aws/aws-core-plugin-for-backstage-scaffolder-actions'));
 backend.add(import('@roadiehq/scaffolder-backend-module-aws'));
 backend.add(import('@roadiehq/scaffolder-backend-module-http-request'));
 backend.add(import('@roadiehq/scaffolder-backend-module-utils'));
-backend.add(import('@mdude2314/backstage-plugin-scaffolder-backend-module-slack'));
+backend.add(
+  import('@mdude2314/backstage-plugin-scaffolder-backend-module-slack'),
+);
 
 // techdocs plugin
 backend.add(import('@backstage/plugin-techdocs-backend'));
