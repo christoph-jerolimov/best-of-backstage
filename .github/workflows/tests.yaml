@@ -46,3 +46,6 @@ jobs:
 
       - run: yarn test
         working-directory: backstage
+
+      - run: yarn test:e2e
+        working-directory: backstage
