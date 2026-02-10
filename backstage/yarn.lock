@@ -2047,6 +2047,27 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@backstage-community/plugin-code-climate@npm:^0.15.0":
+  version: 0.15.0
+  resolution: "@backstage-community/plugin-code-climate@npm:0.15.0"
+  dependencies:
+    "@backstage/catalog-model": "npm:^1.7.6"
+    "@backstage/core-components": "npm:^0.18.6"
+    "@backstage/core-plugin-api": "npm:^1.12.2"
+    "@backstage/plugin-catalog-react": "npm:^1.21.6"
+    "@material-ui/core": "npm:^4.12.2"
+    "@types/react": "npm:^16.13.1 || ^17.0.0 || ^18.0.0"
+    humanize-duration: "npm:^3.27.1"
+    luxon: "npm:^3.0.0"
+    react-use: "npm:^17.2.4"
+  peerDependencies:
+    react: ^16.13.1 || ^17.0.0 || ^18.0.0
+    react-dom: ^16.13.1 || ^17.0.0 || ^18.0.0
+    react-router-dom: 6.0.0-beta.0 || ^6.3.0
+  checksum: 10c0/0e6a058c9ebbf0fa2f1cb3cde13ebd4ed0895271cd2319026190e224589ff2c739ed06187f0695a250c878ad1336c2392bb3e2893e6a7f7fd9fcaa4b1facb8ac
+  languageName: node
+  linkType: hard
+
 "@backstage-community/plugin-gcalendar@npm:^0.17.0":
   version: 0.17.0
   resolution: "@backstage-community/plugin-gcalendar@npm:0.17.0"
@@ -14545,6 +14566,7 @@ __metadata:
     "@backstage-community/plugin-cicd-statistics": "npm:^0.15.0"
     "@backstage-community/plugin-cicd-statistics-module-github": "npm:^0.13.0"
     "@backstage-community/plugin-cicd-statistics-module-gitlab": "npm:^0.15.0"
+    "@backstage-community/plugin-code-climate": "npm:^0.15.0"
     "@backstage-community/plugin-gcalendar": "npm:^0.17.0"
     "@backstage-community/plugin-mcp-chat": "npm:^0.3.1"
     "@backstage-community/plugin-npm": "npm:^1.17.0"
@@ -21658,7 +21680,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"humanize-duration@npm:^3.27.0":
+"humanize-duration@npm:^3.27.0, humanize-duration@npm:^3.27.1":
   version: 3.33.2
   resolution: "humanize-duration@npm:3.33.2"
   checksum: 10c0/eae493c113f1c11c96e42195002e8016ab7c08bfcc3414ba5459027da4faaa2df012429bc4eae200873a65d0a86b7cc6a9656783aa45705ffe6106b5256af973

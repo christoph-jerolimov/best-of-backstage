@@ -7,6 +7,7 @@ import { appPluginWithOverrides } from './features/app/plugin';
 import { navModule } from './modules/nav';
 import { customHomePageModule } from './modules/homepage/module';
 
+import codeClimatePlugin from './plugins/code-climate';
 import gcalendarPlugin from './plugins/gcalendar';
 import jiraPlugin from './plugins/jira';
 // import playlistPlugin from './plugins/playlist';
@@ -21,6 +22,7 @@ export default createApp({
     customHomePageModule,
     catalogPlugin,
 
+    codeClimatePlugin,
     gcalendarPlugin,
     jiraPlugin,
     // playlistPlugin, // FIXME(christoph-jerolimov): playlist plugin integration doesn't work so far,
