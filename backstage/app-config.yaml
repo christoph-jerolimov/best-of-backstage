@@ -117,39 +117,12 @@ catalog:
     - allow: [Component, System, API, Resource, Location]
   locations:
     # Local example data, file locations are relative to the backend process, typically `packages/backend`
-    # own catalog-info
     - type: file
       target: ../../../catalog-info.yaml
-
-    # scaffolder / software template
     - type: file
-      target: ../../../catalog-examples/template/template.yaml
+      target: ../../../catalog-examples/all.yaml
       rules:
-        - allow: [Template]
-
-    # adr plugin
-    - type: file
-      target: ../../../catalog-examples/adr-example.yaml
-
-    # bookmarks plugin
-    - type: file
-      target: ../../../catalog-examples/bookmarks-example.yaml
-
-    # npm plugin
-    - type: file
-      target: ../../../catalog-examples/npm-example.yaml
-
-    # readme plugin
-    - type: file
-      target: ../../../examples/readme-example.yaml
-
-    # todo plugin
-    - type: file
-      target: ../../../catalog-examples/todo-example.yaml
-
-    # jira plugin
-    - type: file
-      target: ../../../catalog-examples/jira-example.yaml
+        - allow: [Location, Component, Template]
 
 devTools:
   info:

@@ -3030,6 +3030,29 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@backstage-community/plugin-nexus-repository-manager@npm:^1.21.0":
+  version: 1.21.0
+  resolution: "@backstage-community/plugin-nexus-repository-manager@npm:1.21.0"
+  dependencies:
+    "@backstage/catalog-model": "npm:^1.7.6"
+    "@backstage/core-compat-api": "npm:^0.5.7"
+    "@backstage/core-components": "npm:^0.18.6"
+    "@backstage/core-plugin-api": "npm:^1.12.2"
+    "@backstage/frontend-plugin-api": "npm:^0.13.4"
+    "@backstage/plugin-catalog-react": "npm:^1.21.6"
+    "@backstage/theme": "npm:^0.7.1"
+    "@material-ui/core": "npm:^4.9.13"
+    filesize: "npm:^10.1.6"
+    luxon: "npm:^3.6.1"
+    react-use: "npm:^17.4.0"
+  peerDependencies:
+    react: ^16.13.1 || ^17.0.0 || ^18.0.0
+    react-dom: ^18.0.0
+    react-router-dom: ^6.0.0
+  checksum: 10c0/42c4f5e080c7802bd4dcc33b19e86223cb6bc7a4a616be5d6697e128b78f20ccfc89a4a74b5eb21dadae668f9b59940059381624d96d83bb0fee497461a38fb4
+  languageName: node
+  linkType: hard
+
 "@backstage-community/plugin-npm-backend@npm:^1.17.0":
   version: 1.17.0
   resolution: "@backstage-community/plugin-npm-backend@npm:1.17.0"
@@ -17101,6 +17124,7 @@ __metadata:
     "@backstage-community/plugin-code-climate": "npm:^0.15.0"
     "@backstage-community/plugin-gcalendar": "npm:^0.17.0"
     "@backstage-community/plugin-mcp-chat": "npm:^0.3.1"
+    "@backstage-community/plugin-nexus-repository-manager": "npm:^1.21.0"
     "@backstage-community/plugin-npm": "npm:^1.17.0"
     "@backstage-community/plugin-playlist": "npm:^0.15.0"
     "@backstage-community/plugin-todo": "npm:^0.16.0"
@@ -22795,6 +22819,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"filesize@npm:^10.1.6":
+  version: 10.1.6
+  resolution: "filesize@npm:10.1.6"
+  checksum: 10c0/9a196d64da4e947b8c0d294be09a3dfa7a634434a1fc5fb3465f1c9acc1237ea0363f245ba6e24477ea612754d942bc964d86e0e500905a72e9e0e17ae1bbdbc
+  languageName: node
+  linkType: hard
+
 "filesize@npm:^8.0.6":
   version: 8.0.7
   resolution: "filesize@npm:8.0.7"
@@ -27874,7 +27905,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"luxon@npm:^3.0.0, luxon@npm:^3.2.0, luxon@npm:^3.2.1, luxon@npm:^3.4.3, luxon@npm:^3.4.4, luxon@npm:^3.5.0":
+"luxon@npm:^3.0.0, luxon@npm:^3.2.0, luxon@npm:^3.2.1, luxon@npm:^3.4.3, luxon@npm:^3.4.4, luxon@npm:^3.5.0, luxon@npm:^3.6.1":
   version: 3.7.2
   resolution: "luxon@npm:3.7.2"
   checksum: 10c0/ed8f0f637826c08c343a29dd478b00628be93bba6f068417b1d8896b61cb61c6deacbe1df1e057dbd9298334044afa150f9aaabbeb3181418ac8520acfdc2ae2
@@ -33470,7 +33501,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-use@npm:^17.2.4, react-use@npm:^17.3.1, react-use@npm:^17.3.2":
+"react-use@npm:^17.2.4, react-use@npm:^17.3.1, react-use@npm:^17.3.2, react-use@npm:^17.4.0":
   version: 17.6.0
   resolution: "react-use@npm:17.6.0"
   dependencies:

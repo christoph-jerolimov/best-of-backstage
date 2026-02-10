@@ -26,6 +26,7 @@
     "@backstage-community/plugin-code-climate": "^0.15.0",
     "@backstage-community/plugin-gcalendar": "^0.17.0",
     "@backstage-community/plugin-mcp-chat": "^0.3.1",
+    "@backstage-community/plugin-nexus-repository-manager": "^1.21.0",
     "@backstage-community/plugin-npm": "^1.17.0",
     "@backstage-community/plugin-playlist": "^0.15.0",
     "@backstage-community/plugin-todo": "^0.16.0",

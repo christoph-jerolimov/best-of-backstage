@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: best-of-backstage-catalog-examples
+spec:
+  targets:
+    - ./components/adr-example.yaml
+    - ./components/bookmarks-example.yaml
+    - ./components/jira-example.yaml
+    - ./components/nexus-example.yaml
+    - ./components/npm-example.yaml
+    - ./components/readme-example.yaml
+    - ./components/todo-example.yaml
+    - ./template/template.yaml

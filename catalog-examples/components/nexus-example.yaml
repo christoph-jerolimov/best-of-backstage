@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: nexus-example
+  annotations:
+    nexus-repository-manager/docker.image-name: ORGANIZATION/REPOSITORY
+spec:
+  type: library
+  lifecycle: production
+  owner: user:guest
