@@ -12,5 +12,7 @@ test('Notifications', async ({ backstage }) => {
   await backstage.sidebarItem('Notifications').click();
 
   await expect(backstage.header.getByText('Notifications')).toBeVisible();
-  await expect(backstage.content.getByText('Unread notifications (0)')).toBeVisible();
+  await expect(
+    backstage.content.getByText('Unread notifications (0)'),
+  ).toBeVisible();
 });

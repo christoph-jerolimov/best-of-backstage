@@ -1,8 +1,7 @@
 import type { Page } from '@playwright/test';
 
 export class Backstage {
-  constructor(public readonly page: Page) {
-  }
+  constructor(public readonly page: Page) {}
 
   async login(url = '/') {
     await this.page.goto(url);

@@ -12,5 +12,7 @@ test('Announcements', async ({ backstage }) => {
   await backstage.sidebarItem('Announcements').click();
 
   await expect(backstage.header.getByText('Announcements')).toBeVisible();
-  await expect(backstage.content.getByText('No announcements found.')).toBeVisible();
+  await expect(
+    backstage.content.getByText('No announcements found.'),
+  ).toBeVisible();
 });

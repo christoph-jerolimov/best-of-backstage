@@ -1,0 +1,2 @@
+- add https://playwright.dev/docs/accessibility-testing
+- use `failOnBrowserErrors` from backstage e2e-tests-utils? https://github.com/search?q=repo%3Abackstage%2Fbackstage%20failOnBrowserErrors&type=code
