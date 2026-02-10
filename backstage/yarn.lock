@@ -5064,6 +5064,33 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@backstage/plugin-auth-backend-module-gitlab-provider@npm:^0.3.11":
+  version: 0.3.11
+  resolution: "@backstage/plugin-auth-backend-module-gitlab-provider@npm:0.3.11"
+  dependencies:
+    "@backstage/backend-plugin-api": "npm:^1.6.2"
+    "@backstage/plugin-auth-node": "npm:^0.6.12"
+    express: "npm:^4.22.0"
+    passport: "npm:^0.7.0"
+    passport-gitlab2: "npm:^5.0.0"
+    zod: "npm:^3.25.76"
+  checksum: 10c0/4a1161423057847904b96a38c43546b661f89042bbb1d0d5c9ad88c97c4b182e5f67c010381219a05b19ccbfbd938772cce2224d6090c477025c03d2972ab744
+  languageName: node
+  linkType: hard
+
+"@backstage/plugin-auth-backend-module-google-provider@npm:^0.3.11":
+  version: 0.3.11
+  resolution: "@backstage/plugin-auth-backend-module-google-provider@npm:0.3.11"
+  dependencies:
+    "@backstage/backend-plugin-api": "npm:^1.6.2"
+    "@backstage/plugin-auth-node": "npm:^0.6.12"
+    google-auth-library: "npm:^9.0.0"
+    passport-google-oauth20: "npm:^2.0.0"
+    zod: "npm:^3.25.76"
+  checksum: 10c0/a6d56840f76957e336184205b79435ef6d464b71fee6b909f6b3863f88c2489d3bb436841da2a7702ff8f5804631f13b72abdb3bed32ef7162f3a8a7dbee034d
+  languageName: node
+  linkType: hard
+
 "@backstage/plugin-auth-backend-module-guest-provider@npm:^0.2.15":
   version: 0.2.15
   resolution: "@backstage/plugin-auth-backend-module-guest-provider@npm:0.2.15"
@@ -5074,6 +5101,63 @@ __metadata:
     "@backstage/plugin-auth-node": "npm:^0.6.10"
     passport-oauth2: "npm:^1.7.0"
   checksum: 10c0/a68019126964e952abe05632977e8ad48a40e5357fd0a796d21db22f545cf761b5e646e222826d978840b1e2d42f2896db8c71f95d3b331806a4bdd17fb3d13c
+  languageName: node
+  linkType: hard
+
+"@backstage/plugin-auth-backend-module-oauth2-provider@npm:^0.4.11":
+  version: 0.4.11
+  resolution: "@backstage/plugin-auth-backend-module-oauth2-provider@npm:0.4.11"
+  dependencies:
+    "@backstage/backend-plugin-api": "npm:^1.6.2"
+    "@backstage/plugin-auth-node": "npm:^0.6.12"
+    passport: "npm:^0.7.0"
+    passport-oauth2: "npm:^1.6.1"
+    zod: "npm:^3.25.76"
+  checksum: 10c0/ef21bc60450da3daa42430c53ab1932158f60a606d1ae056087bc44bbeb1dfa6a2a920cc9c5e3e75313fa0089553a1da7114407705b6ebf2c8bdb73b1c45bbe6
+  languageName: node
+  linkType: hard
+
+"@backstage/plugin-auth-backend-module-oauth2-proxy-provider@npm:^0.2.16":
+  version: 0.2.16
+  resolution: "@backstage/plugin-auth-backend-module-oauth2-proxy-provider@npm:0.2.16"
+  dependencies:
+    "@backstage/backend-plugin-api": "npm:^1.6.2"
+    "@backstage/errors": "npm:^1.2.7"
+    "@backstage/plugin-auth-node": "npm:^0.6.12"
+    jose: "npm:^5.0.0"
+    zod: "npm:^3.25.76"
+  checksum: 10c0/87207ddde38b86dab6e9ec0ba4908e61afc9151d1d2e46d7631ffce848ebb2123c6ae28f4d178bc59c49cc39611a551a8c4a1b1e9eb6457b812977efce8ffaba
+  languageName: node
+  linkType: hard
+
+"@backstage/plugin-auth-backend-module-oidc-provider@npm:^0.4.12":
+  version: 0.4.12
+  resolution: "@backstage/plugin-auth-backend-module-oidc-provider@npm:0.4.12"
+  dependencies:
+    "@backstage/backend-plugin-api": "npm:^1.6.2"
+    "@backstage/config": "npm:^1.3.6"
+    "@backstage/plugin-auth-backend": "npm:^0.26.0"
+    "@backstage/plugin-auth-node": "npm:^0.6.12"
+    "@backstage/types": "npm:^1.2.2"
+    express: "npm:^4.22.0"
+    openid-client: "npm:^5.5.0"
+    passport: "npm:^0.7.0"
+    zod: "npm:^3.25.76"
+  checksum: 10c0/da185603416c49b5319296ecdcea0e57246ef9cd9ee32e875287eb3ca69ed79f4e1cae24fdc4fb0380767ee5ba7542d606ee2bd1dddf0b79097ddfc50e50855f
+  languageName: node
+  linkType: hard
+
+"@backstage/plugin-auth-backend-module-openshift-provider@npm:^0.1.3":
+  version: 0.1.3
+  resolution: "@backstage/plugin-auth-backend-module-openshift-provider@npm:0.1.3"
+  dependencies:
+    "@backstage/backend-plugin-api": "npm:^1.6.0"
+    "@backstage/catalog-model": "npm:^1.7.6"
+    "@backstage/plugin-auth-node": "npm:^0.6.10"
+    "@backstage/types": "npm:^1.2.2"
+    passport-oauth2: "npm:^1.8.0"
+    zod: "npm:^3.24.2"
+  checksum: 10c0/21596fd38198e68e5837906be2dcb76e12d9e3e82d9097636a64295e06fa2289cc34e6efdd6ac092c946ca960869929ac311763350fadced7e8180396214b1bd
   languageName: node
   linkType: hard
 
@@ -17836,7 +17920,13 @@ __metadata:
     "@backstage/plugin-app-backend": "npm:^0.5.10"
     "@backstage/plugin-auth-backend": "npm:^0.26.0"
     "@backstage/plugin-auth-backend-module-github-provider": "npm:^0.4.1"
+    "@backstage/plugin-auth-backend-module-gitlab-provider": "npm:^0.3.11"
+    "@backstage/plugin-auth-backend-module-google-provider": "npm:^0.3.11"
     "@backstage/plugin-auth-backend-module-guest-provider": "npm:^0.2.15"
+    "@backstage/plugin-auth-backend-module-oauth2-provider": "npm:^0.4.11"
+    "@backstage/plugin-auth-backend-module-oauth2-proxy-provider": "npm:^0.2.16"
+    "@backstage/plugin-auth-backend-module-oidc-provider": "npm:^0.4.12"
+    "@backstage/plugin-auth-backend-module-openshift-provider": "npm:^0.1.3"
     "@backstage/plugin-auth-node": "npm:^0.6.12"
     "@backstage/plugin-catalog-backend": "npm:^3.3.2"
     "@backstage/plugin-catalog-backend-module-logs": "npm:^0.1.18"
@@ -23828,7 +23918,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"google-auth-library@npm:^9.3.0, google-auth-library@npm:^9.6.3":
+"google-auth-library@npm:^9.0.0, google-auth-library@npm:^9.3.0, google-auth-library@npm:^9.6.3":
   version: 9.15.1
   resolution: "google-auth-library@npm:9.15.1"
   dependencies:
@@ -30737,7 +30827,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"openid-client@npm:^5.3.0":
+"openid-client@npm:^5.3.0, openid-client@npm:^5.5.0":
   version: 5.7.1
   resolution: "openid-client@npm:5.7.1"
   dependencies:
@@ -31234,7 +31324,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"passport-oauth2@npm:1.x.x, passport-oauth2@npm:^1.7.0":
+"passport-gitlab2@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "passport-gitlab2@npm:5.0.0"
+  dependencies:
+    passport-oauth2: "npm:^1.4.0"
+  checksum: 10c0/703b1c26e7cc085fb089b6d00111765b9ca5695c1cf73c1d2d352996ae8ea70e737c4e759f6d43814053633dabf5fe299498dca0c26ecc79f7a32c9cccbd8257
+  languageName: node
+  linkType: hard
+
+"passport-google-oauth20@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "passport-google-oauth20@npm:2.0.0"
+  dependencies:
+    passport-oauth2: "npm:1.x.x"
+  checksum: 10c0/158930bb97a48431aa0dcff453c3b698742ed51e2d590c362cb5d4ae7715cfb4fb1feae31b007aef0bc8435edc8ff678853c044b139da827756f3b5f3b597c7f
+  languageName: node
+  linkType: hard
+
+"passport-oauth2@npm:1.x.x, passport-oauth2@npm:^1.4.0, passport-oauth2@npm:^1.6.1, passport-oauth2@npm:^1.7.0, passport-oauth2@npm:^1.8.0":
   version: 1.8.0
   resolution: "passport-oauth2@npm:1.8.0"
   dependencies:
@@ -38853,7 +38961,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"zod@npm:^3.19.1, zod@npm:^3.22.4, zod@npm:^3.25.76":
+"zod@npm:^3.19.1, zod@npm:^3.22.4, zod@npm:^3.24.2, zod@npm:^3.25.76":
   version: 3.25.76
   resolution: "zod@npm:3.25.76"
   checksum: 10c0/5718ec35e3c40b600316c5b4c5e4976f7fee68151bc8f8d90ec18a469be9571f072e1bbaace10f1e85cf8892ea12d90821b200e980ab46916a6166a4260a983c
