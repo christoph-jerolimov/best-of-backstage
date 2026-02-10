@@ -6,6 +6,14 @@ app:
   packages: all
 
   extensions:
+    - api:app/app-language:
+        config:
+          defaultLanguage: 'en'
+          availableLanguages:
+            - en
+            - de
+            - fr
+
     # Disable the nav items that we're manually rendering in packages/app/src/modules/nav/Sidebar.tsx
     - nav-item:search: false
     - nav-item:home: false
@@ -17,16 +25,6 @@ app:
     # - page:catalog:
     #     config:
     #       path: /
-
-i18n:
-  defaultLocale: en
-  availableLanguages:
-    - en
-    - de
-    - fr
-    - es
-    - ja
-    - zh
 
 organization:
   name: Demo

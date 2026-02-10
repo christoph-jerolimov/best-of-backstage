@@ -3,9 +3,9 @@ import { createApp } from '@backstage/frontend-defaults';
 import homePlugin from '@backstage/plugin-home/alpha';
 import catalogPlugin from '@backstage/plugin-catalog/alpha';
 
-import { appPluginWithOverrides } from './features/app/plugin';
 import { navModule } from './modules/nav';
 import { customHomePageModule } from './modules/homepage/module';
+import appTranslationModule from './modules/translations';
 
 import codeClimatePlugin from './plugins/code-climate';
 import gcalendarPlugin from './plugins/gcalendar';
@@ -16,7 +16,7 @@ import wheelOfNamesPlugin from './plugins/wheel-of-names';
 
 export default createApp({
   features: [
-    appPluginWithOverrides,
+    appTranslationModule,
     navModule,
     homePlugin,
     customHomePageModule,
