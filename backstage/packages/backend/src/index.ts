@@ -69,9 +69,6 @@ backend.add(import('@aws/aws-core-plugin-for-backstage-scaffolder-actions'));
 backend.add(import('@roadiehq/scaffolder-backend-module-aws'));
 backend.add(import('@roadiehq/scaffolder-backend-module-http-request'));
 backend.add(import('@roadiehq/scaffolder-backend-module-utils'));
-backend.add(
-  import('@mdude2314/backstage-plugin-scaffolder-backend-module-slack'),
-);
 
 // techdocs plugin
 backend.add(import('@backstage/plugin-techdocs-backend'));
