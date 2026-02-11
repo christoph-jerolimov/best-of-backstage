@@ -4,10 +4,7 @@ import {
 } from '@backstage/core-compat-api';
 import { NavItemBlueprint } from '@backstage/frontend-plugin-api';
 
-import {
-  rbacPlugin,
-  RbacIcon,
-} from '@backstage-community/plugin-rbac';
+import { rbacPlugin, RbacIcon } from '@backstage-community/plugin-rbac';
 
 const rbacNavItem = NavItemBlueprint.make({
   params: {
