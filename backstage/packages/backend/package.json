@@ -82,7 +82,6 @@
     "@backstage/plugin-search-backend-node": "^1.4.0",
     "@backstage/plugin-signals-backend": "^0.3.11",
     "@backstage/plugin-techdocs-backend": "^2.1.4",
-    "@mdude2314/backstage-plugin-scaffolder-backend-module-slack": "^3.0.2",
     "@roadiehq/scaffolder-backend-module-aws": "^2.8.2",
     "@roadiehq/scaffolder-backend-module-http-request": "^5.5.1",
     "@roadiehq/scaffolder-backend-module-utils": "^4.1.1",
