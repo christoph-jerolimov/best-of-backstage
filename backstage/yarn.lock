@@ -3165,25 +3165,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-quay-common@npm:^1.17.0":
-  version: 1.17.0
-  resolution: "@backstage-community/plugin-quay-common@npm:1.17.0"
+"@backstage-community/plugin-quay-common@npm:^1.17.1":
+  version: 1.17.1
+  resolution: "@backstage-community/plugin-quay-common@npm:1.17.1"
   peerDependencies:
     "@backstage/plugin-permission-common": ^0.9.5
     react: ^17.0.0 || ^18.0.0
-  checksum: 10c0/0af98e7f29a89c3ed28910999ee6ae9d8e12c526b3147be9808cbc09b488178b6a160baf813b78eb33cdd7457c40e6fda6984721c737501f5f8cdaa28f9044ea
+  checksum: 10c0/d73254a055f14120aa9b5aaec35d862bada5cf085cf5e346208d4c3b6d7b9c020fa421811d5b6240f7939e029855302083fef630121f3fcc8ccdf1dddae955bb
   languageName: node
   linkType: hard
 
 "@backstage-community/plugin-quay@npm:^1.30.0":
-  version: 1.30.0
-  resolution: "@backstage-community/plugin-quay@npm:1.30.0"
+  version: 1.30.1
+  resolution: "@backstage-community/plugin-quay@npm:1.30.1"
   dependencies:
-    "@backstage-community/plugin-quay-common": "npm:^1.17.0"
+    "@backstage-community/plugin-quay-common": "npm:^1.17.1"
     "@backstage/catalog-model": "npm:^1.7.6"
     "@backstage/core-components": "npm:^0.18.6"
     "@backstage/core-plugin-api": "npm:^1.12.2"
-    "@backstage/plugin-catalog-common": "npm:^1.1.7"
     "@backstage/plugin-catalog-react": "npm:^1.21.6"
     "@backstage/plugin-permission-react": "npm:^0.4.39"
     "@backstage/theme": "npm:^0.7.1"
@@ -3197,7 +3196,7 @@ __metadata:
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
     react-router-dom: ^6.0.0
-  checksum: 10c0/88b67599f871c51da677b4f9c2eeaaea94b58bf329236588d41c15769e8e1998d6e9d2984a68e3f05e05df67f47960d35709cbb703ddc8d7e0e6c6bca916ed6a
+  checksum: 10c0/a3c6d8a438641ac42835267e05bee05ae6ab347c41b6b84ea1a90ffcf41225bd6832dc3b4db6eadde5074511783dcf1d8ef767dec13569f49b1955ab935a8b0f
   languageName: node
   linkType: hard
 
