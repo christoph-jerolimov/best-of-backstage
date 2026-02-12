@@ -66,6 +66,119 @@ backend:
   #         - plugin: mcp-actions
   #         - plugin: catalog
 
+  packages:
+    include:
+      # auth plugin
+      - '@backstage/plugin-auth-backend'
+      - '@backstage/plugin-auth-backend-module-github-provider'
+      - '@backstage/plugin-auth-backend-module-gitlab-provider'
+      - '@backstage/plugin-auth-backend-module-google-provider'
+      - '@backstage/plugin-auth-backend-module-guest-provider'
+      - '@backstage/plugin-auth-backend-module-oauth2-provider'
+      - '@backstage/plugin-auth-backend-module-oauth2-proxy-provider'
+      - '@backstage/plugin-auth-backend-module-oidc-provider'
+      - '@backstage/plugin-auth-backend-module-openshift-provider'
+
+      # permissions
+      - '@backstage/plugin-permission-backend'
+      - '@backstage/plugin-permission-backend-module-allow-all-policy'
+      # - '@backstage-community/plugin-rbac-backend'
+
+      # events
+      - '@backstage/plugin-events-backend'
+      - '@backstage/plugin-events-backend-module-aws-sqs'
+      - '@backstage/plugin-events-backend-module-bitbucket-cloud'
+      - '@backstage/plugin-events-backend-module-bitbucket-server'
+      - '@backstage/plugin-events-backend-module-github'
+      - '@backstage/plugin-events-backend-module-gitlab'
+      - '@backstage/plugin-events-backend-module-kafka'
+
+      # signals and notifications plugins
+      - '@backstage/plugin-signals-backend'
+      - '@backstage/plugin-notifications-backend'
+
+      # mcp actions plugin
+      - '@backstage/plugin-mcp-actions-backend'
+
+      # catalog plugin
+      - '@backstage/plugin-catalog-backend'
+      - '@backstage/plugin-catalog-backend-module-scaffolder-entity-model'
+      - '@backstage/plugin-catalog-backend-module-logs'
+
+      # scaffolder plugin
+      - '@backstage/plugin-scaffolder-backend'
+      - '@backstage/plugin-scaffolder-backend-module-azure'
+      - '@backstage/plugin-scaffolder-backend-module-bitbucket-cloud'
+      - '@backstage/plugin-scaffolder-backend-module-bitbucket-server'
+      - '@backstage/plugin-scaffolder-backend-module-confluence-to-markdown'
+      - '@backstage/plugin-scaffolder-backend-module-cookiecutter'
+      - '@backstage/plugin-scaffolder-backend-module-gcp'
+      - '@backstage/plugin-scaffolder-backend-module-gerrit'
+      - '@backstage/plugin-scaffolder-backend-module-gitea'
+      - '@backstage/plugin-scaffolder-backend-module-github'
+      - '@backstage/plugin-scaffolder-backend-module-gitlab'
+      - '@backstage/plugin-scaffolder-backend-module-rails'
+      - '@backstage/plugin-scaffolder-backend-module-sentry'
+      - '@backstage/plugin-scaffolder-backend-module-yeoman'
+
+      - '@backstage-community/plugin-scaffolder-backend-module-annotator'
+      - '@backstage-community/plugin-scaffolder-backend-module-regex'
+      - '@backstage-community/plugin-scaffolder-backend-module-servicenow'
+      - '@backstage-community/plugin-scaffolder-backend-module-sonarqube'
+      - '@backstage-community/plugin-scaffolder-backend-module-quay'
+      # - '@backstage-community/plugin-scaffolder-backend-module-jenkins'
+
+      - '@aws/aws-core-plugin-for-backstage-scaffolder-actions'
+      - '@roadiehq/scaffolder-backend-module-aws'
+      - '@roadiehq/scaffolder-backend-module-http-request'
+      - '@roadiehq/scaffolder-backend-module-utils'
+
+      # techdocs plugin
+      - '@backstage/plugin-techdocs-backend'
+
+      # search plugin
+      - '@backstage/plugin-search-backend'
+      - '@backstage/plugin-search-backend-module-pg'
+      - '@backstage/plugin-search-backend-module-catalog'
+      - '@backstage/plugin-search-backend-module-techdocs'
+
+      # kubernetes plugin
+      - '@backstage/plugin-kubernetes-backend'
+
+      # devtools plugin
+      - '@backstage/plugin-devtools-backend'
+
+      # adr plugin
+      - '@backstage-community/plugin-adr-backend'
+      - '@backstage-community/search-backend-module-adr'
+
+      # announcements
+      - '@backstage-community/plugin-announcements-backend'
+      - '@backstage-community/plugin-search-backend-module-announcements'
+
+      # badges plugin
+      - '@backstage-community/plugin-badges-backend'
+
+      # jira plugin
+      # - '@axis-backstage/plugin-jira-dashboard-backend'
+
+      # mcp chat plugin
+      # - '@backstage-community/plugin-mcp-chat-backend'
+
+      # npm plugin
+      - '@backstage-community/plugin-npm-backend'
+
+      # playlist plugin
+      - '@backstage-community/plugin-playlist-backend'
+
+      # readme plugin
+      - '@axis-backstage/plugin-readme-backend'
+
+      # todo plugin
+      - '@backstage-community/plugin-todo-backend'
+
+    exclude: []
+
   actions:
     pluginSources:
       - 'catalog'
