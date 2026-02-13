@@ -3069,8 +3069,8 @@ __metadata:
   linkType: hard
 
 "@backstage-community/plugin-announcements-backend@npm:^0.21.0":
-  version: 0.21.0
-  resolution: "@backstage-community/plugin-announcements-backend@npm:0.21.0"
+  version: 0.21.1
+  resolution: "@backstage-community/plugin-announcements-backend@npm:0.21.1"
   dependencies:
     "@backstage-community/plugin-announcements-common": "npm:^0.17.0"
     "@backstage/backend-defaults": "npm:^0.15.1"
@@ -3087,7 +3087,7 @@ __metadata:
     luxon: "npm:^3.2.0"
     slugify: "npm:^1.6.6"
     uuid: "npm:^13.0.0"
-  checksum: 10c0/56631a9802d1cca5c8fc5323b14ff314bc29ea40351c805b47bc10fc1e95b023a52bb6c74441e23c143246449e550f1947889978629281b66a7ad255363704e7
+  checksum: 10c0/86892cfdccda224c1bd1a1f28cc44370e598cc460f4d0cdc9b6c952796958d3b063e485a37c40b0289a8bd0d57f2e6a0734c0c9225b7f1b8425ba477d930efe0
   languageName: node
   linkType: hard
 
