@@ -44,7 +44,7 @@
     "@backstage/plugin-app-react": "^0.1.0",
     "@backstage/plugin-app-visualizer": "^0.1.27",
     "@backstage/plugin-catalog": "^1.32.2",
-    "@backstage/plugin-catalog-react": "^1.21.6",
+    "@backstage/plugin-catalog-react": "^2.0.0",
     "@backstage/plugin-devtools": "^0.1.35",
     "@backstage/plugin-home": "^0.9.1",
     "@backstage/plugin-kubernetes": "^0.12.15",
