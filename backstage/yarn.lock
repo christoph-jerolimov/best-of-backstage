@@ -3572,8 +3572,8 @@ __metadata:
   linkType: hard
 
 "@backstage-community/plugin-rbac-backend@npm:^7.7.0":
-  version: 7.7.0
-  resolution: "@backstage-community/plugin-rbac-backend@npm:7.7.0"
+  version: 7.7.1
+  resolution: "@backstage-community/plugin-rbac-backend@npm:7.7.1"
   dependencies:
     "@backstage-community/plugin-rbac-common": "npm:^1.23.0"
     "@backstage-community/plugin-rbac-node": "npm:^1.17.0"
@@ -3598,7 +3598,7 @@ __metadata:
     typeorm-adapter: "npm:^1.6.1"
     zod: "npm:^3.22.4"
     zod-to-json-schema: "npm:^3.24.5"
-  checksum: 10c0/8760800b441ab014e06a2c8a41b08c2a184ca546b7cd1b121444fdd163199dc9c2e321c63c611f7e20503ef697f01b4d9ee930a339df2263446b9c66ac0ff12f
+  checksum: 10c0/45a79a328c103718e8348ebe3a345ea7b7218472591c5eabd5412952e482ceaf087ff6179af2877d2c37417a09742e92e170ea820dad20c4a13e9edc0569f17f
   languageName: node
   linkType: hard
 
