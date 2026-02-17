@@ -3448,15 +3448,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-jenkins-common@npm:^0.16.0":
-  version: 0.16.0
-  resolution: "@backstage-community/plugin-jenkins-common@npm:0.16.0"
+"@backstage-community/plugin-jenkins-common@npm:^0.16.1":
+  version: 0.16.1
+  resolution: "@backstage-community/plugin-jenkins-common@npm:0.16.1"
   dependencies:
     "@backstage/plugin-catalog-common": "npm:^1.1.7"
     "@backstage/plugin-permission-common": "npm:^0.9.5"
-    form-data: "npm:^4.0.4"
     node-fetch: "npm:^2.6.7"
-  checksum: 10c0/54450d32580f48332051e1c535ea884bb806cd29c677b07cc74d7989f43ac95412e0bea336e86696d844dc2f79fc3570089fafb83ab43805e6fe349292410990
+  checksum: 10c0/6105d6b731ea9bd45007807c4e2a9fb690713abb30932f739fc3ee19240f325bb9c60d89bd6e96d98054905482536baf0799ff014260c783f71ab260195163dd
   languageName: node
   linkType: hard
 
@@ -3767,16 +3766,13 @@ __metadata:
   linkType: hard
 
 "@backstage-community/plugin-scaffolder-backend-module-jenkins@npm:^0.18.0":
-  version: 0.18.0
-  resolution: "@backstage-community/plugin-scaffolder-backend-module-jenkins@npm:0.18.0"
+  version: 0.18.1
+  resolution: "@backstage-community/plugin-scaffolder-backend-module-jenkins@npm:0.18.1"
   dependencies:
-    "@backstage-community/plugin-jenkins-common": "npm:^0.16.0"
+    "@backstage-community/plugin-jenkins-common": "npm:^0.16.1"
     "@backstage/backend-plugin-api": "npm:^1.6.2"
-    "@backstage/errors": "npm:^1.2.7"
     "@backstage/plugin-scaffolder-node": "npm:^0.12.4"
-    cross-fetch: "npm:^4.0.0"
-    jenkins: "npm:^1.1.0"
-  checksum: 10c0/79cb77878b12114713316548cac0e286f0e1224710f0c02427883172e38d15462a4376e05673bcc6d772417faaec52141926ac7a7554351867e3dca57acd7a29
+  checksum: 10c0/a98657f6d4bcbf8db50f48fcbf8751d623cb4d1cdda1e366e7c9d474e5c994203db0e137f9e5fc9815b63b2764e1ae7da4e1e7947f68635207e3e5e7715ea880
   languageName: node
   linkType: hard
 
@@ -32248,15 +32244,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jenkins@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "jenkins@npm:1.1.0"
-  dependencies:
-    papi: "npm:^1.1.0"
-  checksum: 10c0/bc3b77ff25951d19ad909d21cf6cf52d3f6f83522ec14b8908571395b5630fd667fb519a7cd8fdb75bc94b4184921a8bed0381ed1ae0ed1d204a0411a6152310
-  languageName: node
-  linkType: hard
-
 "jest-changed-files@npm:30.2.0":
   version: 30.2.0
   resolution: "jest-changed-files@npm:30.2.0"
@@ -37463,13 +37450,6 @@ __metadata:
   version: 1.0.11
   resolution: "pako@npm:1.0.11"
   checksum: 10c0/86dd99d8b34c3930345b8bbeb5e1cd8a05f608eeb40967b293f72fe469d0e9c88b783a8777e4cc7dc7c91ce54c5e93d88ff4b4f060e6ff18408fd21030d9ffbe
-  languageName: node
-  linkType: hard
-
-"papi@npm:^1.1.0":
-  version: 1.1.2
-  resolution: "papi@npm:1.1.2"
-  checksum: 10c0/6a468e464c8a38121d06368b45dc65e6789e1d11b4c6afdcc8af462538e49c9ac6f01bbb44eeda0effdd13b470ff69dd99aac599ce36b8b7309d71f66d9832b3
   languageName: node
   linkType: hard
 
