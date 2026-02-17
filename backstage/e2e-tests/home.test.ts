@@ -9,5 +9,5 @@ const test = base.extend<{ backstage: Backstage }>({
 test('Home', async ({ backstage }) => {
   await backstage.login();
 
-  await expect(backstage.content.getByText('Recently Visited')).toBeVisible();
+  await expect(backstage.content.getByText("No widgets added. Start by clicking the 'Add widget' button.")).toBeVisible();
 });

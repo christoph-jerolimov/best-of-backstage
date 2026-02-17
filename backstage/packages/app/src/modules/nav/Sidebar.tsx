@@ -1,5 +1,5 @@
 import {
-  CatalogIcon,
+  Sidebar,
   SidebarDivider,
   SidebarGroup,
   SidebarItem,
@@ -7,7 +7,6 @@ import {
   SidebarSpace,
 } from '@backstage/core-components';
 import { compatWrapper } from '@backstage/core-compat-api';
-import { Sidebar } from '@backstage/core-components';
 import { NavContentBlueprint } from '@backstage/plugin-app-react';
 
 import { SidebarSearchModal } from '@backstage/plugin-search';
@@ -26,8 +25,11 @@ import { SidebarLogo } from './SidebarLogo';
 
 export const SidebarContent = NavContentBlueprint.make({
   params: {
-    component: ({ items }) =>
-      compatWrapper(
+    component: ({ navItems }) => {
+      const nav = navItems.withComponent(item => (
+        <SidebarItem icon={() => item.icon} to={item.href} text={item.title} />
+      ));
+      return compatWrapper(
         <Sidebar>
           <SidebarLogo />
           <SidebarGroup label="Search" icon={<SearchIcon />} to="/search">
@@ -35,30 +37,29 @@ export const SidebarContent = NavContentBlueprint.make({
           </SidebarGroup>
           <SidebarDivider />
           <SidebarGroup label="Menu" icon={<MenuIcon />}>
-            {/* Global nav, not org-specific */}
             <SidebarItem icon={HomeIcon} to="home" text="Home" />
-            <SidebarItem icon={CatalogIcon} to="catalog" text="Catalog" />
+            {nav.take('page:home')}
+            {nav.take('page:catalog')}
+            {nav.take('page:scaffolder')}
             {/* End global nav */}
             <SidebarDivider />
             <SidebarScrollWrapper>
-              {/* Items in this group will be scrollable if they run out of space */}
-              {items.map((item, index) => (
-                <SidebarItem {...item} key={index} />
-              ))}
+              {nav.rest({ sortBy: 'title' })}
             </SidebarScrollWrapper>
           </SidebarGroup>
           <SidebarSpace />
           <SidebarDivider />
           <SidebarItem icon={BuildIcon} to="devtools" text="DevTools" />
+          <NotificationsSidebarItem />
           <SidebarGroup
             label="Settings"
             icon={<UserSettingsSignInAvatar />}
             to="/settings"
           >
-            <NotificationsSidebarItem />
             <SettingsSidebarItem />
           </SidebarGroup>
         </Sidebar>,
-      ),
+      );
+    },
   },
 });

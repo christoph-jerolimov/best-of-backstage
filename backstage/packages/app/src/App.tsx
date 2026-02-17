@@ -1,8 +1,5 @@
 import { createApp } from '@backstage/frontend-defaults';
 
-import homePlugin from '@backstage/plugin-home/alpha';
-import catalogPlugin from '@backstage/plugin-catalog/alpha';
-
 import { navModule } from './modules/nav';
 import { customHomePageModule } from './modules/homepage/module';
 import appTranslationModule from './modules/translations';
@@ -20,9 +17,7 @@ export default createApp({
   features: [
     appTranslationModule,
     navModule,
-    homePlugin,
     customHomePageModule,
-    catalogPlugin,
 
     codeClimatePlugin,
     gcalendarPlugin,

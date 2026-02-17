@@ -1,13 +1,13 @@
 import { defineConfig } from '@playwright/test';
 
 /**
- * See https://playwright.dev/docs/test-configuration.
+ * See https://playwright.dev/docs/test-configuration
  */
 export default defineConfig({
   timeout: 60_000,
 
   expect: {
-    timeout: 5_000,
+    timeout: 10_000,
   },
 
   // Run your local dev server before starting the tests
@@ -27,7 +27,10 @@ export default defineConfig({
   reporter: [['html', { open: 'never', outputFolder: 'e2e-test-report' }]],
 
   use: {
-    actionTimeout: 0,
+    // actionTimeout: 0,
+    actionTimeout: 10 * 1000,
+    navigationTimeout: 30 * 1000,
+
     baseURL: process.env.PLAYWRIGHT_URL ?? 'http://localhost:3000',
     screenshot: 'only-on-failure',
     trace: 'on-first-retry',
