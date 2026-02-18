@@ -18,7 +18,7 @@ import {
   PlaylistPage,
 } from '@backstage-community/plugin-playlist';
 
-import PlaylistPlayIcon from '@material-ui/icons/PlaylistPlay';
+import PlaylistPlayIcon from '@mui/icons-material/PlaylistPlay';
 
 const playlistNavItem = NavItemBlueprint.make({
   params: {

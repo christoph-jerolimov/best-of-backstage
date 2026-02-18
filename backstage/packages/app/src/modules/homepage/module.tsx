@@ -9,7 +9,7 @@ import {
 } from '@backstage/frontend-plugin-api';
 import homePagePlugin from '@backstage/plugin-home/alpha';
 
-import HomeIcon from '@material-ui/icons/Home';
+import HomeIcon from '@mui/icons-material/Home';
 
 import { homePage } from './HomePage';
 

@@ -16,10 +16,10 @@ import {
   Settings as SettingsSidebarItem,
 } from '@backstage/plugin-user-settings';
 
-import MenuIcon from '@material-ui/icons/Menu';
-import SearchIcon from '@material-ui/icons/Search';
-import HomeIcon from '@material-ui/icons/Home';
-import BuildIcon from '@material-ui/icons/Build';
+import MenuIcon from '@mui/icons-material/Menu';
+import SearchIcon from '@mui/icons-material/Search';
+import HomeIcon from '@mui/icons-material/Home';
+import BuildIcon from '@mui/icons-material/Build';
 
 import { SidebarLogo } from './SidebarLogo';
 

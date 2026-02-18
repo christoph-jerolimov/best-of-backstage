@@ -5,7 +5,7 @@ import {
 } from '@backstage/core-compat-api';
 import { NavItemBlueprint } from '@backstage/frontend-plugin-api';
 
-import RouletteIcon from '@material-ui/icons/Casino';
+import RouletteIcon from '@mui/icons-material/Casino';
 
 import {
   wheelOfNamesPlugin,
