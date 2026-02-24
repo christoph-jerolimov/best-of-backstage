@@ -2394,12 +2394,12 @@ __metadata:
   linkType: hard
 
 "@axis-backstage/plugin-readme@npm:^0.18.0":
-  version: 0.18.0
-  resolution: "@axis-backstage/plugin-readme@npm:0.18.0"
+  version: 0.18.1
+  resolution: "@axis-backstage/plugin-readme@npm:0.18.1"
   dependencies:
     "@backstage/catalog-model": "npm:^1.7.6"
     "@backstage/core-compat-api": "npm:^0.5.5"
-    "@backstage/core-components": "npm:^0.18.4"
+    "@backstage/core-components": "npm:^0.18.6"
     "@backstage/core-plugin-api": "npm:^1.12.1"
     "@backstage/errors": "npm:^1.2.7"
     "@backstage/frontend-plugin-api": "npm:^0.13.2"
@@ -2413,7 +2413,7 @@ __metadata:
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
     react-router-dom: ^6.3.0
-  checksum: 10c0/c14c7ea97ef494c1f707ac545f07be7ef05b78f7602361227955b8a7e52a6b9d5456757674a35a835bcfa55fd34dde3b28f6096c7939cd81ce549afa143bbe9a
+  checksum: 10c0/1825a23fa16a92ed6aff6f57e2a97ae8275bf407eed654aa333c9d25dfb44d795edaf1b7e4ff7748af79c0de674f38eaea4b1c1d8e8ce950af32cba56e31f7b6
   languageName: node
   linkType: hard
 
