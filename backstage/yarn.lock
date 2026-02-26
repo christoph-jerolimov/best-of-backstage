@@ -3117,19 +3117,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-adr-backend@npm:^0.18.0":
-  version: 0.18.0
-  resolution: "@backstage-community/plugin-adr-backend@npm:0.18.0"
+"@backstage-community/plugin-adr-backend@npm:^0.19.0":
+  version: 0.19.0
+  resolution: "@backstage-community/plugin-adr-backend@npm:0.19.0"
   dependencies:
-    "@backstage-community/plugin-adr-common": "npm:^0.16.0"
-    "@backstage-community/search-backend-module-adr": "npm:^0.15.0"
-    "@backstage/backend-plugin-api": "npm:^1.6.2"
+    "@backstage-community/plugin-adr-common": "npm:^0.17.0"
+    "@backstage-community/search-backend-module-adr": "npm:^0.16.0"
+    "@backstage/backend-plugin-api": "npm:^1.7.0"
     "@backstage/catalog-model": "npm:^1.7.6"
     "@backstage/errors": "npm:^1.2.7"
     "@types/express": "npm:^4.17.6"
     express: "npm:^4.17.1"
     express-promise-router: "npm:^4.1.0"
-  checksum: 10c0/f222053bf517d3163997d33fbd0e0d2abda0c1a4c202f51d25dfd5241a5162cdc9e1a81d141ef1ecdd0a206ff0a1f9f62a8fc0c7f9dbd4acd3b9ccdb754bbc38
+  checksum: 10c0/35264bbb46fb23cdf498484da092994d01ee9ef034944ab4303b5eaa48a4aa2f917501ced3f4491760e5722e19e2bfae1e5f54abce3a8be826db4c959db55b92
   languageName: node
   linkType: hard
 
@@ -3941,6 +3941,24 @@ __metadata:
     "@backstage/plugin-search-backend-node": "npm:^1.4.0"
     "@backstage/plugin-search-common": "npm:^1.2.21"
   checksum: 10c0/080775fdb794832c56d5885715515eb70e1c7344b7d2085e9d9e849399966b91ebcf4d4ef92ff5b73f4ab481e0e3e1cc46e048541cf168b5184d9abc1320468d
+  languageName: node
+  linkType: hard
+
+"@backstage-community/search-backend-module-adr@npm:^0.16.0":
+  version: 0.16.0
+  resolution: "@backstage-community/search-backend-module-adr@npm:0.16.0"
+  dependencies:
+    "@backstage-community/plugin-adr-common": "npm:^0.17.0"
+    "@backstage/backend-plugin-api": "npm:^1.7.0"
+    "@backstage/catalog-client": "npm:^1.13.0"
+    "@backstage/catalog-model": "npm:^1.7.6"
+    "@backstage/config": "npm:^1.3.6"
+    "@backstage/errors": "npm:^1.2.7"
+    "@backstage/integration": "npm:^1.20.0"
+    "@backstage/plugin-catalog-node": "npm:^2.0.0"
+    "@backstage/plugin-search-backend-node": "npm:^1.4.1"
+    "@backstage/plugin-search-common": "npm:^1.2.22"
+  checksum: 10c0/0484f64b4df019dbb0cae601b8e66ccefd88b3470a99fc6c0e494306836c1201d04b1146588b823c0c18ea8c20035c4d5f2a2f926ee08aba26bad7d7b4fa87b5
   languageName: node
   linkType: hard
 
@@ -23375,7 +23393,7 @@ __metadata:
     "@aws/aws-core-plugin-for-backstage-scaffolder-actions": "npm:^0.6.0"
     "@axis-backstage/plugin-jira-dashboard-backend": "npm:^6.1.0"
     "@axis-backstage/plugin-readme-backend": "npm:^0.16.0"
-    "@backstage-community/plugin-adr-backend": "npm:^0.18.0"
+    "@backstage-community/plugin-adr-backend": "npm:^0.19.0"
     "@backstage-community/plugin-announcements-backend": "npm:^0.21.0"
     "@backstage-community/plugin-badges-backend": "npm:^0.20.0"
     "@backstage-community/plugin-mcp-chat-backend": "npm:^0.6.1"
