@@ -3627,20 +3627,29 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-playlist@npm:^0.15.0":
+"@backstage-community/plugin-playlist-common@npm:^0.15.0":
   version: 0.15.0
-  resolution: "@backstage-community/plugin-playlist@npm:0.15.0"
+  resolution: "@backstage-community/plugin-playlist-common@npm:0.15.0"
   dependencies:
-    "@backstage-community/plugin-playlist-common": "npm:^0.14.0"
+    "@backstage/plugin-permission-common": "npm:^0.9.6"
+  checksum: 10c0/1674ea034080e1af7f3073a6b76c14d2f2327d59be9ae6e30e63c13018a3619a99e06a0a685395365d2ebc24031162dd0865e9eca6a6fc91eac41a58e5c0e5e1
+  languageName: node
+  linkType: hard
+
+"@backstage-community/plugin-playlist@npm:^0.16.0":
+  version: 0.16.0
+  resolution: "@backstage-community/plugin-playlist@npm:0.16.0"
+  dependencies:
+    "@backstage-community/plugin-playlist-common": "npm:^0.15.0"
     "@backstage/catalog-model": "npm:^1.7.6"
-    "@backstage/core-components": "npm:^0.18.6"
-    "@backstage/core-plugin-api": "npm:^1.12.2"
+    "@backstage/core-components": "npm:^0.18.7"
+    "@backstage/core-plugin-api": "npm:^1.12.3"
     "@backstage/errors": "npm:^1.2.7"
-    "@backstage/plugin-catalog-common": "npm:^1.1.7"
-    "@backstage/plugin-catalog-react": "npm:^1.21.6"
-    "@backstage/plugin-permission-common": "npm:^0.9.5"
-    "@backstage/plugin-permission-react": "npm:^0.4.39"
-    "@backstage/plugin-search-react": "npm:^1.10.2"
+    "@backstage/plugin-catalog-common": "npm:^1.1.8"
+    "@backstage/plugin-catalog-react": "npm:^2.0.0"
+    "@backstage/plugin-permission-common": "npm:^0.9.6"
+    "@backstage/plugin-permission-react": "npm:^0.4.40"
+    "@backstage/plugin-search-react": "npm:^1.10.4"
     "@material-ui/core": "npm:^4.12.2"
     "@material-ui/icons": "npm:^4.9.1"
     "@material-ui/lab": "npm:4.0.0-alpha.61"
@@ -3654,7 +3663,7 @@ __metadata:
     react: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-dom: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-router-dom: 6.0.0-beta.0 || ^6.3.0
-  checksum: 10c0/69a806e310829f99b9f5904317d777a60044f90e18ab047ea090330c5479f89057777ef65f9b82b78684be2b2d7ceedc99a747a9e79608f70a5dd8c24b6c4fc8
+  checksum: 10c0/515d8a93df06132d04a4957199373ee53e00106eb4329708ae306af346848464841db29eebe2a0b98298d174bb7281e7b2e00e66bf34768d2ce3f1965b673946
   languageName: node
   linkType: hard
 
@@ -22662,7 +22671,7 @@ __metadata:
     "@backstage-community/plugin-mcp-chat": "npm:^0.3.1"
     "@backstage-community/plugin-nexus-repository-manager": "npm:^1.21.0"
     "@backstage-community/plugin-npm": "npm:^1.17.0"
-    "@backstage-community/plugin-playlist": "npm:^0.15.0"
+    "@backstage-community/plugin-playlist": "npm:^0.16.0"
     "@backstage-community/plugin-quay": "npm:^1.30.0"
     "@backstage-community/plugin-rbac": "npm:^1.48.0"
     "@backstage-community/plugin-todo": "npm:^0.16.0"
