@@ -3332,17 +3332,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-bookmarks@npm:^0.7.1":
-  version: 0.7.1
-  resolution: "@backstage-community/plugin-bookmarks@npm:0.7.1"
+"@backstage-community/plugin-bookmarks@npm:^0.8.0":
+  version: 0.8.0
+  resolution: "@backstage-community/plugin-bookmarks@npm:0.8.0"
   dependencies:
     "@backstage/catalog-model": "npm:^1.7.6"
-    "@backstage/core-compat-api": "npm:^0.5.7"
-    "@backstage/core-components": "npm:^0.18.6"
-    "@backstage/core-plugin-api": "npm:^1.12.2"
-    "@backstage/frontend-plugin-api": "npm:^0.13.4"
-    "@backstage/plugin-catalog-react": "npm:^1.21.6"
-    "@backstage/theme": "npm:^0.7.1"
+    "@backstage/core-compat-api": "npm:^0.5.8"
+    "@backstage/core-components": "npm:^0.18.7"
+    "@backstage/core-plugin-api": "npm:^1.12.3"
+    "@backstage/frontend-plugin-api": "npm:^0.14.1"
+    "@backstage/frontend-test-utils": "npm:^0.5.0"
+    "@backstage/plugin-catalog-react": "npm:^2.0.0"
+    "@backstage/theme": "npm:^0.7.2"
     "@mui/icons-material": "npm:^5.18.0"
     "@mui/material": "npm:^5.18.0"
     "@mui/system": "npm:^5.18.0"
@@ -3350,7 +3351,7 @@ __metadata:
   peerDependencies:
     react: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-dom: ^16.13.1 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/55d2200fc7f1f9ae455d86ea9efe7ea3015ee92f0368018b4294bdabff2fc5017004e041460e751e19ae581dfdfbfb8b54c5f82bf97a80ed4b41e5f9514ac581
+  checksum: 10c0/3df46107491a79c920ba614d7f1cff854a8c32210fcbe0ae532895e0d93329cda7104bf677e9ae82b32045b7d78bef8bfc616d643e107b4bc9606215b220a14a
   languageName: node
   linkType: hard
 
@@ -22651,7 +22652,7 @@ __metadata:
     "@backstage-community/plugin-adr": "npm:^0.21.0"
     "@backstage-community/plugin-announcements": "npm:^2.3.0"
     "@backstage-community/plugin-badges": "npm:^0.17.0"
-    "@backstage-community/plugin-bookmarks": "npm:^0.7.1"
+    "@backstage-community/plugin-bookmarks": "npm:^0.8.0"
     "@backstage-community/plugin-cicd-statistics": "npm:^0.15.0"
     "@backstage-community/plugin-cicd-statistics-module-github": "npm:^0.13.0"
     "@backstage-community/plugin-cicd-statistics-module-gitlab": "npm:^0.15.0"
