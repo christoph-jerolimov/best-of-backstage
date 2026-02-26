@@ -3522,16 +3522,17 @@ __metadata:
   linkType: hard
 
 "@backstage-community/plugin-nexus-repository-manager@npm:^1.21.0":
-  version: 1.21.0
-  resolution: "@backstage-community/plugin-nexus-repository-manager@npm:1.21.0"
+  version: 1.22.0
+  resolution: "@backstage-community/plugin-nexus-repository-manager@npm:1.22.0"
   dependencies:
     "@backstage/catalog-model": "npm:^1.7.6"
-    "@backstage/core-compat-api": "npm:^0.5.7"
-    "@backstage/core-components": "npm:^0.18.6"
-    "@backstage/core-plugin-api": "npm:^1.12.2"
-    "@backstage/frontend-plugin-api": "npm:^0.13.4"
-    "@backstage/plugin-catalog-react": "npm:^1.21.6"
-    "@backstage/theme": "npm:^0.7.1"
+    "@backstage/core-compat-api": "npm:^0.5.8"
+    "@backstage/core-components": "npm:^0.18.7"
+    "@backstage/core-plugin-api": "npm:^1.12.3"
+    "@backstage/filter-predicates": "npm:^0.1.0"
+    "@backstage/frontend-plugin-api": "npm:^0.14.1"
+    "@backstage/plugin-catalog-react": "npm:^2.0.0"
+    "@backstage/theme": "npm:^0.7.2"
     "@material-ui/core": "npm:^4.9.13"
     filesize: "npm:^10.1.6"
     luxon: "npm:^3.6.1"
@@ -3540,7 +3541,7 @@ __metadata:
     react: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-dom: ^18.0.0
     react-router-dom: ^6.0.0
-  checksum: 10c0/42c4f5e080c7802bd4dcc33b19e86223cb6bc7a4a616be5d6697e128b78f20ccfc89a4a74b5eb21dadae668f9b59940059381624d96d83bb0fee497461a38fb4
+  checksum: 10c0/47c87e15eb0c04629ceb9506b040458881483af5d01e36ed376ce81f962907786fbcf421c5e88621f9ab320152d732851c5a9293cfaa53b56a83c594bf858c1e
   languageName: node
   linkType: hard
 
