@@ -3,5 +3,12 @@
   "extends": [
     "config:recommended"
   ],
-  "prConcurrentLimit": 20
+  "prConcurrentLimit": 20,
+  "packageRules": [
+    {
+      "groupName": "plugin-announcements",
+      "groupSlug": "plugin-announcements",
+      "matchPackagePatterns": ["^@backstage-community/plugin-announcements"]
+    }
+  ]
 }
