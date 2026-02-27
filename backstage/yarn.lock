@@ -3207,14 +3207,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-announcements-node@npm:^0.15.0":
-  version: 0.15.0
-  resolution: "@backstage-community/plugin-announcements-node@npm:0.15.0"
+"@backstage-community/plugin-announcements-common@npm:^0.18.0":
+  version: 0.18.0
+  resolution: "@backstage-community/plugin-announcements-common@npm:0.18.0"
   dependencies:
-    "@backstage-community/plugin-announcements-common": "npm:^0.17.0"
-    "@backstage/backend-plugin-api": "npm:^1.6.2"
+    "@backstage/plugin-permission-common": "npm:^0.9.6"
+  checksum: 10c0/75774a1141edb055e498a629f97b6e0d11694a8941eceb1810991c7b1900eea47e794402b6a6534aa5cb963df73d3fe025e555e813029faacd397be32cd7a79c
+  languageName: node
+  linkType: hard
+
+"@backstage-community/plugin-announcements-node@npm:^0.16.0":
+  version: 0.16.0
+  resolution: "@backstage-community/plugin-announcements-node@npm:0.16.0"
+  dependencies:
+    "@backstage-community/plugin-announcements-common": "npm:^0.18.0"
+    "@backstage/backend-plugin-api": "npm:^1.7.0"
     "@backstage/errors": "npm:^1.2.7"
-  checksum: 10c0/4b7c3d611c98393e8c6929fabb813f8465bd52a1ca21b458e3993ee3d28b6b328444a935016eb298c18de1ed954c6516d0840dc0feb81cd6d2925a0ec6937522
+  checksum: 10c0/220bb26ebf66fdc3c4ea5169ff6ef8eaa5c5bac10125da036a350d4133d4f2e7ad5e8f1445fea0fd770d32eb6754a4e64586cf55af27aa2e758c63ed05eb20a2
   languageName: node
   linkType: hard
 
@@ -3831,16 +3840,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-search-backend-module-announcements@npm:^0.14.0":
-  version: 0.14.0
-  resolution: "@backstage-community/plugin-search-backend-module-announcements@npm:0.14.0"
+"@backstage-community/plugin-search-backend-module-announcements@npm:^0.15.0":
+  version: 0.15.0
+  resolution: "@backstage-community/plugin-search-backend-module-announcements@npm:0.15.0"
   dependencies:
-    "@backstage-community/plugin-announcements-common": "npm:^0.17.0"
-    "@backstage-community/plugin-announcements-node": "npm:^0.15.0"
-    "@backstage/backend-plugin-api": "npm:^1.6.2"
-    "@backstage/plugin-search-backend-node": "npm:^1.4.0"
-    "@backstage/plugin-search-common": "npm:^1.2.21"
-  checksum: 10c0/4f6789f88e582c2cd989707138e5b1873603891ac8cb24599c89c4947b4b657de60accf6aee135a9d8b1e6389459cc982240a3381f8ba30f0a45037c19b30c4c
+    "@backstage-community/plugin-announcements-common": "npm:^0.18.0"
+    "@backstage-community/plugin-announcements-node": "npm:^0.16.0"
+    "@backstage/backend-plugin-api": "npm:^1.7.0"
+    "@backstage/plugin-search-backend-node": "npm:^1.4.1"
+    "@backstage/plugin-search-common": "npm:^1.2.22"
+  checksum: 10c0/dc61b821b5fc6e0affbf11262fc7850abe84060ebfa930bff6c29ce5e696d3340b464c81e2c52b0dba5caeb02118f92da6fdbbc29dcc499e84321462b927945d
   languageName: node
   linkType: hard
 
@@ -8101,24 +8110,6 @@ __metadata:
     lodash: "npm:^4.17.21"
     p-limit: "npm:^3.1.0"
   checksum: 10c0/b6802a576704af838e6a216bfd53747f3eb1c2c41e2b074a5251c58c5f4c364a5155c248509f107560e076ca83d7ef045d28d997d58e7fdd29d75b0eed4b9375
-  languageName: node
-  linkType: hard
-
-"@backstage/plugin-search-backend-node@npm:^1.4.0":
-  version: 1.4.0
-  resolution: "@backstage/plugin-search-backend-node@npm:1.4.0"
-  dependencies:
-    "@backstage/backend-plugin-api": "npm:^1.6.0"
-    "@backstage/config": "npm:^1.3.6"
-    "@backstage/errors": "npm:^1.2.7"
-    "@backstage/plugin-permission-common": "npm:^0.9.3"
-    "@backstage/plugin-search-common": "npm:^1.2.21"
-    "@types/lunr": "npm:^2.3.3"
-    lodash: "npm:^4.17.21"
-    lunr: "npm:^2.3.9"
-    ndjson: "npm:^2.0.0"
-    uuid: "npm:^11.0.0"
-  checksum: 10c0/ba00e80422a078dc13d69c32bd76616ebfacd64f2f50340650ef7d96ef8d3eb73a5c4097c00f5e66a184edf3bf957c74dc5786b4681ab2105c0ca32452bb5eb0
   languageName: node
   linkType: hard
 
@@ -23334,7 +23325,7 @@ __metadata:
     "@backstage-community/plugin-scaffolder-backend-module-regex": "npm:^2.13.0"
     "@backstage-community/plugin-scaffolder-backend-module-servicenow": "npm:^2.12.0"
     "@backstage-community/plugin-scaffolder-backend-module-sonarqube": "npm:^2.13.0"
-    "@backstage-community/plugin-search-backend-module-announcements": "npm:^0.14.0"
+    "@backstage-community/plugin-search-backend-module-announcements": "npm:^0.15.0"
     "@backstage-community/plugin-todo-backend": "npm:^0.18.0"
     "@backstage-community/search-backend-module-adr": "npm:^0.16.0"
     "@backstage/backend-defaults": "npm:^0.15.2"
