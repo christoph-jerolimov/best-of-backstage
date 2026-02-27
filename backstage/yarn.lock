@@ -3298,15 +3298,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-badges@npm:^0.17.0":
-  version: 0.17.0
-  resolution: "@backstage-community/plugin-badges@npm:0.17.0"
+"@backstage-community/plugin-badges@npm:^0.18.0":
+  version: 0.18.0
+  resolution: "@backstage-community/plugin-badges@npm:0.18.0"
   dependencies:
     "@backstage/catalog-model": "npm:^1.7.6"
-    "@backstage/core-components": "npm:^0.18.6"
-    "@backstage/core-plugin-api": "npm:^1.12.2"
+    "@backstage/core-components": "npm:^0.18.7"
+    "@backstage/core-plugin-api": "npm:^1.12.3"
     "@backstage/errors": "npm:^1.2.7"
-    "@backstage/plugin-catalog-react": "npm:^1.21.6"
+    "@backstage/plugin-catalog-react": "npm:^2.0.0"
     "@material-ui/core": "npm:^4.12.2"
     "@types/react": "npm:^16.13.1 || ^17.0.0 || ^18.0.0"
     react-use: "npm:^17.2.4"
@@ -3314,7 +3314,7 @@ __metadata:
     react: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-dom: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-router-dom: 6.0.0-beta.0 || ^6.3.0
-  checksum: 10c0/d7d50db1b4aa68f3314edaa5dce5913e744873459883b2580dd64f3bacc5a32d27fb265a4f22e4d5a71f8f8cc5095af25825f2f72361c11278ed20f7cecb7f5a
+  checksum: 10c0/9077e2c9f2b31595f16f3014ccad630308893a9fb2b5dea28f90736dc758024fcda1ea810f328fba0d9c76733c931090e1c69eccd62ce18be516859f87dc6ee5
   languageName: node
   linkType: hard
 
@@ -22638,7 +22638,7 @@ __metadata:
     "@axis-backstage/plugin-readme": "npm:^0.18.0"
     "@backstage-community/plugin-adr": "npm:^0.21.0"
     "@backstage-community/plugin-announcements": "npm:^2.3.0"
-    "@backstage-community/plugin-badges": "npm:^0.17.0"
+    "@backstage-community/plugin-badges": "npm:^0.18.0"
     "@backstage-community/plugin-bookmarks": "npm:^0.8.0"
     "@backstage-community/plugin-cicd-statistics": "npm:^0.15.0"
     "@backstage-community/plugin-cicd-statistics-module-github": "npm:^0.13.0"
