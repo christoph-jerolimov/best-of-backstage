@@ -3276,17 +3276,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-badges-backend@npm:^0.20.0":
-  version: 0.20.0
-  resolution: "@backstage-community/plugin-badges-backend@npm:0.20.0"
+"@backstage-community/plugin-badges-backend@npm:^0.21.0":
+  version: 0.21.0
+  resolution: "@backstage-community/plugin-badges-backend@npm:0.21.0"
   dependencies:
-    "@backstage/backend-defaults": "npm:^0.15.1"
-    "@backstage/backend-plugin-api": "npm:^1.6.2"
-    "@backstage/catalog-client": "npm:^1.12.1"
+    "@backstage/backend-defaults": "npm:^0.15.2"
+    "@backstage/backend-plugin-api": "npm:^1.7.0"
+    "@backstage/catalog-client": "npm:^1.13.0"
     "@backstage/catalog-model": "npm:^1.7.6"
     "@backstage/config": "npm:^1.3.6"
     "@backstage/errors": "npm:^1.2.7"
-    "@backstage/plugin-auth-node": "npm:^0.6.12"
+    "@backstage/plugin-auth-node": "npm:^0.6.13"
     "@types/express": "npm:^4.17.6"
     badge-maker: "npm:^5.0.0"
     express: "npm:^4.17.1"
@@ -3294,7 +3294,7 @@ __metadata:
     knex: "npm:^3.0.0"
     lodash: "npm:^4.17.21"
     uuid: "npm:^13.0.0"
-  checksum: 10c0/bcf3c159107576520674bc51675b49fe39a3d64820dd9f521f9f0aacd6be9eb2dd44a134ce01bf50bf8e9fe963b2f38e5346f6c12c750b8588658d9115fed324
+  checksum: 10c0/931ca71afbf87f94e8a77f48df6a1dc9806a2e60a05aa651766f6acd3c02c03d866d87e1bf59b2f74774e5eb36455fd0260202d4ef5bb843cc6ed079d2345809
   languageName: node
   linkType: hard
 
@@ -23365,7 +23365,7 @@ __metadata:
     "@axis-backstage/plugin-readme-backend": "npm:^0.16.0"
     "@backstage-community/plugin-adr-backend": "npm:^0.19.0"
     "@backstage-community/plugin-announcements-backend": "npm:^0.21.0"
-    "@backstage-community/plugin-badges-backend": "npm:^0.20.0"
+    "@backstage-community/plugin-badges-backend": "npm:^0.21.0"
     "@backstage-community/plugin-mcp-chat-backend": "npm:^0.6.1"
     "@backstage-community/plugin-npm-backend": "npm:^1.17.0"
     "@backstage-community/plugin-playlist-backend": "npm:^0.18.0"
