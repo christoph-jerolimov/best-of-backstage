@@ -31,7 +31,7 @@
     "@backstage-community/plugin-playlist": "^0.16.0",
     "@backstage-community/plugin-quay": "^1.30.0",
     "@backstage-community/plugin-rbac": "^1.48.0",
-    "@backstage-community/plugin-todo": "^0.16.0",
+    "@backstage-community/plugin-todo": "^0.17.0",
     "@backstage-community/plugin-wheel-of-names": "^0.7.0",
     "@backstage/cli": "^0.35.4",
     "@backstage/core-compat-api": "^0.5.8",
