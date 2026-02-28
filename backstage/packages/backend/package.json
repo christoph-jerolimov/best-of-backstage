@@ -27,7 +27,7 @@
     "@backstage-community/plugin-playlist-backend": "^0.18.0",
     "@backstage-community/plugin-rbac-backend": "^7.7.0",
     "@backstage-community/plugin-scaffolder-backend-module-annotator": "^2.14.0",
-    "@backstage-community/plugin-scaffolder-backend-module-jenkins": "^0.18.0",
+    "@backstage-community/plugin-scaffolder-backend-module-jenkins": "^0.19.0",
     "@backstage-community/plugin-scaffolder-backend-module-quay": "^2.16.0",
     "@backstage-community/plugin-scaffolder-backend-module-regex": "^2.13.0",
     "@backstage-community/plugin-scaffolder-backend-module-servicenow": "^2.12.0",
