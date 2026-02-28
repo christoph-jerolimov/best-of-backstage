@@ -8,7 +8,9 @@
     {
       "groupName": "plugin-announcements",
       "groupSlug": "plugin-announcements",
-      "matchPackagePatterns": ["^@backstage-community/plugin-announcements"]
+      "matchPackageNames": [
+        "/^@backstage-community/plugin-announcements/"
+      ]
     }
   ]
 }
