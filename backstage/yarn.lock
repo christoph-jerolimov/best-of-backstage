@@ -3455,14 +3455,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-jenkins-common@npm:^0.16.1":
-  version: 0.16.1
-  resolution: "@backstage-community/plugin-jenkins-common@npm:0.16.1"
+"@backstage-community/plugin-jenkins-common@npm:^0.17.0":
+  version: 0.17.0
+  resolution: "@backstage-community/plugin-jenkins-common@npm:0.17.0"
   dependencies:
-    "@backstage/plugin-catalog-common": "npm:^1.1.7"
-    "@backstage/plugin-permission-common": "npm:^0.9.5"
+    "@backstage/plugin-catalog-common": "npm:^1.1.8"
+    "@backstage/plugin-permission-common": "npm:^0.9.6"
     node-fetch: "npm:^2.6.7"
-  checksum: 10c0/6105d6b731ea9bd45007807c4e2a9fb690713abb30932f739fc3ee19240f325bb9c60d89bd6e96d98054905482536baf0799ff014260c783f71ab260195163dd
+  checksum: 10c0/a27e29088f5e5b025790573947a89afab8149db77a8d830d3f1201f088cfa0bdf62a685c55f349da749513c1e66abfb9e0d4e983dacf524fedfb58fbfb9bf7c3
   languageName: node
   linkType: hard
 
@@ -3773,14 +3773,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-scaffolder-backend-module-jenkins@npm:^0.18.0":
-  version: 0.18.1
-  resolution: "@backstage-community/plugin-scaffolder-backend-module-jenkins@npm:0.18.1"
+"@backstage-community/plugin-scaffolder-backend-module-jenkins@npm:^0.19.0":
+  version: 0.19.0
+  resolution: "@backstage-community/plugin-scaffolder-backend-module-jenkins@npm:0.19.0"
   dependencies:
-    "@backstage-community/plugin-jenkins-common": "npm:^0.16.1"
-    "@backstage/backend-plugin-api": "npm:^1.6.2"
-    "@backstage/plugin-scaffolder-node": "npm:^0.12.4"
-  checksum: 10c0/a98657f6d4bcbf8db50f48fcbf8751d623cb4d1cdda1e366e7c9d474e5c994203db0e137f9e5fc9815b63b2764e1ae7da4e1e7947f68635207e3e5e7715ea880
+    "@backstage-community/plugin-jenkins-common": "npm:^0.17.0"
+    "@backstage/backend-plugin-api": "npm:^1.7.0"
+    "@backstage/plugin-scaffolder-node": "npm:^0.12.5"
+  checksum: 10c0/b482d44e56df9f3a18834cce730cecee2651c041cb5bba4ebdf57583ed5bfe1dba9559f6427fff3d0412f76d98804358d7bd0f79951ae3b6a6927abac2c86554
   languageName: node
   linkType: hard
 
@@ -23329,7 +23329,7 @@ __metadata:
     "@backstage-community/plugin-playlist-backend": "npm:^0.18.0"
     "@backstage-community/plugin-rbac-backend": "npm:^7.7.0"
     "@backstage-community/plugin-scaffolder-backend-module-annotator": "npm:^2.14.0"
-    "@backstage-community/plugin-scaffolder-backend-module-jenkins": "npm:^0.18.0"
+    "@backstage-community/plugin-scaffolder-backend-module-jenkins": "npm:^0.19.0"
     "@backstage-community/plugin-scaffolder-backend-module-quay": "npm:^2.16.0"
     "@backstage-community/plugin-scaffolder-backend-module-regex": "npm:^2.13.0"
     "@backstage-community/plugin-scaffolder-backend-module-servicenow": "npm:^2.12.0"
