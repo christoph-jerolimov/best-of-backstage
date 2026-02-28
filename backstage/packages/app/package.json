@@ -18,7 +18,7 @@
     "@axis-backstage/plugin-readme": "^0.18.0",
     "@backstage-community/plugin-adr": "^0.21.0",
     "@backstage-community/plugin-announcements": "^2.3.0",
-    "@backstage-community/plugin-badges": "^0.17.0",
+    "@backstage-community/plugin-badges": "^0.18.0",
     "@backstage-community/plugin-bookmarks": "^0.8.0",
     "@backstage-community/plugin-cicd-statistics": "^0.15.0",
     "@backstage-community/plugin-cicd-statistics-module-github": "^0.13.0",
