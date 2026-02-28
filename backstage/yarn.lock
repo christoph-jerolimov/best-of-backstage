@@ -3429,12 +3429,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-gcalendar@npm:^0.17.0":
-  version: 0.17.0
-  resolution: "@backstage-community/plugin-gcalendar@npm:0.17.0"
+"@backstage-community/plugin-gcalendar@npm:^0.18.0":
+  version: 0.18.0
+  resolution: "@backstage-community/plugin-gcalendar@npm:0.18.0"
   dependencies:
-    "@backstage/core-components": "npm:^0.18.6"
-    "@backstage/core-plugin-api": "npm:^1.12.2"
+    "@backstage/core-components": "npm:^0.18.7"
+    "@backstage/core-plugin-api": "npm:^1.12.3"
     "@backstage/errors": "npm:^1.2.7"
     "@material-ui/core": "npm:^4.12.2"
     "@material-ui/icons": "npm:^4.9.1"
@@ -3451,7 +3451,7 @@ __metadata:
     react: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-dom: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-router-dom: 6.0.0-beta.0 || ^6.3.0
-  checksum: 10c0/9bba56daefe3cd5af0945f6560c112251132db0f95cce69884ffc05b8a279aa2d19afb8f263f728e09e2380061f6b6cbf5971f55d6d6d58b3556dfb2ce3497c0
+  checksum: 10c0/b110717c3538306977282da3b46c58616d3a255b8852662f6a3c260be94039cda163245f851ca5cd5637e0e78ab09e8a032a55ea52a09fb479650d160d3ecce7
   languageName: node
   linkType: hard
 
@@ -22602,7 +22602,7 @@ __metadata:
     "@backstage-community/plugin-cicd-statistics-module-github": "npm:^0.13.0"
     "@backstage-community/plugin-cicd-statistics-module-gitlab": "npm:^0.15.0"
     "@backstage-community/plugin-code-climate": "npm:^0.16.0"
-    "@backstage-community/plugin-gcalendar": "npm:^0.17.0"
+    "@backstage-community/plugin-gcalendar": "npm:^0.18.0"
     "@backstage-community/plugin-mcp-chat": "npm:^0.3.1"
     "@backstage-community/plugin-nexus-repository-manager": "npm:^1.21.0"
     "@backstage-community/plugin-npm": "npm:^1.17.0"
