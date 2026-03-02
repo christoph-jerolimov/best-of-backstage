@@ -3557,11 +3557,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-npm@npm:^1.17.0":
-  version: 1.18.0
-  resolution: "@backstage-community/plugin-npm@npm:1.18.0"
+"@backstage-community/plugin-npm-common@npm:^1.18.1":
+  version: 1.18.1
+  resolution: "@backstage-community/plugin-npm-common@npm:1.18.1"
   dependencies:
-    "@backstage-community/plugin-npm-common": "npm:^1.18.0"
+    "@backstage/catalog-model": "npm:^1.7.6"
+    "@backstage/errors": "npm:^1.2.7"
+  checksum: 10c0/0c6b7257563a57b5f2f659bda3ef2d9d4803c6d29c4f135fa53a08e0695994c764638d694fcd621045b9aec68169a8ae856e0751ca416c48eb28c06d0399c5c2
+  languageName: node
+  linkType: hard
+
+"@backstage-community/plugin-npm@npm:^1.17.0":
+  version: 1.18.1
+  resolution: "@backstage-community/plugin-npm@npm:1.18.1"
+  dependencies:
+    "@backstage-community/plugin-npm-common": "npm:^1.18.1"
     "@backstage/catalog-model": "npm:^1.7.6"
     "@backstage/core-components": "npm:^0.18.7"
     "@backstage/core-plugin-api": "npm:^1.12.3"
@@ -3574,7 +3584,7 @@ __metadata:
     react-use: "npm:^17.2.4"
   peerDependencies:
     react: ^16.13.1 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/d3ee06f72edf444e56db3a48a49a6de93297320262e0554e771ec974b59c8715525f4588341091ba26f212527a5e74e2d02f05fa61c07d0ab6cc2011de1b9cf1
+  checksum: 10c0/684f19be4b497c37b9e8a7f934b3a8fcdfdf0cb40f6ddbea45fd3eb959e3a57150574dabd1290231c64ed72ae5579cf1e66c24bab22b494ff5945e3a9b2ee54e
   languageName: node
   linkType: hard
 
