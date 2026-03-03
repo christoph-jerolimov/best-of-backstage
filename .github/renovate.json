@@ -6,10 +6,185 @@
   "prConcurrentLimit": 20,
   "packageRules": [
     {
-      "groupName": "plugin-announcements",
-      "groupSlug": "plugin-announcements",
+      "groupName": "adr plugin",
+      "groupSlug": "adr",
       "matchPackageNames": [
-        "/^@backstage-community/plugin-announcements/"
+        "/adr/"
+      ]
+    },
+    {
+      "groupName": "annoncements plugin",
+      "groupSlug": "annoncements",
+      "matchPackageNames": [
+        "/annoncements/"
+      ]
+    },
+    {
+      "groupName": "annotator plugin",
+      "groupSlug": "annotator",
+      "matchPackageNames": [
+        "/annotator/"
+      ]
+    },
+    {
+      "groupName": "aws plugin",
+      "groupSlug": "aws",
+      "matchPackageNames": [
+        "/aws/"
+      ]
+    },
+    {
+      "groupName": "badges plugin",
+      "groupSlug": "badges",
+      "matchPackageNames": [
+        "/badges/"
+      ]
+    },
+    {
+      "groupName": "bookmarks plugin",
+      "groupSlug": "bookmarks",
+      "matchPackageNames": [
+        "/bookmarks/"
+      ]
+    },
+    {
+      "groupName": "cicd plugin",
+      "groupSlug": "cicd",
+      "matchPackageNames": [
+        "/cicd/"
+      ]
+    },
+    {
+      "groupName": "code-climate plugin",
+      "groupSlug": "code-climate",
+      "matchPackageNames": [
+        "/code-climate/"
+      ]
+    },
+    {
+      "groupName": "gcalendar plugin",
+      "groupSlug": "gcalendar",
+      "matchPackageNames": [
+        "/gcalendar/"
+      ]
+    },
+    {
+      "groupName": "http-request plugin",
+      "groupSlug": "http-request",
+      "matchPackageNames": [
+        "/http-request/"
+      ]
+    },
+    {
+      "groupName": "jenkins plugin",
+      "groupSlug": "jenkins",
+      "matchPackageNames": [
+        "/jenkins/"
+      ]
+    },
+    {
+      "groupName": "jira plugin",
+      "groupSlug": "jira",
+      "matchPackageNames": [
+        "/jira/"
+      ]
+    },
+    {
+      "groupName": "mcp-chat plugin",
+      "groupSlug": "mcp-chat",
+      "matchPackageNames": [
+        "/mcp-chat/"
+      ]
+    },
+    {
+      "groupName": "nexus-repository-manager plugin",
+      "groupSlug": "nexus-repository-manager",
+      "matchPackageNames": [
+        "/nexus-repository-manager/"
+      ]
+    },
+    {
+      "groupName": "npm plugin",
+      "groupSlug": "npm",
+      "matchPackageNames": [
+        "/npm/"
+      ]
+    },
+    {
+      "groupName": "playlist plugin",
+      "groupSlug": "playlist",
+      "matchPackageNames": [
+        "/playlist/"
+      ]
+    },
+    {
+      "groupName": "quay plugin",
+      "groupSlug": "quay",
+      "matchPackageNames": [
+        "/quay/"
+      ]
+    },
+    {
+      "groupName": "rbac plugin",
+      "groupSlug": "rbac",
+      "matchPackageNames": [
+        "/rbac/"
+      ]
+    },
+    {
+      "groupName": "readme plugin",
+      "groupSlug": "readme",
+      "matchPackageNames": [
+        "/readme/"
+      ]
+    },
+    {
+      "groupName": "regex plugin",
+      "groupSlug": "regex",
+      "matchPackageNames": [
+        "/regex/"
+      ]
+    },
+    {
+      "groupName": "servicenow plugin",
+      "groupSlug": "servicenow",
+      "matchPackageNames": [
+        "/servicenow/"
+      ]
+    },
+    {
+      "groupName": "sonarqube plugin",
+      "groupSlug": "sonarqube",
+      "matchPackageNames": [
+        "/sonarqube/"
+      ]
+    },
+    {
+      "groupName": "todo plugin",
+      "groupSlug": "todo",
+      "matchPackageNames": [
+        "/todo/"
+      ]
+    },
+    {
+      "groupName": "todo plugin",
+      "groupSlug": "todo",
+      "matchPackageNames": [
+        "/todo/"
+      ]
+    },
+    {
+      "groupName": "utils plugin",
+      "groupSlug": "utils",
+      "matchPackageNames": [
+        "/utils/"
+      ]
+    },
+    {
+      "groupName": "wheel-of-names plugin",
+      "groupSlug": "wheel-of-names",
+      "matchPackageNames": [
+        "/wheel-of-names/"
       ]
     }
   ]
