@@ -3533,27 +3533,17 @@ __metadata:
   linkType: hard
 
 "@backstage-community/plugin-npm-backend@npm:^1.17.0":
-  version: 1.18.0
-  resolution: "@backstage-community/plugin-npm-backend@npm:1.18.0"
+  version: 1.18.1
+  resolution: "@backstage-community/plugin-npm-backend@npm:1.18.1"
   dependencies:
-    "@backstage-community/plugin-npm-common": "npm:^1.18.0"
+    "@backstage-community/plugin-npm-common": "npm:^1.18.1"
     "@backstage/backend-defaults": "npm:^0.15.2"
     "@backstage/backend-plugin-api": "npm:^1.7.0"
     "@backstage/errors": "npm:^1.2.7"
     "@backstage/plugin-catalog-node": "npm:^2.0.0"
     express: "npm:^4.17.1"
     express-promise-router: "npm:^4.1.0"
-  checksum: 10c0/f4ae4ee745380f800c7d426eb13a7baf8693fb4cf886a304b1b5b5be94372fc4fd304247d70a99b05f74d032e443ed2ddbc9f6871e7869a7d3d2f90d300190fe
-  languageName: node
-  linkType: hard
-
-"@backstage-community/plugin-npm-common@npm:^1.18.0":
-  version: 1.18.0
-  resolution: "@backstage-community/plugin-npm-common@npm:1.18.0"
-  dependencies:
-    "@backstage/catalog-model": "npm:^1.7.6"
-    "@backstage/errors": "npm:^1.2.7"
-  checksum: 10c0/f9cca3294d02cb010320286dce874d5e4646e7ded822d9993925420ce41e190bfdfae191b50e89791c9d8f36cab27d99b5c05879834f185393ffdaf03ff81160
+  checksum: 10c0/c07abe3b4f3149f744f7b3b04fd038cc4b35a4f27165b9729fce6fcb7587c1d51ec7822073382696033e95bf1216c9f19a641f373ce3d9a4a4759b0c5fc78567
   languageName: node
   linkType: hard
 
