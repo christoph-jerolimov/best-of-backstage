@@ -3680,8 +3680,8 @@ __metadata:
   linkType: hard
 
 "@backstage-community/plugin-rbac-backend@npm:^7.7.0":
-  version: 7.7.1
-  resolution: "@backstage-community/plugin-rbac-backend@npm:7.7.1"
+  version: 7.7.2
+  resolution: "@backstage-community/plugin-rbac-backend@npm:7.7.2"
   dependencies:
     "@backstage-community/plugin-rbac-common": "npm:^1.23.0"
     "@backstage-community/plugin-rbac-node": "npm:^1.17.0"
@@ -3704,9 +3704,9 @@ __metadata:
     knex: "npm:^3.0.0"
     lodash: "npm:^4.17.21"
     typeorm-adapter: "npm:^1.6.1"
-    zod: "npm:^3.22.4"
-    zod-to-json-schema: "npm:^3.24.5"
-  checksum: 10c0/45a79a328c103718e8348ebe3a345ea7b7218472591c5eabd5412952e482ceaf087ff6179af2877d2c37417a09742e92e170ea820dad20c4a13e9edc0569f17f
+    zod: "npm:^3.25.76"
+    zod-to-json-schema: "npm:^3.25.1"
+  checksum: 10c0/34dbfe4fa67a33fcd73b45a38e4f5b7232a2d516ef1cef07eba0632fcbb48ecb37dc0f371584da7db1c2cb3f76310a294b85992984f1a7f8042170bbb78de47c
   languageName: node
   linkType: hard
 
@@ -3730,13 +3730,15 @@ __metadata:
   linkType: hard
 
 "@backstage-community/plugin-rbac@npm:^1.48.0":
-  version: 1.48.1
-  resolution: "@backstage-community/plugin-rbac@npm:1.48.1"
+  version: 1.49.0
+  resolution: "@backstage-community/plugin-rbac@npm:1.49.0"
   dependencies:
     "@backstage-community/plugin-rbac-common": "npm:^1.23.0"
     "@backstage/catalog-model": "npm:^1.7.6"
     "@backstage/core-components": "npm:^0.18.6"
     "@backstage/core-plugin-api": "npm:^1.12.2"
+    "@backstage/frontend-plugin-api": "npm:^0.13.3"
+    "@backstage/plugin-app-react": "npm:^0.1.0"
     "@backstage/plugin-catalog": "npm:^1.32.2"
     "@backstage/plugin-catalog-common": "npm:^1.1.7"
     "@backstage/plugin-permission-common": "npm:^0.9.5"
@@ -3756,7 +3758,7 @@ __metadata:
   peerDependencies:
     react: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-router-dom: ^6.0.0
-  checksum: 10c0/2a8a08075eb37c7ead05338f4061e839065e39531a5e47be9913ba92b2284cdc95166c0645980aae7c413b5bd6420b721bdc6bb674ae17415a87d8c6839e6ab0
+  checksum: 10c0/d13b663b2a29d9d06bb0c022fc81e7a7f2624c0b7b0528458789d39554416580aef6e0d9eecbd194a0adf93c6a0e0a2a7228babf04e71560c691f54dad48b916
   languageName: node
   linkType: hard
 
@@ -44034,7 +44036,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"zod-to-json-schema@npm:^3.24.5, zod-to-json-schema@npm:^3.25.1":
+"zod-to-json-schema@npm:^3.25.1":
   version: 3.25.1
   resolution: "zod-to-json-schema@npm:3.25.1"
   peerDependencies:
