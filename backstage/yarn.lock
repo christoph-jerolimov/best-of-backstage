@@ -3533,35 +3533,35 @@ __metadata:
   linkType: hard
 
 "@backstage-community/plugin-npm-backend@npm:^1.17.0":
-  version: 1.18.1
-  resolution: "@backstage-community/plugin-npm-backend@npm:1.18.1"
+  version: 1.19.0
+  resolution: "@backstage-community/plugin-npm-backend@npm:1.19.0"
   dependencies:
-    "@backstage-community/plugin-npm-common": "npm:^1.18.1"
+    "@backstage-community/plugin-npm-common": "npm:^1.19.0"
     "@backstage/backend-defaults": "npm:^0.15.2"
     "@backstage/backend-plugin-api": "npm:^1.7.0"
     "@backstage/errors": "npm:^1.2.7"
     "@backstage/plugin-catalog-node": "npm:^2.0.0"
     express: "npm:^4.17.1"
     express-promise-router: "npm:^4.1.0"
-  checksum: 10c0/c07abe3b4f3149f744f7b3b04fd038cc4b35a4f27165b9729fce6fcb7587c1d51ec7822073382696033e95bf1216c9f19a641f373ce3d9a4a4759b0c5fc78567
+  checksum: 10c0/110d951be0525da29f779985905d98eb7c67e78cd1bc3bb05b3231092a7c6a30df00a1151b8d4724730aad57099c68d5380db9b3eb6542ed1b9e8308fa4d07f7
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-npm-common@npm:^1.18.1":
-  version: 1.18.1
-  resolution: "@backstage-community/plugin-npm-common@npm:1.18.1"
+"@backstage-community/plugin-npm-common@npm:^1.19.0":
+  version: 1.19.0
+  resolution: "@backstage-community/plugin-npm-common@npm:1.19.0"
   dependencies:
     "@backstage/catalog-model": "npm:^1.7.6"
     "@backstage/errors": "npm:^1.2.7"
-  checksum: 10c0/0c6b7257563a57b5f2f659bda3ef2d9d4803c6d29c4f135fa53a08e0695994c764638d694fcd621045b9aec68169a8ae856e0751ca416c48eb28c06d0399c5c2
+  checksum: 10c0/aa73efd62ea9be431b8519f9f979b64d299f971ecb3fbfd3733371d5aabec5c4ff87084ec06586f8ce6f9a77059940fdfb83d5e28970d8640958bcfd16e95783
   languageName: node
   linkType: hard
 
 "@backstage-community/plugin-npm@npm:^1.17.0":
-  version: 1.18.1
-  resolution: "@backstage-community/plugin-npm@npm:1.18.1"
+  version: 1.19.0
+  resolution: "@backstage-community/plugin-npm@npm:1.19.0"
   dependencies:
-    "@backstage-community/plugin-npm-common": "npm:^1.18.1"
+    "@backstage-community/plugin-npm-common": "npm:^1.19.0"
     "@backstage/catalog-model": "npm:^1.7.6"
     "@backstage/core-components": "npm:^0.18.7"
     "@backstage/core-plugin-api": "npm:^1.12.3"
@@ -3574,7 +3574,7 @@ __metadata:
     react-use: "npm:^17.2.4"
   peerDependencies:
     react: ^16.13.1 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/684f19be4b497c37b9e8a7f934b3a8fcdfdf0cb40f6ddbea45fd3eb959e3a57150574dabd1290231c64ed72ae5579cf1e66c24bab22b494ff5945e3a9b2ee54e
+  checksum: 10c0/60ef0b1fbc66d8db4b8b097b824f23f412938fededb783414ba097a6f8266131cb9ba2ae39103e45614a6bc7cf5847cdb930dcbf2310468f80b33e93e16a91d1
   languageName: node
   linkType: hard
 
