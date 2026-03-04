@@ -3147,9 +3147,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-adr@npm:^0.21.0":
-  version: 0.21.1
-  resolution: "@backstage-community/plugin-adr@npm:0.21.1"
+"@backstage-community/plugin-adr@npm:^0.22.0":
+  version: 0.22.0
+  resolution: "@backstage-community/plugin-adr@npm:0.22.0"
   dependencies:
     "@backstage-community/plugin-adr-common": "npm:^0.17.1"
     "@backstage/catalog-model": "npm:^1.7.6"
@@ -3171,7 +3171,7 @@ __metadata:
     react: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-dom: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-router-dom: 6.0.0-beta.0 || ^6.3.0
-  checksum: 10c0/bceaf327e6653eec7c88da37337fb84831db19e9366460eaf099b3ac2de0f25bb15d7a3ab4827f160ea0b3da373f6d4d41360174deb34ed664cefac3e5eed206
+  checksum: 10c0/24cdab8d7cb4771392b79035d0c336d6a0e6b5b139bb7b31878c8cab90470ceb357f0de27ed87b9ca5b54e2f759359586e1720a3fe0eaca4a3eaaf355af6e905
   languageName: node
   linkType: hard
 
@@ -20778,7 +20778,7 @@ __metadata:
   dependencies:
     "@axis-backstage/plugin-jira-dashboard": "npm:^2.3.0"
     "@axis-backstage/plugin-readme": "npm:^0.18.0"
-    "@backstage-community/plugin-adr": "npm:^0.21.0"
+    "@backstage-community/plugin-adr": "npm:^0.22.0"
     "@backstage-community/plugin-announcements": "npm:^2.3.0"
     "@backstage-community/plugin-badges": "npm:^0.18.0"
     "@backstage-community/plugin-bookmarks": "npm:^0.8.0"
