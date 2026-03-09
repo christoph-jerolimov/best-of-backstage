@@ -3798,13 +3798,13 @@ __metadata:
   linkType: hard
 
 "@backstage-community/plugin-scaffolder-backend-module-regex@npm:^2.13.0":
-  version: 2.13.0
-  resolution: "@backstage-community/plugin-scaffolder-backend-module-regex@npm:2.13.0"
+  version: 2.14.0
+  resolution: "@backstage-community/plugin-scaffolder-backend-module-regex@npm:2.14.0"
   dependencies:
-    "@backstage/backend-plugin-api": "npm:^1.6.2"
-    "@backstage/plugin-scaffolder-node": "npm:^0.12.4"
+    "@backstage/backend-plugin-api": "npm:^1.7.0"
+    "@backstage/plugin-scaffolder-node": "npm:^0.12.5"
     yaml: "npm:^2.3.3"
-  checksum: 10c0/90ba07f9048af7ff6a83b1a1992988bce5604a37ca67ea1e218ac57dec0c883373bfdbdaef2fe3471b4b4bb4753abdeb56f7df6201682c2158f353d701d3c99a
+  checksum: 10c0/69115d663a903f3c26bace573c0a244567cd713e6dda6c26a2fa7cd783b1182d2e699fba3d5dc5fab3299c0cd1540a5a00cdda20f9ac002088f9e4fc9e1db870
   languageName: node
   linkType: hard
 
