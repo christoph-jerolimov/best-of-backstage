@@ -3823,13 +3823,13 @@ __metadata:
   linkType: hard
 
 "@backstage-community/plugin-scaffolder-backend-module-sonarqube@npm:^2.13.0":
-  version: 2.13.0
-  resolution: "@backstage-community/plugin-scaffolder-backend-module-sonarqube@npm:2.13.0"
+  version: 2.14.0
+  resolution: "@backstage-community/plugin-scaffolder-backend-module-sonarqube@npm:2.14.0"
   dependencies:
-    "@backstage/backend-plugin-api": "npm:^1.6.2"
-    "@backstage/plugin-scaffolder-node": "npm:^0.12.4"
+    "@backstage/backend-plugin-api": "npm:^1.7.0"
+    "@backstage/plugin-scaffolder-node": "npm:^0.12.5"
     yaml: "npm:^2.3.3"
-  checksum: 10c0/2804f45d50c15bcbcaeca221a992848f3832be56563394ffc9ba1a8282111b74aab2e77ab927cb57e846bc3086521dc8890050f06b054c0e8414023653cbd172
+  checksum: 10c0/67fe9d6e77429c2f8e5d174801e720080de393f47939a26891e6c36d9b78476d2796b8d38381c6ebe6665b21e3d9af2e15fb462643e1d3c3f6f5d539051702d6
   languageName: node
   linkType: hard
 
