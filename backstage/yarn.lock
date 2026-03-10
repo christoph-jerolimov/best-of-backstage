@@ -3763,15 +3763,15 @@ __metadata:
   linkType: hard
 
 "@backstage-community/plugin-scaffolder-backend-module-annotator@npm:^2.14.0":
-  version: 2.14.0
-  resolution: "@backstage-community/plugin-scaffolder-backend-module-annotator@npm:2.14.0"
+  version: 2.15.0
+  resolution: "@backstage-community/plugin-scaffolder-backend-module-annotator@npm:2.15.0"
   dependencies:
-    "@backstage/backend-plugin-api": "npm:^1.6.2"
-    "@backstage/plugin-scaffolder-node": "npm:^0.12.4"
+    "@backstage/backend-plugin-api": "npm:^1.7.0"
+    "@backstage/plugin-scaffolder-node": "npm:^0.12.5"
     fs-extra: "npm:^11.2.0"
     lodash: "npm:^4.17.21"
     yaml: "npm:^2.0.0"
-  checksum: 10c0/6cc3acacb1358d8587af633061b6b1069a44a5ff4ecce2bf9bc7e983b59034bcbeb455b2fa3189f639375cbc9391adec57c7c551e9cc87f2e048e68dbc5e2ba9
+  checksum: 10c0/7275c7ab18f5648e4137f3c4c3132c8841f6e430c7f09360482dbabbd90d8a1eeadd98b182c3e0611bedcc52d99a4516d3199f106b63b4e08de33d15ca449ca8
   languageName: node
   linkType: hard
 
