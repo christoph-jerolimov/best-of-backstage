@@ -2885,8 +2885,8 @@ __metadata:
   linkType: hard
 
 "@backstage-community/plugin-nexus-repository-manager@npm:^1.21.0":
-  version: 1.22.2
-  resolution: "@backstage-community/plugin-nexus-repository-manager@npm:1.22.2"
+  version: 1.22.3
+  resolution: "@backstage-community/plugin-nexus-repository-manager@npm:1.22.3"
   dependencies:
     "@backstage/catalog-model": "npm:^1.7.6"
     "@backstage/core-compat-api": "npm:^0.5.8"
@@ -2897,14 +2897,14 @@ __metadata:
     "@backstage/plugin-catalog-react": "npm:^2.0.0"
     "@backstage/theme": "npm:^0.7.2"
     "@material-ui/core": "npm:^4.9.13"
-    filesize: "npm:^10.1.6"
+    filesize: "npm:^11.0.0"
     luxon: "npm:^3.6.1"
     react-use: "npm:^17.4.0"
   peerDependencies:
     react: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-dom: ^18.0.0
     react-router-dom: ^6.0.0
-  checksum: 10c0/7103f890f7db430fe0b3e2118351c10ebedf52e2d1d20e729820f9b6b6b75e05d1dbc1cbb79c8e4ee087736faa5186b5bd0673c389af580e8ee67363ce4bff70
+  checksum: 10c0/502263151167357e91a8a381247e3ba4645f4e0a24c884206a0bf20be46164df2efde099186372de0ee4c5b919d3cdea64ddf9b2c9f14efc11da2ce0ba5743e1
   languageName: node
   linkType: hard
 
@@ -24160,6 +24160,13 @@ __metadata:
   version: 10.1.6
   resolution: "filesize@npm:10.1.6"
   checksum: 10c0/9a196d64da4e947b8c0d294be09a3dfa7a634434a1fc5fb3465f1c9acc1237ea0363f245ba6e24477ea612754d942bc964d86e0e500905a72e9e0e17ae1bbdbc
+  languageName: node
+  linkType: hard
+
+"filesize@npm:^11.0.0":
+  version: 11.0.13
+  resolution: "filesize@npm:11.0.13"
+  checksum: 10c0/5950272a2981a71cfbfda2ad278a7f59b101d3383e466c57cf8eaf5d359cb2b96f0549aa8d6ad116619337f0a1ccbceca7710e35d03d49cb757fc25b44a6d64a
   languageName: node
   linkType: hard
 
