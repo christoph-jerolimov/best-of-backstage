@@ -3031,8 +3031,8 @@ __metadata:
   linkType: hard
 
 "@backstage-community/plugin-quay@npm:^1.30.0":
-  version: 1.31.0
-  resolution: "@backstage-community/plugin-quay@npm:1.31.0"
+  version: 1.31.1
+  resolution: "@backstage-community/plugin-quay@npm:1.31.1"
   dependencies:
     "@backstage-community/plugin-quay-common": "npm:^1.18.0"
     "@backstage/catalog-model": "npm:^1.7.6"
@@ -3044,14 +3044,14 @@ __metadata:
     "@material-ui/core": "npm:^4.12.2"
     "@material-ui/icons": "npm:^4.11.3"
     "@material-ui/lab": "npm:4.0.0-alpha.61"
-    filesize: "npm:^10.1.6"
+    filesize: "npm:^11.0.0"
     luxon: "npm:^3.6.1"
     react-use: "npm:^17.4.0"
   peerDependencies:
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
     react-router-dom: ^6.0.0
-  checksum: 10c0/21e387001b77b2c735463783a14c88c426eebe2e989706a157dde3d399efa2e36e76c0f482ab86ebcb6dbede2e016acfb6984a8cf522c2a7b7a074da00d9933a
+  checksum: 10c0/7706e772ee050d3353edd52e9c773dcedf218367b41bf5798a56fa7019b4ec613547724c3deea7ed009b6988963d4e81b3ac55823cc18f1e6e743db5effa91d9
   languageName: node
   linkType: hard
 
