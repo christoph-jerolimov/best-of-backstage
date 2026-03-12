@@ -22,7 +22,7 @@
     "@backstage-community/plugin-adr-backend": "^0.19.0",
     "@backstage-community/plugin-announcements-backend": "^0.22.0",
     "@backstage-community/plugin-badges-backend": "^0.21.0",
-    "@backstage-community/plugin-mcp-chat-backend": "^0.6.1",
+    "@backstage-community/plugin-mcp-chat-backend": "^0.7.0",
     "@backstage-community/plugin-npm-backend": "^1.17.0",
     "@backstage-community/plugin-playlist-backend": "^0.18.0",
     "@backstage-community/plugin-rbac-backend": "^7.7.0",
