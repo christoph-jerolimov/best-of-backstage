@@ -3020,21 +3020,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-quay-common@npm:^1.18.0":
-  version: 1.18.0
-  resolution: "@backstage-community/plugin-quay-common@npm:1.18.0"
+"@backstage-community/plugin-quay-common@npm:^1.18.1":
+  version: 1.18.1
+  resolution: "@backstage-community/plugin-quay-common@npm:1.18.1"
   peerDependencies:
     "@backstage/plugin-permission-common": ^0.9.6
     react: ^17.0.0 || ^18.0.0
-  checksum: 10c0/36b6084324284207fc278f97e6832c7fe00d555ad1d8233889edbcb1938674430ba6a5716af650d7b131cf3857492df48926b1172007960ac2f4e32c65377ea0
+  checksum: 10c0/a4ab255df33fa05fc2911061431efd5be24ee9bbc525b9d72b07686c6cc3ee78d05cf10089f02b19ab43e64f48beb69e14ffd8ab8013bd1bc34bc62f6a4e1945
   languageName: node
   linkType: hard
 
 "@backstage-community/plugin-quay@npm:^1.30.0":
-  version: 1.31.1
-  resolution: "@backstage-community/plugin-quay@npm:1.31.1"
+  version: 1.31.2
+  resolution: "@backstage-community/plugin-quay@npm:1.31.2"
   dependencies:
-    "@backstage-community/plugin-quay-common": "npm:^1.18.0"
+    "@backstage-community/plugin-quay-common": "npm:^1.18.1"
     "@backstage/catalog-model": "npm:^1.7.6"
     "@backstage/core-components": "npm:^0.18.7"
     "@backstage/core-plugin-api": "npm:^1.12.3"
@@ -3051,7 +3051,7 @@ __metadata:
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
     react-router-dom: ^6.0.0
-  checksum: 10c0/7706e772ee050d3353edd52e9c773dcedf218367b41bf5798a56fa7019b4ec613547724c3deea7ed009b6988963d4e81b3ac55823cc18f1e6e743db5effa91d9
+  checksum: 10c0/62f724038d7f921cfbe42167a7de47a56ffa61c2ac619ed32132ca49bc95db8726110449ae82504cfd51e7fdea41576c84b16237c74df7e869a3e5883f5ce211
   languageName: node
   linkType: hard
 
@@ -3164,13 +3164,13 @@ __metadata:
   linkType: hard
 
 "@backstage-community/plugin-scaffolder-backend-module-quay@npm:^2.16.0":
-  version: 2.17.0
-  resolution: "@backstage-community/plugin-scaffolder-backend-module-quay@npm:2.17.0"
+  version: 2.17.1
+  resolution: "@backstage-community/plugin-scaffolder-backend-module-quay@npm:2.17.1"
   dependencies:
     "@backstage/backend-plugin-api": "npm:^1.7.0"
     "@backstage/plugin-scaffolder-node": "npm:^0.12.5"
     yaml: "npm:^2.6.0"
-  checksum: 10c0/581c4b6924b24edc8a6dac05cc9e91021e8aa974cb786ec451d5f907ba3108eeaabf02488951fef1e25d1aefe77d442199f694a9c6c2b19951fa4873416896a2
+  checksum: 10c0/31b17d4d6ba697782668f5930e5707cddf0e79054afee31176f4be3e7c59b884c52a17c001c415901663ef66391a30ffbb3b3c1459dd68b99c1407991ef602b6
   languageName: node
   linkType: hard
 
