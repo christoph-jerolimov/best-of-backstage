@@ -2,7 +2,7 @@ import {
   ApiBlueprint,
   discoveryApiRef,
   fetchApiRef,
-  NavItemBlueprint,
+  PageBlueprint,
 } from '@backstage/frontend-plugin-api';
 import {
   convertLegacyPageExtension,
@@ -20,11 +20,12 @@ import {
 
 import PlaylistPlayIcon from '@mui/icons-material/PlaylistPlay';
 
-const playlistNavItem = NavItemBlueprint.make({
+const playlistNavItem = PageBlueprint.make({
   params: {
+    path: '/playlists',
     title: 'Playlists',
     routeRef: convertLegacyRouteRef(playlistPlugin.routes.root),
-    icon: PlaylistPlayIcon,
+    icon: <PlaylistPlayIcon />,
   },
 });
 

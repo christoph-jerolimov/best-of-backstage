@@ -14,17 +14,19 @@ app:
             - de
             - fr
 
+    # Customize homepage
+    - page:home:
+        config:
+          path: /
+    - api:home/visits: true
+    - app-root-element:home/visit-listener: true
+
     # Disable the nav items that we're manually rendering in packages/app/src/modules/nav/Sidebar.tsx
     # - page:search: false
     # - page:home: false
     # - page:catalog: false
     # - page:devtools: false
     # - page:user-settings: false
-
-    # Configure the catalog index page to be the root page, this is normally mounted on /catalog
-    # - page:catalog:
-    #     config:
-    #       path: /
 
 organization:
   name: Demo
