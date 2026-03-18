@@ -18,8 +18,6 @@ import {
 
 import MenuIcon from '@mui/icons-material/Menu';
 import SearchIcon from '@mui/icons-material/Search';
-import HomeIcon from '@mui/icons-material/Home';
-import BuildIcon from '@mui/icons-material/Build';
 
 import { SidebarLogo } from './SidebarLogo';
 
@@ -29,6 +27,12 @@ export const SidebarContent = NavContentBlueprint.make({
       const nav = navItems.withComponent(item => (
         <SidebarItem icon={() => item.icon} to={item.href} text={item.title} />
       ));
+      // Skipped items
+      nav.take('page:search');
+      const devTools = nav.take('page:devtools');
+      nav.take('page:notifications');
+      nav.take('page:user-settings');
+
       return compatWrapper(
         <Sidebar>
           <SidebarLogo />
@@ -37,11 +41,9 @@ export const SidebarContent = NavContentBlueprint.make({
           </SidebarGroup>
           <SidebarDivider />
           <SidebarGroup label="Menu" icon={<MenuIcon />}>
-            <SidebarItem icon={HomeIcon} to="home" text="Home" />
             {nav.take('page:home')}
             {nav.take('page:catalog')}
             {nav.take('page:scaffolder')}
-            {/* End global nav */}
             <SidebarDivider />
             <SidebarScrollWrapper>
               {nav.rest({ sortBy: 'title' })}
@@ -49,7 +51,7 @@ export const SidebarContent = NavContentBlueprint.make({
           </SidebarGroup>
           <SidebarSpace />
           <SidebarDivider />
-          <SidebarItem icon={BuildIcon} to="devtools" text="DevTools" />
+          {devTools}
           <NotificationsSidebarItem />
           <SidebarGroup
             label="Settings"
