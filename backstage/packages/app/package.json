@@ -43,7 +43,7 @@
     "@backstage/plugin-api-docs": "^0.13.4",
     "@backstage/plugin-app-react": "^0.2.0",
     "@backstage/plugin-app-visualizer": "^0.2.0",
-    "@backstage/plugin-catalog": "^1.33.0",
+    "@backstage/plugin-catalog": "^2.0.0",
     "@backstage/plugin-catalog-graph": "^0.5.7",
     "@backstage/plugin-catalog-import": "^0.13.10",
     "@backstage/plugin-catalog-react": "^2.0.0",
