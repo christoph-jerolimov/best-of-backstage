@@ -2862,13 +2862,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-mcp-chat@npm:^0.4.0":
-  version: 0.4.0
-  resolution: "@backstage-community/plugin-mcp-chat@npm:0.4.0"
+"@backstage-community/plugin-mcp-chat@npm:^0.5.0":
+  version: 0.5.0
+  resolution: "@backstage-community/plugin-mcp-chat@npm:0.5.0"
   dependencies:
     "@backstage/core-components": "npm:^0.18.7"
     "@backstage/core-plugin-api": "npm:^1.12.3"
     "@backstage/errors": "npm:^1.2.7"
+    "@backstage/frontend-plugin-api": "npm:^0.14.1"
     "@backstage/theme": "npm:^0.7.2"
     "@mui/icons-material": "npm:^5.17.1"
     "@mui/material": "npm:^5.17.1"
@@ -2880,7 +2881,7 @@ __metadata:
     react-dom: ^17.0.0 || ^18.0.0
     react-router: ^6.30.2
     react-router-dom: ^6.3.0
-  checksum: 10c0/ef3864759fe233b5f140371644b77d4bfcf01b469e77bd7ed80d0009b5525508e01e0e7f7a1cbdda61cc984f644318d9634b3b5cf62c3d3af789ec37c5e443b4
+  checksum: 10c0/74b3758dcaec45e1ba215ce493db2bdf9053b81f6ebee7aec301237bbc579f49d76c156074a5a0fbf8a6b5fe8767946bc8f6ab46a805f2fd18951f74307b8c6e
   languageName: node
   linkType: hard
 
@@ -18666,7 +18667,7 @@ __metadata:
     "@backstage-community/plugin-cicd-statistics-module-gitlab": "npm:^0.15.0"
     "@backstage-community/plugin-code-climate": "npm:^0.16.0"
     "@backstage-community/plugin-gcalendar": "npm:^0.18.0"
-    "@backstage-community/plugin-mcp-chat": "npm:^0.4.0"
+    "@backstage-community/plugin-mcp-chat": "npm:^0.5.0"
     "@backstage-community/plugin-nexus-repository-manager": "npm:^1.21.0"
     "@backstage-community/plugin-npm": "npm:^1.17.0"
     "@backstage-community/plugin-playlist": "npm:^0.16.0"
