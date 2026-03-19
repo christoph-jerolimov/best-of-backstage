@@ -17,11 +17,11 @@ export class Backstage {
   }
 
   get header() {
-    return this.page.locator('header, .bui-HeaderPage');
+    return this.page.locator('header, .bui-Header, .bui-HeaderPage');
   }
 
   get content() {
-    return this.page.locator('article, .bui-HeaderPage + *');
+    return this.page.locator('article, .bui-Header + *, .bui-HeaderPage + *');
   }
 
   sidebarItem(name: string) {

@@ -17,7 +17,7 @@ test('Sidebar', async ({ backstage }) => {
       - button "Search"
       - separator
       - link "Home":
-        - /url: /home
+        - /url: /
       - link "Catalog":
         - /url: /catalog
       - link "Create...":
@@ -29,10 +29,6 @@ test('Sidebar', async ({ backstage }) => {
         - /url: /api-docs
       - link "Docs":
         - /url: /docs
-      - link "MCP Chat":
-        - /url: /mcp-chat
-      - link "Visualizer":
-        - /url: /visualizer
       - separator
       - link "DevTools":
         - /url: /devtools
