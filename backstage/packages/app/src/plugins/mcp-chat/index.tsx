@@ -3,7 +3,7 @@ import {
   convertLegacyPlugin,
   convertLegacyRouteRef,
 } from '@backstage/core-compat-api';
-import { NavItemBlueprint } from '@backstage/frontend-plugin-api';
+import { PageBlueprint } from '@backstage/frontend-plugin-api';
 
 import {
   mcpChatPlugin,
@@ -11,11 +11,12 @@ import {
   MCPChatIcon,
 } from '@backstage-community/plugin-mcp-chat';
 
-const mcpChatNavItem = NavItemBlueprint.make({
+const mcpChatNavItem = PageBlueprint.make({
   params: {
+    path: 'mcp-chat',
     title: 'MCP Chat',
     routeRef: convertLegacyRouteRef(mcpChatPlugin.routes.root),
-    icon: MCPChatIcon,
+    icon: <MCPChatIcon />,
   },
 });
 

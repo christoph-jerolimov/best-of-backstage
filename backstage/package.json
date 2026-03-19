@@ -29,30 +29,18 @@
       "new": {
         "globals": {
           "license": "UNLICENSED"
-        },
-        "templates": [
-          "@backstage/cli/templates/new-frontend-plugin",
-          "@backstage/cli/templates/new-frontend-plugin-module",
-          "@backstage/cli/templates/backend-plugin",
-          "@backstage/cli/templates/backend-plugin-module",
-          "@backstage/cli/templates/plugin-web-library",
-          "@backstage/cli/templates/plugin-node-library",
-          "@backstage/cli/templates/plugin-common-library",
-          "@backstage/cli/templates/web-library",
-          "@backstage/cli/templates/node-library",
-          "@backstage/cli/templates/scaffolder-backend-module"
-        ]
+        }
       }
     }
   },
-  "workspaces": {
-    "packages": [
-      "packages/*",
-      "plugins/*"
-    ]
-  },
+  "workspaces": [
+    "packages/*",
+    "plugins/*"
+  ],
   "devDependencies": {
-    "@backstage/cli": "^0.35.4",
+    "@backstage/cli": "^0.36.0",
+    "@backstage/cli-defaults": "^0.1.0",
+    "@backstage/cli-module-new": "^0.1.0",
     "@backstage/e2e-test-utils": "^0.1.2",
     "@jest/environment-jsdom-abstract": "^30",
     "@playwright/test": "^1.58.2",

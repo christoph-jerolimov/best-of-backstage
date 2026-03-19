@@ -3,7 +3,7 @@ import {
   convertLegacyPlugin,
   convertLegacyRouteRef,
 } from '@backstage/core-compat-api';
-import { NavItemBlueprint } from '@backstage/frontend-plugin-api';
+import { PageBlueprint } from '@backstage/frontend-plugin-api';
 
 import RouletteIcon from '@mui/icons-material/Casino';
 
@@ -12,11 +12,12 @@ import {
   WheelOfNamesPage,
 } from '@backstage-community/plugin-wheel-of-names';
 
-const wheelOfNamesNavItem = NavItemBlueprint.make({
+const wheelOfNamesNavItem = PageBlueprint.make({
   params: {
+    path: 'wheel-of-names',
     title: 'Wheel of names',
     routeRef: convertLegacyRouteRef(wheelOfNamesPlugin.routes.root),
-    icon: RouletteIcon,
+    icon: <RouletteIcon />,
   },
   disabled: true,
 });
