@@ -2614,13 +2614,12 @@ __metadata:
   linkType: hard
 
 "@backstage-community/plugin-announcements@npm:^2.3.0":
-  version: 2.4.0
-  resolution: "@backstage-community/plugin-announcements@npm:2.4.0"
+  version: 2.5.1
+  resolution: "@backstage-community/plugin-announcements@npm:2.5.1"
   dependencies:
     "@backstage-community/plugin-announcements-common": "npm:^0.18.0"
     "@backstage-community/plugin-announcements-react": "npm:^0.22.0"
     "@backstage/catalog-model": "npm:^1.7.6"
-    "@backstage/core-app-api": "npm:^1.19.5"
     "@backstage/core-compat-api": "npm:^0.5.8"
     "@backstage/core-components": "npm:^0.18.7"
     "@backstage/core-plugin-api": "npm:^1.12.3"
@@ -2636,7 +2635,6 @@ __metadata:
     "@material-ui/core": "npm:^4.12.2"
     "@material-ui/icons": "npm:^4.11.3"
     "@material-ui/lab": "npm:4.0.0-alpha.61"
-    "@mui/icons-material": "npm:^5.15.6"
     "@mui/material": "npm:^5.15.6"
     "@remixicon/react": "npm:^4.7.0"
     "@types/react": "npm:^17.0.0 || ^18.0.0"
@@ -2648,7 +2646,7 @@ __metadata:
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
     react-router-dom: ^6.3.0
-  checksum: 10c0/bb077e9e17488d2255cc9f714052e1eef7887a4f9db3438bf6bf1a221bcb3448da0188feaf81cdec6b3e07bb9a6ce338d176fd806ec1f77e60e85432be8f26ac
+  checksum: 10c0/4f15cdf639d2efe2f3a1a9afc7903158893156069ac5ab3d8df3b61db076b70159cde98eec82741487215aa447c6069f0f02c3ee44e5831a3d226557cd5566c4
   languageName: node
   linkType: hard
 
@@ -9800,7 +9798,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mui/icons-material@npm:5.18.0, @mui/icons-material@npm:^5.15.6, @mui/icons-material@npm:^5.15.7, @mui/icons-material@npm:^5.17.1, @mui/icons-material@npm:^5.18.0":
+"@mui/icons-material@npm:5.18.0, @mui/icons-material@npm:^5.15.7, @mui/icons-material@npm:^5.17.1, @mui/icons-material@npm:^5.18.0":
   version: 5.18.0
   resolution: "@mui/icons-material@npm:5.18.0"
   dependencies:
