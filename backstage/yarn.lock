@@ -3055,11 +3055,11 @@ __metadata:
   linkType: hard
 
 "@backstage-community/plugin-rbac-backend@npm:^7.7.0":
-  version: 7.9.1
-  resolution: "@backstage-community/plugin-rbac-backend@npm:7.9.1"
+  version: 7.10.0
+  resolution: "@backstage-community/plugin-rbac-backend@npm:7.10.0"
   dependencies:
     "@backstage-community/plugin-rbac-common": "npm:^1.24.1"
-    "@backstage-community/plugin-rbac-node": "npm:^1.18.1"
+    "@backstage-community/plugin-rbac-node": "npm:^1.19.0"
     "@backstage/backend-defaults": "npm:^0.15.2"
     "@backstage/backend-plugin-api": "npm:^1.7.0"
     "@backstage/catalog-client": "npm:^1.13.0"
@@ -3081,7 +3081,7 @@ __metadata:
     typeorm-adapter: "npm:^1.6.1"
     zod: "npm:^3.25.76"
     zod-to-json-schema: "npm:^3.25.1"
-  checksum: 10c0/9bf9b1224e000c98560bc3925e8b788481a2d620120450e376c2e3fb0c18284109ef807dbf1801c55ea1b9f2f0ebd69ebaf50bf69aa078df21fd4ceec631bb21
+  checksum: 10c0/817f82418399f3aa9297a3ef5d12f87951df3e21bafd4cf5d9486b1d9b7ac8ec6901852a57deffa3d0b44cba255e6097a231fd9afeb3dd533100f5597ca32467
   languageName: node
   linkType: hard
 
@@ -3095,12 +3095,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-rbac-node@npm:^1.18.1":
-  version: 1.18.1
-  resolution: "@backstage-community/plugin-rbac-node@npm:1.18.1"
+"@backstage-community/plugin-rbac-node@npm:^1.19.0":
+  version: 1.19.0
+  resolution: "@backstage-community/plugin-rbac-node@npm:1.19.0"
   dependencies:
+    "@backstage-community/plugin-rbac-common": "npm:^1.24.1"
     "@backstage/backend-plugin-api": "npm:^1.7.0"
-  checksum: 10c0/aa8dc702773eca43e852f4f0f656bee59b9072590394d3ebd7a6573a502db34413cf83445eaf917a7e4cee30cb50e479040b2cfe4427a460ab65b8a8bccf23e9
+  checksum: 10c0/791cfdeb44149b15ad84d00f9c0f240660482078b25824b9814b56c1226a5c5cde21eb7eec0dcb1cd226fa2b324b1e96ca9854b23dbad24512bbfc111088e1ad
   languageName: node
   linkType: hard
 
