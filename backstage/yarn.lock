@@ -2934,48 +2934,48 @@ __metadata:
   linkType: hard
 
 "@backstage-community/plugin-npm-backend@npm:^1.17.0":
-  version: 1.19.1
-  resolution: "@backstage-community/plugin-npm-backend@npm:1.19.1"
+  version: 1.20.0
+  resolution: "@backstage-community/plugin-npm-backend@npm:1.20.0"
   dependencies:
-    "@backstage-community/plugin-npm-common": "npm:^1.19.1"
-    "@backstage/backend-defaults": "npm:^0.15.2"
-    "@backstage/backend-plugin-api": "npm:^1.7.0"
+    "@backstage-community/plugin-npm-common": "npm:^1.20.0"
+    "@backstage/backend-defaults": "npm:^0.16.0"
+    "@backstage/backend-plugin-api": "npm:^1.8.0"
     "@backstage/errors": "npm:^1.2.7"
-    "@backstage/plugin-catalog-node": "npm:^2.0.0"
+    "@backstage/plugin-catalog-node": "npm:^2.1.0"
     express: "npm:^4.17.1"
     express-promise-router: "npm:^4.1.0"
-  checksum: 10c0/0f0a798c499b35e557628a2135e563fb23b9b68e81bfc82cbbbcc3b7c1f85acb618657727b04a49e5a393d872d2971521a86988d57dbaf8c6fab2daabcc976a1
+  checksum: 10c0/bb51606d1fe29670f273ca5165c429e48780de175c2421f8c69d5607460a5e548d054fcbcf02fec8722fa0483c66956ab5e5c36b66e91f1af986e5fe03edfeb9
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-npm-common@npm:^1.19.1":
-  version: 1.19.1
-  resolution: "@backstage-community/plugin-npm-common@npm:1.19.1"
+"@backstage-community/plugin-npm-common@npm:^1.20.0":
+  version: 1.20.0
+  resolution: "@backstage-community/plugin-npm-common@npm:1.20.0"
   dependencies:
-    "@backstage/catalog-model": "npm:^1.7.6"
+    "@backstage/catalog-model": "npm:^1.7.7"
     "@backstage/errors": "npm:^1.2.7"
-  checksum: 10c0/d5e9d6b0dc306139c8cbd4c457b006934f6424d851f8af3afabee6ed68ad8395c85e8c4d8ce4ec427dd47f5d71188170507a14efec1ff4585e79221571bb03dd
+  checksum: 10c0/e17e7176148751b0e8b80bd235984aba4c17ee1bee0ef36452c763592269a28220936f70fc16a5ee24573f50de67208729c5069431a12811b22984fb1578eac1
   languageName: node
   linkType: hard
 
 "@backstage-community/plugin-npm@npm:^1.17.0":
-  version: 1.19.1
-  resolution: "@backstage-community/plugin-npm@npm:1.19.1"
+  version: 1.20.0
+  resolution: "@backstage-community/plugin-npm@npm:1.20.0"
   dependencies:
-    "@backstage-community/plugin-npm-common": "npm:^1.19.1"
-    "@backstage/catalog-model": "npm:^1.7.6"
-    "@backstage/core-components": "npm:^0.18.7"
-    "@backstage/core-plugin-api": "npm:^1.12.3"
+    "@backstage-community/plugin-npm-common": "npm:^1.20.0"
+    "@backstage/catalog-model": "npm:^1.7.7"
+    "@backstage/core-components": "npm:^0.18.8"
+    "@backstage/core-plugin-api": "npm:^1.12.4"
     "@backstage/errors": "npm:^1.2.7"
-    "@backstage/frontend-plugin-api": "npm:^0.14.1"
-    "@backstage/plugin-catalog-react": "npm:^2.0.0"
+    "@backstage/frontend-plugin-api": "npm:^0.15.1"
+    "@backstage/plugin-catalog-react": "npm:^2.1.0"
     "@backstage/theme": "npm:^0.7.2"
     "@material-ui/core": "npm:^4.9.13"
     luxon: "npm:^3.5.0"
     react-use: "npm:^17.2.4"
   peerDependencies:
     react: ^16.13.1 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/eae17db4dedd8705b5d5bb56638a581919c5819641211c9bec8267da09f71df985a2602147ddd4a62f200ce891584bd8b50d9477272150ac7ac1db3623074367
+  checksum: 10c0/0ac28f68f2bac3a855259d6b3cbf1218a98c602955f52f6235114447bd017d7fa509393687c2172ac0d46645f7bcac9d3872a25c79446a784a182a005b100f4d
   languageName: node
   linkType: hard
 
