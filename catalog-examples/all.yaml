@@ -14,6 +14,10 @@ spec:
     - ./components/entity-validation-example.yaml
     - ./components/explore-example.yaml
     - ./components/github-actions-example.yaml
+    - ./components/github-deployments-example.yaml
+    - ./components/github-discussions-example.yaml
+    - ./components/github-issues-example.yaml
+    - ./components/github-pull-requests-board-example.yaml
     - ./components/jira-example.yaml
     - ./components/kubernetes-example.yaml
     - ./components/nexus-example.yaml

@@ -122,6 +122,34 @@
       ]
     },
     {
+      "groupName": "github-deployments plugin",
+      "groupSlug": "github-deployments",
+      "matchPackageNames": [
+        "/github-deployments/"
+      ]
+    },
+    {
+      "groupName": "github-discussions plugin",
+      "groupSlug": "github-discussions",
+      "matchPackageNames": [
+        "/github-discussions/"
+      ]
+    },
+    {
+      "groupName": "github-issues plugin",
+      "groupSlug": "github-issues",
+      "matchPackageNames": [
+        "/github-issues/"
+      ]
+    },
+    {
+      "groupName": "github-pull-requests-board plugin",
+      "groupSlug": "github-pull-requests-board",
+      "matchPackageNames": [
+        "/github-pull-requests-board/"
+      ]
+    },
+    {
       "groupName": "http-request plugin",
       "groupSlug": "http-request",
       "matchPackageNames": [
