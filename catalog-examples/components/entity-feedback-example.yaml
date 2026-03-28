@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: entity-feedback-example
+  description: Example component to demonstrate the entity-feedback plugin
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:guest
