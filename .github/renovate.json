@@ -80,6 +80,13 @@
       ]
     },
     {
+      "groupName": "entity-validation plugin",
+      "groupSlug": "entity-validation",
+      "matchPackageNames": [
+        "/entity-validation/"
+      ]
+    },
+    {
       "groupName": "explore plugin",
       "groupSlug": "explore",
       "matchPackageNames": [
