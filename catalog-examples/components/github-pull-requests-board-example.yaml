@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: github-pull-requests-board-example
+  annotations:
+    github.com/project-slug: backstage/backstage
+spec:
+  type: service
+  lifecycle: production
+  owner: user:guest
