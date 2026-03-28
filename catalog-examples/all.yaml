@@ -4,6 +4,7 @@ metadata:
   name: best-of-backstage-catalog-examples
 spec:
   targets:
+    - ./components/acr-example.yaml
     - ./components/adr-example.yaml
     - ./components/bookmarks-example.yaml
     - ./components/entity-feedback-example.yaml

@@ -10,6 +10,13 @@
   ],
   "packageRules": [
     {
+      "groupName": "acr plugin",
+      "groupSlug": "acr",
+      "matchPackageNames": [
+        "/acr/"
+      ]
+    },
+    {
       "groupName": "adr plugin",
       "groupSlug": "adr",
       "matchPackageNames": [

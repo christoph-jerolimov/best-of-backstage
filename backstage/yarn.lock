@@ -2519,6 +2519,25 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@backstage-community/plugin-acr@npm:^1.24.0":
+  version: 1.24.0
+  resolution: "@backstage-community/plugin-acr@npm:1.24.0"
+  dependencies:
+    "@backstage/catalog-model": "npm:^1.7.7"
+    "@backstage/core-components": "npm:^0.18.8"
+    "@backstage/core-plugin-api": "npm:^1.12.4"
+    "@backstage/frontend-plugin-api": "npm:^0.15.1"
+    "@backstage/plugin-catalog-react": "npm:^2.1.0"
+    "@backstage/theme": "npm:^0.7.2"
+    "@material-ui/core": "npm:^4.9.13"
+    luxon: "npm:^3.6.1"
+    react-use: "npm:^17.4.0"
+  peerDependencies:
+    react: ^16.13.1 || ^17.0.0 || ^18.0.0
+  checksum: 10c0/196c3576357b96a129ab35c015cb83a21c46242467c407583e520da04106294faafbd929ca92c0dc40dddeb84f629260c2214ad6eb3aabb1a10042c1e86ac7d2
+  languageName: node
+  linkType: hard
+
 "@backstage-community/plugin-adr-backend@npm:^0.20.0":
   version: 0.20.0
   resolution: "@backstage-community/plugin-adr-backend@npm:0.20.0"
@@ -18728,6 +18747,7 @@ __metadata:
   dependencies:
     "@axis-backstage/plugin-jira-dashboard": "npm:^2.3.0"
     "@axis-backstage/plugin-readme": "npm:^0.18.0"
+    "@backstage-community/plugin-acr": "npm:^1.24.0"
     "@backstage-community/plugin-adr": "npm:^0.23.0"
     "@backstage-community/plugin-announcements": "npm:^2.3.0"
     "@backstage-community/plugin-badges": "npm:^0.18.0"
