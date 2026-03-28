@@ -115,6 +115,13 @@
       ]
     },
     {
+      "groupName": "github-actions plugin",
+      "groupSlug": "github-actions",
+      "matchPackageNames": [
+        "/github-actions/"
+      ]
+    },
+    {
       "groupName": "http-request plugin",
       "groupSlug": "http-request",
       "matchPackageNames": [
