@@ -2628,6 +2628,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@backstage-community/plugin-announcements-common@npm:^0.19.0":
+  version: 0.19.0
+  resolution: "@backstage-community/plugin-announcements-common@npm:0.19.0"
+  dependencies:
+    "@backstage/plugin-permission-common": "npm:^0.9.7"
+  checksum: 10c0/686347d00efb8bcfb1b2f81c7a3829ed18acf921e59248b817e90092cdd383651907c5bda835d2ff29d4f7dec7595a2a97c29e88da9597bff7d1dbd2727e3e07
+  languageName: node
+  linkType: hard
+
 "@backstage-community/plugin-announcements-node@npm:^0.16.0":
   version: 0.16.0
   resolution: "@backstage-community/plugin-announcements-node@npm:0.16.0"
@@ -2639,11 +2648,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-announcements-react@npm:^0.23.0":
-  version: 0.23.0
-  resolution: "@backstage-community/plugin-announcements-react@npm:0.23.0"
+"@backstage-community/plugin-announcements-react@npm:^0.24.0":
+  version: 0.24.0
+  resolution: "@backstage-community/plugin-announcements-react@npm:0.24.0"
   dependencies:
-    "@backstage-community/plugin-announcements-common": "npm:^0.18.0"
+    "@backstage-community/plugin-announcements-common": "npm:^0.19.0"
     "@backstage/catalog-model": "npm:^1.7.7"
     "@backstage/core-app-api": "npm:^1.19.6"
     "@backstage/core-plugin-api": "npm:^1.12.4"
@@ -2654,16 +2663,16 @@ __metadata:
     react-use: "npm:^17.2.4"
   peerDependencies:
     react: ^16.13.1 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/9512b33b218913e373be25e24b3e10db861e96484618fca8eeebea8f9e022a6eb973a2905dade0345396bf3f2ae208ff0256e6a8451b9b18560a2a0e0cd8aaea
+  checksum: 10c0/1ae0693e77a799c51ed9146fe86215b155177a387e515245658d9692faaeebd69eaedf2aca3fe6a1bd4347eaff07014ea6bd6bf765832582b4cfee37e727f4d6
   languageName: node
   linkType: hard
 
 "@backstage-community/plugin-announcements@npm:^2.3.0":
-  version: 2.6.0
-  resolution: "@backstage-community/plugin-announcements@npm:2.6.0"
+  version: 2.7.0
+  resolution: "@backstage-community/plugin-announcements@npm:2.7.0"
   dependencies:
-    "@backstage-community/plugin-announcements-common": "npm:^0.18.0"
-    "@backstage-community/plugin-announcements-react": "npm:^0.23.0"
+    "@backstage-community/plugin-announcements-common": "npm:^0.19.0"
+    "@backstage-community/plugin-announcements-react": "npm:^0.24.0"
     "@backstage/catalog-model": "npm:^1.7.7"
     "@backstage/core-compat-api": "npm:^0.5.9"
     "@backstage/core-components": "npm:^0.18.8"
@@ -2691,7 +2700,7 @@ __metadata:
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
     react-router-dom: ^6.3.0
-  checksum: 10c0/4c288bfa44769abb8b5a5c3f6f58a2c3cb2ca6f212046bf20bfb7cdd929aee2ba319d31ce89e2b0b1a0342488d99fd845e31fe8184f7cd9a348897211fefd96c
+  checksum: 10c0/02448071f1ed5eb8c923190786f23ea012fc39570ce2e9f4527dea78ce703068faf9ce41bc0f79674f0b5faea154a8c267571da26977b3d141eab5093cf92211
   languageName: node
   linkType: hard
 
