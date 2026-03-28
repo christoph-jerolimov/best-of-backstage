@@ -8,6 +8,7 @@ spec:
     - ./components/adr-example.yaml
     - ./components/bookmarks-example.yaml
     - ./components/cicd-statistics-example.yaml
+    - ./components/code-climate-example.yaml
     - ./components/entity-feedback-example.yaml
     - ./components/jira-example.yaml
     - ./components/kubernetes-example.yaml
