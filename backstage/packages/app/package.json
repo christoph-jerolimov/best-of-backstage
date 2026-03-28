@@ -25,6 +25,7 @@
     "@backstage-community/plugin-cicd-statistics-module-github": "^0.13.0",
     "@backstage-community/plugin-cicd-statistics-module-gitlab": "^0.15.0",
     "@backstage-community/plugin-code-climate": "^0.16.0",
+    "@backstage-community/plugin-code-coverage": "^0.13.1",
     "@backstage-community/plugin-entity-feedback": "^0.17.0",
     "@backstage-community/plugin-entity-validation": "^0.5.0",
     "@backstage-community/plugin-explore": "^0.17.0",
