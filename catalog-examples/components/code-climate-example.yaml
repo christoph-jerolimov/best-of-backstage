@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: code-climate-example
+  annotations:
+    codeclimate.com/repo-id: YOUR_REPO_ID
+spec:
+  type: library
+  lifecycle: production
+  owner: user:guest
