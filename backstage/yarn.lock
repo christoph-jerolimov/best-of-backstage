@@ -2896,6 +2896,30 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@backstage-community/plugin-confluence@npm:^0.14.1":
+  version: 0.14.1
+  resolution: "@backstage-community/plugin-confluence@npm:0.14.1"
+  dependencies:
+    "@backstage/core-compat-api": "npm:^0.5.8"
+    "@backstage/core-components": "npm:^0.18.7"
+    "@backstage/core-plugin-api": "npm:^1.12.3"
+    "@backstage/frontend-plugin-api": "npm:^0.14.1"
+    "@backstage/plugin-search-common": "npm:^1.2.22"
+    "@backstage/plugin-search-react": "npm:^1.10.4"
+    "@backstage/theme": "npm:^0.7.2"
+    "@material-ui/core": "npm:^4.12.4"
+    "@material-ui/icons": "npm:^4.11.3"
+    "@material-ui/lab": "npm:^4.0.0-alpha.61"
+    date-fns: "npm:^4.0.0"
+    react-use: "npm:^17.2.4"
+  peerDependencies:
+    react: ^16.13.1 || ^17.0.0 || ^18.0.0
+    react-dom: ^16.13.1 || ^17.0.2
+    react-router-dom: ^6.14.1
+  checksum: 10c0/8fc73cb99f6b6414462fed241e48bb24ec3542a15cd8061e22d7b85918f49933289ab584cf5652a16e4a9907adb683b9b436078a50aafd69fdd39810493ee25e
+  languageName: node
+  linkType: hard
+
 "@backstage-community/plugin-copilot-backend@npm:^0.18.2":
   version: 0.18.2
   resolution: "@backstage-community/plugin-copilot-backend@npm:0.18.2"
@@ -19792,6 +19816,7 @@ __metadata:
     "@backstage-community/plugin-cicd-statistics-module-gitlab": "npm:^0.15.0"
     "@backstage-community/plugin-code-climate": "npm:^0.16.0"
     "@backstage-community/plugin-code-coverage": "npm:^0.13.1"
+    "@backstage-community/plugin-confluence": "npm:^0.14.1"
     "@backstage-community/plugin-copilot": "npm:^0.19.1"
     "@backstage-community/plugin-entity-feedback": "npm:^0.17.0"
     "@backstage-community/plugin-entity-validation": "npm:^0.17.0"
@@ -23300,7 +23325,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"date-fns@npm:^4.1.0":
+"date-fns@npm:^4.0.0, date-fns@npm:^4.1.0":
   version: 4.1.0
   resolution: "date-fns@npm:4.1.0"
   checksum: 10c0/b79ff32830e6b7faa009590af6ae0fb8c3fd9ffad46d930548fbb5acf473773b4712ae887e156ba91a7b3dc30591ce0f517d69fd83bd9c38650fdc03b4e0bac8

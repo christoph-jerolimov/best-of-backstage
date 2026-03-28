@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: confluence-example
+  annotations:
+    confluence.io/doc-keyword: best-of-backstage
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:guest
