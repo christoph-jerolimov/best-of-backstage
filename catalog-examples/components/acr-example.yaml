@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: acr-example
+  annotations:
+    azure-container-registry/repository-name: REPOSITORY-NAME
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:guest
