@@ -4,7 +4,6 @@ import { navModule } from './modules/nav';
 import appTranslationModule from './modules/translations';
 
 import codeClimatePlugin from './plugins/code-climate';
-import entityFeedbackPlugin from './plugins/entity-feedback';
 import gcalendarPlugin from './plugins/gcalendar';
 import jiraPlugin from './plugins/jira';
 // import playlistPlugin from './plugins/playlist';
@@ -19,7 +18,6 @@ export default createApp({
     navModule,
 
     codeClimatePlugin,
-    entityFeedbackPlugin,
     gcalendarPlugin,
     jiraPlugin,
     // playlistPlugin, // FIXME(christoph-jerolimov): playlist plugin integration doesn't work so far,
