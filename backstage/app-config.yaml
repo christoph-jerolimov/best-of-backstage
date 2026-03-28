@@ -176,6 +176,9 @@ backend:
       # readme plugin
       - '@axis-backstage/plugin-readme-backend'
 
+      # entity-feedback plugin
+      - '@backstage-community/plugin-entity-feedback-backend'
+
       # todo plugin
       - '@backstage-community/plugin-todo-backend'
 

@@ -66,6 +66,13 @@
       ]
     },
     {
+      "groupName": "entity-feedback plugin",
+      "groupSlug": "entity-feedback",
+      "matchPackageNames": [
+        "/entity-feedback/"
+      ]
+    },
+    {
       "groupName": "gcalendar plugin",
       "groupSlug": "gcalendar",
       "matchPackageNames": [
