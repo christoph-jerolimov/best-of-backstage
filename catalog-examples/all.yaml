@@ -13,6 +13,7 @@ spec:
     - ./components/entity-feedback-example.yaml
     - ./components/entity-validation-example.yaml
     - ./components/explore-example.yaml
+    - ./components/github-actions-example.yaml
     - ./components/jira-example.yaml
     - ./components/kubernetes-example.yaml
     - ./components/nexus-example.yaml
