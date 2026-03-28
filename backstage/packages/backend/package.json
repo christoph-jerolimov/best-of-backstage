@@ -20,7 +20,7 @@
     "@axis-backstage/plugin-jira-dashboard-backend": "^6.1.0",
     "@axis-backstage/plugin-readme-backend": "^0.16.0",
     "@backstage-community/plugin-adr-backend": "^0.20.0",
-    "@backstage-community/plugin-announcements-backend": "^0.22.0",
+    "@backstage-community/plugin-announcements-backend": "^0.23.0",
     "@backstage-community/plugin-badges-backend": "^0.21.0",
     "@backstage-community/plugin-code-coverage-backend": "^0.15.1",
     "@backstage-community/plugin-copilot-backend": "^0.18.2",
