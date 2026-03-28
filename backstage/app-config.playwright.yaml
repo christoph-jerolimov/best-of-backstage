@@ -1,4 +1,4 @@
-# App config overrides for e2e tests.
+# App config overrides for Playwright e2e tests.
 # This config is layered on top of app-config.yaml.
 
 app:
