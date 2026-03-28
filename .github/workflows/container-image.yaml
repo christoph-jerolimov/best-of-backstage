@@ -10,6 +10,10 @@ on:
   schedule:
     - cron: '0 8 * * MON'  # Monday at 8am, we might increase this at some point
 
+concurrency:
+  group: container-image-${{ github.ref }}
+  cancel-in-progress: true
+
 # Sets permissions of the GITHUB_TOKEN to allow pushing a conatainer image to ghcr.io
 permissions:
   contents: read
