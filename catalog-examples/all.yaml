@@ -19,5 +19,6 @@ spec:
     - ./components/npm-example.yaml
     - ./components/quay-example.yaml
     - ./components/readme-example.yaml
+    - ./components/copilot-example.yaml
     - ./components/todo-example.yaml
     - ./template/template.yaml

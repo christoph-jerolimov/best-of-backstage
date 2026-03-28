@@ -80,6 +80,13 @@
       ]
     },
     {
+      "groupName": "copilot plugin",
+      "groupSlug": "copilot",
+      "matchPackageNames": [
+        "/copilot/"
+      ]
+    },
+    {
       "groupName": "entity-feedback plugin",
       "groupSlug": "entity-feedback",
       "matchPackageNames": [

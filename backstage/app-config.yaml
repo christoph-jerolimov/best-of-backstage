@@ -188,6 +188,9 @@ backend:
       # todo plugin
       - '@backstage-community/plugin-todo-backend'
 
+      # copilot plugin
+      - '@backstage-community/plugin-copilot-backend'
+
     exclude: []
 
   actions:
