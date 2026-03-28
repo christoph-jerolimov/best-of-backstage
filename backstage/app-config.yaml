@@ -128,7 +128,7 @@ backend:
       - '@backstage-community/plugin-scaffolder-backend-module-servicenow'
       - '@backstage-community/plugin-scaffolder-backend-module-sonarqube'
       - '@backstage-community/plugin-scaffolder-backend-module-quay'
-      # - '@backstage-community/plugin-scaffolder-backend-module-jenkins'
+      - '@backstage-community/plugin-scaffolder-backend-module-jenkins'
 
       - '@aws/aws-core-plugin-for-backstage-scaffolder-actions'
       - '@roadiehq/scaffolder-backend-module-aws'
@@ -184,6 +184,12 @@ backend:
 
       # entity-feedback plugin
       - '@backstage-community/plugin-entity-feedback-backend'
+
+      # jenkins plugin
+      - '@backstage-community/plugin-jenkins-backend'
+
+      # lighthouse plugin
+      - '@backstage-community/plugin-lighthouse-backend'
 
       # todo plugin
       - '@backstage-community/plugin-todo-backend'
