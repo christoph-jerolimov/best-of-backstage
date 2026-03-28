@@ -67,6 +67,10 @@ catalog:
     - type: url
       target: https://github.com/christoph-jerolimov/best-of-backstage/blob/main/examples/readme-example.yaml
 
+    # cost-insights plugin
+    - type: url
+      target: https://github.com/christoph-jerolimov/best-of-backstage/blob/main/catalog-examples/components/cost-insights-example.yaml
+
     # todo plugin
     - type: url
       target: https://github.com/christoph-jerolimov/best-of-backstage/blob/main/catalog-examples/todo-example.yaml

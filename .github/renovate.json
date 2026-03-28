@@ -87,6 +87,13 @@
       ]
     },
     {
+      "groupName": "cost-insights plugin",
+      "groupSlug": "cost-insights",
+      "matchPackageNames": [
+        "/cost-insights/"
+      ]
+    },
+    {
       "groupName": "entity-feedback plugin",
       "groupSlug": "entity-feedback",
       "matchPackageNames": [
