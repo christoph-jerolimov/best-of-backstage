@@ -161,6 +161,9 @@ backend:
       # badges plugin
       - '@backstage-community/plugin-badges-backend'
 
+      # code-coverage plugin
+      - '@backstage-community/plugin-code-coverage-backend'
+
       # explore plugin
       - '@backstage-community/plugin-explore-backend'
 

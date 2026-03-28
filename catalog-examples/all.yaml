@@ -9,6 +9,7 @@ spec:
     - ./components/bookmarks-example.yaml
     - ./components/cicd-statistics-example.yaml
     - ./components/code-climate-example.yaml
+    - ./components/code-coverage-example.yaml
     - ./components/entity-feedback-example.yaml
     - ./components/entity-validation-example.yaml
     - ./components/explore-example.yaml

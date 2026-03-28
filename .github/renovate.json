@@ -73,6 +73,13 @@
       ]
     },
     {
+      "groupName": "code-coverage plugin",
+      "groupSlug": "code-coverage",
+      "matchPackageNames": [
+        "/code-coverage/"
+      ]
+    },
+    {
       "groupName": "entity-feedback plugin",
       "groupSlug": "entity-feedback",
       "matchPackageNames": [
