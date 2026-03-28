@@ -161,6 +161,9 @@ backend:
       # badges plugin
       - '@backstage-community/plugin-badges-backend'
 
+      # explore plugin
+      - '@backstage-community/plugin-explore-backend'
+
       # jira plugin
       # - '@axis-backstage/plugin-jira-dashboard-backend'
 

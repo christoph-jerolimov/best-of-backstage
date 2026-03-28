@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: explore-example
+  description: Example component for the explore plugin
+  tags:
+    - explore
+spec:
+  type: service
+  lifecycle: experimental
+  owner: guests

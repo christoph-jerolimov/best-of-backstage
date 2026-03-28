@@ -80,6 +80,13 @@
       ]
     },
     {
+      "groupName": "explore plugin",
+      "groupSlug": "explore",
+      "matchPackageNames": [
+        "/explore/"
+      ]
+    },
+    {
       "groupName": "gcalendar plugin",
       "groupSlug": "gcalendar",
       "matchPackageNames": [
