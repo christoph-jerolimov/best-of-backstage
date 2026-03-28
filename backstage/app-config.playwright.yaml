@@ -1,0 +1,28 @@
+# App config overrides for Playwright e2e tests.
+# This config is layered on top of app-config.yaml.
+
+app:
+  baseUrl: http://localhost:3000
+
+backend:
+  baseUrl: http://localhost:7007
+  listen:
+    port: 7007
+  database:
+    client: better-sqlite3
+    connection: ':memory:'
+
+auth:
+  providers:
+    guest:
+      dangerouslyAllowOutsideDevelopment: true
+
+catalog:
+  locations:
+    # Use local file locations so e2e tests don't depend on network access
+    - type: file
+      target: ../../../catalog-info.yaml
+    - type: file
+      target: ../../../catalog-examples/all.yaml
+      rules:
+        - allow: [Location, Component, Template]

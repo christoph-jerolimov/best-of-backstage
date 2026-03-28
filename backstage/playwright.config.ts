@@ -13,7 +13,8 @@ export default defineConfig({
   // Run your local dev server before starting the tests
   webServer: [
     {
-      command: 'yarn start',
+      command:
+        'yarn start --config ../../app-config.yaml --config ../../app-config.playwright.yaml',
       port: 3000,
       reuseExistingServer: true,
       timeout: 60_000,
