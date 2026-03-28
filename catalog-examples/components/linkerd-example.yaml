@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: linkerd-example
+  annotations:
+    backstage.io/kubernetes-id: my-service
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:guest

@@ -18,8 +18,11 @@ spec:
     - ./components/github-discussions-example.yaml
     - ./components/github-issues-example.yaml
     - ./components/github-pull-requests-board-example.yaml
+    - ./components/jenkins-example.yaml
     - ./components/jira-example.yaml
     - ./components/kubernetes-example.yaml
+    - ./components/lighthouse-example.yaml
+    - ./components/linkerd-example.yaml
     - ./components/nexus-example.yaml
     - ./components/npm-example.yaml
     - ./components/quay-example.yaml

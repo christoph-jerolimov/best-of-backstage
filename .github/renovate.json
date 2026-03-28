@@ -164,6 +164,20 @@
       ]
     },
     {
+      "groupName": "lighthouse plugin",
+      "groupSlug": "lighthouse",
+      "matchPackageNames": [
+        "/lighthouse/"
+      ]
+    },
+    {
+      "groupName": "linkerd plugin",
+      "groupSlug": "linkerd",
+      "matchPackageNames": [
+        "/linkerd/"
+      ]
+    },
+    {
       "groupName": "jira plugin",
       "groupSlug": "jira",
       "matchPackageNames": [
