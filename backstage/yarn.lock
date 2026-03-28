@@ -2904,6 +2904,87 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@backstage-community/plugin-explore-backend@npm:^0.14.0":
+  version: 0.14.0
+  resolution: "@backstage-community/plugin-explore-backend@npm:0.14.0"
+  dependencies:
+    "@backstage-community/plugin-explore-common": "npm:^0.12.0"
+    "@backstage-community/plugin-explore-node": "npm:^0.13.0"
+    "@backstage/backend-plugin-api": "npm:^1.6.2"
+    "@backstage/config": "npm:^1.3.6"
+    "@backstage/types": "npm:^1.2.2"
+    "@types/express": "npm:*"
+    express: "npm:^4.18.1"
+    express-promise-router: "npm:^4.1.0"
+    lodash: "npm:^4.17.21"
+    node-fetch: "npm:^2.6.7"
+    yn: "npm:^4.0.0"
+  checksum: 10c0/2e75b3e6cd5f4f79496d845baded3538ae4c01414de2ab4e5e9a14ed3e6bc64ddbb035fd6879f4255ebc8daca33853ac2225e78feacdea9a9d169a6844f83f11
+  languageName: node
+  linkType: hard
+
+"@backstage-community/plugin-explore-common@npm:^0.12.0":
+  version: 0.12.0
+  resolution: "@backstage-community/plugin-explore-common@npm:0.12.0"
+  checksum: 10c0/c418d6be877a585a2340f2c3b0e493a6b09d05f6a7b04ae140fc0a49d92e4decddedb81db7c7fd36a1068c224f3904b97250a7f6450dda97f4364e763f87707f
+  languageName: node
+  linkType: hard
+
+"@backstage-community/plugin-explore-node@npm:^0.13.0":
+  version: 0.13.0
+  resolution: "@backstage-community/plugin-explore-node@npm:0.13.0"
+  dependencies:
+    "@backstage-community/plugin-explore-common": "npm:^0.12.0"
+    "@backstage/backend-plugin-api": "npm:^1.6.2"
+  checksum: 10c0/2759d3fa140034008dad53da5c1b8c5fc8c713d79e3f064fbfaf27bd3ef40386012786bd54dff6cbe3863ebd6e2ec8e0ab1b0ccd33f4d220bcc36b7173b5f093
+  languageName: node
+  linkType: hard
+
+"@backstage-community/plugin-explore-react@npm:^0.12.0":
+  version: 0.12.0
+  resolution: "@backstage-community/plugin-explore-react@npm:0.12.0"
+  dependencies:
+    "@backstage-community/plugin-explore-common": "npm:^0.12.0"
+    "@backstage/core-plugin-api": "npm:^1.12.2"
+  peerDependencies:
+    react: ^16.13.1 || ^17.0.0 || ^18.0.0
+    react-dom: ^16.13.1 || ^17.0.0 || ^18.0.0
+    react-router-dom: 6.0.0-beta.0 || ^6.3.0
+  checksum: 10c0/62dfe3156172527ce6a2d255d32c87fa654de57fa84c81a6e328072e26c5bf205dd42c596f2f25b51b6e375fdfe06cb365a41f7062e537b383e1a8c62adb7131
+  languageName: node
+  linkType: hard
+
+"@backstage-community/plugin-explore@npm:^0.17.0":
+  version: 0.17.0
+  resolution: "@backstage-community/plugin-explore@npm:0.17.0"
+  dependencies:
+    "@backstage-community/plugin-explore-common": "npm:^0.12.0"
+    "@backstage-community/plugin-explore-react": "npm:^0.12.0"
+    "@backstage/catalog-client": "npm:^1.12.1"
+    "@backstage/catalog-model": "npm:^1.7.6"
+    "@backstage/core-compat-api": "npm:^0.5.7"
+    "@backstage/core-components": "npm:^0.18.6"
+    "@backstage/core-plugin-api": "npm:^1.12.2"
+    "@backstage/errors": "npm:^1.2.7"
+    "@backstage/frontend-plugin-api": "npm:^0.13.4"
+    "@backstage/plugin-catalog-react": "npm:^1.21.6"
+    "@backstage/plugin-search-common": "npm:^1.2.21"
+    "@backstage/plugin-search-react": "npm:^1.10.2"
+    "@material-ui/core": "npm:^4.12.2"
+    "@material-ui/icons": "npm:^4.9.1"
+    "@types/react": "npm:^16.13.1 || ^17.0.0 || ^18.0.0"
+    classnames: "npm:^2.2.6"
+    pluralize: "npm:^8.0.0"
+    react-use: "npm:^17.2.4"
+  peerDependencies:
+    react: ^16.13.1 || ^17.0.0 || ^18.0.0
+    react-dom: ^16.13.1 || ^17.0.0 || ^18.0.0
+    react-router: "*"
+    react-router-dom: 6.0.0-beta.0 || ^6.3.0
+  checksum: 10c0/85a5544440ece5eb8ec80c0ec8d4b82fc5a80023ab3a7d86553c19db084ada3e1f072edb428d0350899b2ba3bd5b4c6e98b169178cdfe804e30d6048d7d85dfd
+  languageName: node
+  linkType: hard
+
 "@backstage-community/plugin-gcalendar@npm:^0.18.0":
   version: 0.18.0
   resolution: "@backstage-community/plugin-gcalendar@npm:0.18.0"
@@ -5372,7 +5453,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage/plugin-catalog-react@npm:^1.21.2, @backstage/plugin-catalog-react@npm:^1.21.3, @backstage/plugin-catalog-react@npm:^1.21.4":
+"@backstage/plugin-catalog-react@npm:^1.21.2, @backstage/plugin-catalog-react@npm:^1.21.3, @backstage/plugin-catalog-react@npm:^1.21.4, @backstage/plugin-catalog-react@npm:^1.21.6":
   version: 1.21.6
   resolution: "@backstage/plugin-catalog-react@npm:1.21.6"
   dependencies:
@@ -6815,7 +6896,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage/plugin-search-common@npm:^1.2.22":
+"@backstage/plugin-search-common@npm:^1.2.21, @backstage/plugin-search-common@npm:^1.2.22":
   version: 1.2.22
   resolution: "@backstage/plugin-search-common@npm:1.2.22"
   dependencies:
@@ -6825,7 +6906,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage/plugin-search-react@npm:^1.10.4, @backstage/plugin-search-react@npm:^1.11.0":
+"@backstage/plugin-search-react@npm:^1.10.2, @backstage/plugin-search-react@npm:^1.10.4, @backstage/plugin-search-react@npm:^1.11.0":
   version: 1.11.0
   resolution: "@backstage/plugin-search-react@npm:1.11.0"
   dependencies:
@@ -18757,6 +18838,7 @@ __metadata:
     "@backstage-community/plugin-cicd-statistics-module-gitlab": "npm:^0.15.0"
     "@backstage-community/plugin-code-climate": "npm:^0.16.0"
     "@backstage-community/plugin-entity-feedback": "npm:^0.17.0"
+    "@backstage-community/plugin-explore": "npm:^0.17.0"
     "@backstage-community/plugin-gcalendar": "npm:^0.18.0"
     "@backstage-community/plugin-mcp-chat": "npm:^0.5.0"
     "@backstage-community/plugin-nexus-repository-manager": "npm:^1.21.0"
@@ -19480,6 +19562,7 @@ __metadata:
     "@backstage-community/plugin-announcements-backend": "npm:^0.22.0"
     "@backstage-community/plugin-badges-backend": "npm:^0.21.0"
     "@backstage-community/plugin-entity-feedback-backend": "npm:^0.19.0"
+    "@backstage-community/plugin-explore-backend": "npm:^0.14.0"
     "@backstage-community/plugin-mcp-chat-backend": "npm:^0.7.0"
     "@backstage-community/plugin-npm-backend": "npm:^1.17.0"
     "@backstage-community/plugin-playlist-backend": "npm:^0.19.0"
