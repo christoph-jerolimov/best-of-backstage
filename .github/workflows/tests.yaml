@@ -6,11 +6,13 @@ on:
     paths:
       - .github/workflows/tests.yaml
       - backstage/**
+      - catalog-examples/**
   pull_request:
     branches: ["main"]
     paths:
       - .github/workflows/tests.yaml
       - backstage/**
+      - catalog-examples/**
 
 jobs:
   build:
