@@ -24,10 +24,10 @@
       ]
     },
     {
-      "groupName": "annoncements plugin",
-      "groupSlug": "annoncements",
+      "groupName": "announcements plugin",
+      "groupSlug": "announcements",
       "matchPackageNames": [
-        "/annoncements/"
+        "/announcements/"
       ]
     },
     {
