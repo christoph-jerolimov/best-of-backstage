@@ -62,4 +62,4 @@ jobs:
           path: |
             backstage/e2e-test-report/
             backstage/node_modules/.cache/e2e-test-results/
-          retention-days: 30
+          retention-days: 3
