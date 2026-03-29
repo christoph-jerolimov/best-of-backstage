@@ -20,6 +20,10 @@ export class Backstage {
     return this.page.locator('header, .bui-Header, .bui-HeaderPage');
   }
 
+  get tabs() {
+    return this.page.locator('div[class*=BackstageHeaderTabs-tabsWrapper]');
+  }
+
   get content() {
     return this.page.locator('article, .bui-Header + *, .bui-HeaderPage + *');
   }
