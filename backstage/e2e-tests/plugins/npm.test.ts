@@ -15,7 +15,7 @@ test('npm plugin card on catalog entity', async ({ backstage }) => {
 
   // Search for the npm-example entity
   await backstage.content
-    .getByPlaceholder('Filter', { exact: false })
+    .getByPlaceholder('Search', { exact: false })
     .fill('npm-example');
 
   // Click on the npm-example entity to open its page

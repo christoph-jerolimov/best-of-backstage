@@ -13,7 +13,7 @@ test('Confluence plugin card on catalog entity', async ({ backstage }) => {
   await expect(backstage.header.getByText('Demo Catalog')).toBeVisible();
 
   await backstage.content
-    .getByPlaceholder('Filter', { exact: false })
+    .getByPlaceholder('Search', { exact: false })
     .fill('confluence-example');
 
   await backstage.content

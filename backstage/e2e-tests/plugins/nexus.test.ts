@@ -15,7 +15,7 @@ test('Nexus Repository Manager plugin card on catalog entity', async ({
   await expect(backstage.header.getByText('Demo Catalog')).toBeVisible();
 
   await backstage.content
-    .getByPlaceholder('Filter', { exact: false })
+    .getByPlaceholder('Search', { exact: false })
     .fill('nexus-example');
 
   await backstage.content.getByRole('link', { name: 'nexus-example' }).click();

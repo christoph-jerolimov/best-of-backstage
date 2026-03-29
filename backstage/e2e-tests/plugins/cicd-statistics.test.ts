@@ -15,7 +15,7 @@ test('CI/CD Statistics plugin card on catalog entity', async ({
   await expect(backstage.header.getByText('Demo Catalog')).toBeVisible();
 
   await backstage.content
-    .getByPlaceholder('Filter', { exact: false })
+    .getByPlaceholder('Search', { exact: false })
     .fill('cicd-statistics-example');
 
   await backstage.content

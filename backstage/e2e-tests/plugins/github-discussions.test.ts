@@ -15,7 +15,7 @@ test('GitHub Discussions plugin card on catalog entity', async ({
   await expect(backstage.header.getByText('Demo Catalog')).toBeVisible();
 
   await backstage.content
-    .getByPlaceholder('Filter', { exact: false })
+    .getByPlaceholder('Search', { exact: false })
     .fill('github-discussions-example');
 
   await backstage.content
