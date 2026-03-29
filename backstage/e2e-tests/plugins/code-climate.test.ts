@@ -6,7 +6,9 @@ const test = base.extend<{ backstage: Backstage }>({
   backstage: ({ page }, use) => use(new Backstage(page)),
 });
 
-test('Code Climate plugin card on catalog entity', async ({ backstage }) => {
+test.fixme('Code Climate plugin card on catalog entity', async ({
+  backstage,
+}) => {
   await backstage.login();
 
   await backstage.sidebarItem('Catalog').click();

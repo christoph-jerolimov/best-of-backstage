@@ -6,25 +6,10 @@ const test = base.extend<{ backstage: Backstage }>({
   backstage: ({ page }, use) => use(new Backstage(page)),
 });
 
-test('Entity Validation plugin card on catalog entity', async ({
-  backstage,
-}) => {
+test('Entity Validation plugin', async ({ backstage }) => {
   await backstage.login();
 
-  await backstage.sidebarItem('Catalog').click();
-  await expect(backstage.header.getByText('Demo Catalog')).toBeVisible();
+  await backstage.sidebarItem('Entity Validation').click();
 
-  await backstage.content
-    .getByPlaceholder('Search', { exact: false })
-    .fill('entity-validation-example');
-
-  await backstage.content
-    .getByRole('link', { name: 'entity-validation-example' })
-    .click();
-
-  await expect(
-    backstage.header.getByText('entity-validation-example'),
-  ).toBeVisible();
-
-  await expect(backstage.content.getByText('Entity Validation')).toBeVisible();
+  await expect(backstage.header.getByText('Entity Validator')).toBeVisible();
 });

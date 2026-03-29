@@ -22,7 +22,18 @@ test('Nexus Repository Manager plugin card on catalog entity', async ({
 
   await expect(backstage.header.getByText('nexus-example')).toBeVisible();
 
+  await backstage.tabs.getByText('Build Artifacts').click();
+
   await expect(
-    backstage.content.getByText('Nexus Repository Manager'),
+    backstage.content.getByText(
+      'Nexus Repository Manager: ORGANIZATION/REPOSITORY',
+    ),
   ).toBeVisible();
+
+  await expect(backstage.content.getByText('Version')).toBeVisible();
+  await expect(backstage.content.getByText('Artifact')).toBeVisible();
+  await expect(backstage.content.getByText('Repository Type')).toBeVisible();
+  await expect(backstage.content.getByText('Checksum')).toBeVisible();
+  await expect(backstage.content.getByText('Modified')).toBeVisible();
+  await expect(backstage.content.getByText('Size')).toBeVisible();
 });

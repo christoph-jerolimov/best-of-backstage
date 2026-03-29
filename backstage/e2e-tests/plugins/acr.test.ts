@@ -20,7 +20,11 @@ test('ACR plugin card on catalog entity', async ({ backstage }) => {
 
   await expect(backstage.header.getByText('acr-example')).toBeVisible();
 
+  await backstage.tabs.getByText('ACR images').click();
+
   await expect(
-    backstage.content.getByText('Azure Container Registry'),
+    backstage.content.getByText(
+      'Azure Container Registry Repository: REPOSITORY-NAME',
+    ),
   ).toBeVisible();
 });

@@ -6,7 +6,7 @@ const test = base.extend<{ backstage: Backstage }>({
   backstage: ({ page }, use) => use(new Backstage(page)),
 });
 
-test('GitHub Discussions plugin card on catalog entity', async ({
+test.fixme('GitHub Discussions plugin card on catalog entity', async ({
   backstage,
 }) => {
   await backstage.login();

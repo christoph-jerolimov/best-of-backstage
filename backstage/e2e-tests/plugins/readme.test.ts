@@ -20,5 +20,13 @@ test('Readme plugin card on catalog entity', async ({ backstage }) => {
 
   await expect(backstage.header.getByText('readme-example')).toBeVisible();
 
-  await expect(backstage.content.getByText('Readme')).toBeVisible();
+  await expect(
+    backstage.content.getByText('README', { exact: true }),
+  ).toBeVisible();
+  await expect(
+    backstage.content.getByText('Readme plugin', { exact: true }),
+  ).toBeVisible();
+  await expect(
+    backstage.content.getByText('Welcome to the readme plugin!'),
+  ).toBeVisible();
 });

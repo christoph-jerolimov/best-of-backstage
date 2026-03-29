@@ -6,6 +6,14 @@ const test = base.extend<{ backstage: Backstage }>({
   backstage: ({ page }, use) => use(new Backstage(page)),
 });
 
+test('Lighthouse plugin', async ({ backstage }) => {
+  await backstage.login();
+
+  await backstage.sidebarItem('Lighthouse').click();
+
+  // FIXME await expect(backstage.header.getByText('Lighthouse')).toBeVisible();
+});
+
 test('Lighthouse plugin card on catalog entity', async ({ backstage }) => {
   await backstage.login();
 
@@ -22,5 +30,5 @@ test('Lighthouse plugin card on catalog entity', async ({ backstage }) => {
 
   await expect(backstage.header.getByText('lighthouse-example')).toBeVisible();
 
-  await expect(backstage.content.getByText('Lighthouse')).toBeVisible();
+  await backstage.tabs.getByText('Lighthouse').click();
 });

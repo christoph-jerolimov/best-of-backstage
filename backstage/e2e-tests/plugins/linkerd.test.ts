@@ -22,5 +22,14 @@ test('Linkerd plugin card on catalog entity', async ({ backstage }) => {
 
   await expect(backstage.header.getByText('linkerd-example')).toBeVisible();
 
-  await expect(backstage.content.getByText('Linkerd')).toBeVisible();
+  await backstage.tabs.getByText('Linkerd').click();
+
+  await expect(
+    backstage.content.getByText('Linkerd Runtime Dependencies'),
+  ).toBeVisible();
+  await expect(
+    backstage.content.getByText(
+      "This service doesn't look like it's tagged with the right service, or linkerd is not injected.",
+    ),
+  ).toBeVisible();
 });

@@ -6,21 +6,10 @@ const test = base.extend<{ backstage: Backstage }>({
   backstage: ({ page }, use) => use(new Backstage(page)),
 });
 
-test('Copilot plugin card on catalog entity', async ({ backstage }) => {
+test('Copilot plugin', async ({ backstage }) => {
   await backstage.login();
 
-  await backstage.sidebarItem('Catalog').click();
-  await expect(backstage.header.getByText('Demo Catalog')).toBeVisible();
+  await backstage.sidebarItem('Copilot').click();
 
-  await backstage.content
-    .getByPlaceholder('Search', { exact: false })
-    .fill('copilot-example');
-
-  await backstage.content
-    .getByRole('link', { name: 'copilot-example' })
-    .click();
-
-  await expect(backstage.header.getByText('copilot-example')).toBeVisible();
-
-  await expect(backstage.content.getByText('Copilot')).toBeVisible();
+  await expect(backstage.header.getByText('Copilot Dashboard')).toBeVisible();
 });

@@ -26,5 +26,7 @@ test('CI/CD Statistics plugin card on catalog entity', async ({
     backstage.header.getByText('cicd-statistics-example'),
   ).toBeVisible();
 
-  await expect(backstage.content.getByText('CI/CD Statistics')).toBeVisible();
+  await backstage.tabs.getByText('CI/CD Statistics').click();
+
+  await expect(backstage.content.getByText('Fetching options')).toBeVisible();
 });

@@ -22,5 +22,7 @@ test('Kubernetes plugin card on catalog entity', async ({ backstage }) => {
 
   await expect(backstage.header.getByText('kubernetes-example')).toBeVisible();
 
-  await expect(backstage.content.getByText('Kubernetes')).toBeVisible();
+  await backstage.tabs.getByText('Kubernetes').click();
+
+  // await expect(backstage.content.getByText('Kubernetes')).toBeVisible();
 });

@@ -20,5 +20,9 @@ test('ADR plugin card on catalog entity', async ({ backstage }) => {
 
   await expect(backstage.header.getByText('adr-example')).toBeVisible();
 
-  await expect(backstage.content.getByText('ADRs')).toBeVisible();
+  await backstage.tabs.getByText('ADRs').click();
+
+  await expect(
+    backstage.content.getByText('Architecture Decision Records'),
+  ).toBeVisible();
 });

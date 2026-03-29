@@ -22,5 +22,13 @@ test('Jenkins plugin card on catalog entity', async ({ backstage }) => {
 
   await expect(backstage.header.getByText('jenkins-example')).toBeVisible();
 
-  await expect(backstage.content.getByText('Jenkins')).toBeVisible();
+  await backstage.tabs.getByText('Jenkins').click();
+
+  await expect(backstage.content.getByText('Projects')).toBeVisible();
+
+  await expect(backstage.content.getByText('Source')).toBeVisible();
+  await expect(backstage.content.getByText('Build')).toBeVisible();
+  await expect(backstage.content.getByText('Tests')).toBeVisible();
+  await expect(backstage.content.getByText('Status')).toBeVisible();
+  await expect(backstage.content.getByText('Last run duration')).toBeVisible();
 });
