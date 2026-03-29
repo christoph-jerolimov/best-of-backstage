@@ -54,3 +54,12 @@ jobs:
 
       - run: yarn test:e2e
         working-directory: backstage
+
+      - uses: actions/upload-artifact@v4
+        if: ${{ !cancelled() }}
+        with:
+          name: playwright-report-node${{ matrix.node_version }}
+          path: |
+            backstage/e2e-test-report/
+            backstage/node_modules/.cache/e2e-test-results/
+          retention-days: 3
