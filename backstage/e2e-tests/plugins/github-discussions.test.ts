@@ -26,7 +26,5 @@ test('GitHub Discussions plugin card on catalog entity', async ({
     backstage.header.getByText('github-discussions-example'),
   ).toBeVisible();
 
-  await expect(
-    backstage.content.getByText('GitHub Discussions'),
-  ).toBeVisible();
+  await expect(backstage.content.getByText('GitHub Discussions')).toBeVisible();
 });

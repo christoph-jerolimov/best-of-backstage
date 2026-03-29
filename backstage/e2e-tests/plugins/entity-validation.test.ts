@@ -26,7 +26,5 @@ test('Entity Validation plugin card on catalog entity', async ({
     backstage.header.getByText('entity-validation-example'),
   ).toBeVisible();
 
-  await expect(
-    backstage.content.getByText('Entity Validation'),
-  ).toBeVisible();
+  await expect(backstage.content.getByText('Entity Validation')).toBeVisible();
 });

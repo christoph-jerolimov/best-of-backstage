@@ -20,9 +20,7 @@ test('Confluence plugin card on catalog entity', async ({ backstage }) => {
     .getByRole('link', { name: 'confluence-example' })
     .click();
 
-  await expect(
-    backstage.header.getByText('confluence-example'),
-  ).toBeVisible();
+  await expect(backstage.header.getByText('confluence-example')).toBeVisible();
 
   await expect(backstage.content.getByText('Confluence')).toBeVisible();
 });

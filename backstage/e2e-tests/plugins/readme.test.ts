@@ -16,9 +16,7 @@ test('Readme plugin card on catalog entity', async ({ backstage }) => {
     .getByPlaceholder('Filter', { exact: false })
     .fill('readme-example');
 
-  await backstage.content
-    .getByRole('link', { name: 'readme-example' })
-    .click();
+  await backstage.content.getByRole('link', { name: 'readme-example' }).click();
 
   await expect(backstage.header.getByText('readme-example')).toBeVisible();
 

@@ -20,9 +20,7 @@ test('Lighthouse plugin card on catalog entity', async ({ backstage }) => {
     .getByRole('link', { name: 'lighthouse-example' })
     .click();
 
-  await expect(
-    backstage.header.getByText('lighthouse-example'),
-  ).toBeVisible();
+  await expect(backstage.header.getByText('lighthouse-example')).toBeVisible();
 
   await expect(backstage.content.getByText('Lighthouse')).toBeVisible();
 });

@@ -26,7 +26,5 @@ test('GitHub Deployments plugin card on catalog entity', async ({
     backstage.header.getByText('github-deployments-example'),
   ).toBeVisible();
 
-  await expect(
-    backstage.content.getByText('GitHub Deployments'),
-  ).toBeVisible();
+  await expect(backstage.content.getByText('GitHub Deployments')).toBeVisible();
 });
