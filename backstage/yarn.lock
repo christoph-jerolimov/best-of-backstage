@@ -14878,14 +14878,14 @@ __metadata:
   linkType: hard
 
 "@roadiehq/scaffolder-backend-module-http-request@npm:^5.5.1":
-  version: 5.5.1
-  resolution: "@roadiehq/scaffolder-backend-module-http-request@npm:5.5.1"
+  version: 5.6.0
+  resolution: "@roadiehq/scaffolder-backend-module-http-request@npm:5.6.0"
   dependencies:
     "@backstage/backend-plugin-api": "npm:^1.4.4"
     "@backstage/core-plugin-api": "npm:^1.11.1"
     "@backstage/plugin-scaffolder-node": "npm:^0.12.0"
     cross-fetch: "npm:^4.0.0"
-  checksum: 10c0/16b66be978e0ad4a68a516bee7833261f63cd69dc920d3b7964b4f31e278142e83e5db029529e1734110514a3be2522825ad15499ad9d64f8a2cff1e877c3335
+  checksum: 10c0/5ee3cc0d2fb7fc30c6ce4c063f6d4010d014f370fc9a56cb4e01b19751f35763f677f31d1198bad6857e249edaece5c477ee138a99f8a953d94e2528549e3ea1
   languageName: node
   linkType: hard
 
