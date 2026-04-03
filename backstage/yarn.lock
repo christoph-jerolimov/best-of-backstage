@@ -3151,13 +3151,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-gcalendar@npm:^0.18.0":
-  version: 0.18.0
-  resolution: "@backstage-community/plugin-gcalendar@npm:0.18.0"
+"@backstage-community/plugin-gcalendar@npm:^0.19.0":
+  version: 0.19.0
+  resolution: "@backstage-community/plugin-gcalendar@npm:0.19.0"
   dependencies:
-    "@backstage/core-components": "npm:^0.18.7"
-    "@backstage/core-plugin-api": "npm:^1.12.3"
+    "@backstage/core-components": "npm:^0.18.8"
+    "@backstage/core-plugin-api": "npm:^1.12.4"
     "@backstage/errors": "npm:^1.2.7"
+    "@backstage/frontend-plugin-api": "npm:^0.15.1"
     "@material-ui/core": "npm:^4.12.2"
     "@material-ui/icons": "npm:^4.9.1"
     "@maxim_mazurok/gapi.client.calendar": "npm:^3.0.20220408"
@@ -3173,7 +3174,7 @@ __metadata:
     react: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-dom: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-router-dom: 6.0.0-beta.0 || ^6.3.0
-  checksum: 10c0/b110717c3538306977282da3b46c58616d3a255b8852662f6a3c260be94039cda163245f851ca5cd5637e0e78ab09e8a032a55ea52a09fb479650d160d3ecce7
+  checksum: 10c0/936ca55b73fbbc75da03ecfa756b314b3a795324f44cd76beda7b19a5e9147a9cbd7af59977945048ab675810d4ea92532e42565fce6e9de5b10c81f996613a5
   languageName: node
   linkType: hard
 
@@ -19741,7 +19742,7 @@ __metadata:
     "@backstage-community/plugin-entity-feedback": "npm:^0.17.0"
     "@backstage-community/plugin-entity-validation": "npm:^0.17.0"
     "@backstage-community/plugin-explore": "npm:^0.17.0"
-    "@backstage-community/plugin-gcalendar": "npm:^0.18.0"
+    "@backstage-community/plugin-gcalendar": "npm:^0.19.0"
     "@backstage-community/plugin-github-actions": "npm:^0.21.0"
     "@backstage-community/plugin-github-deployments": "npm:^0.17.1"
     "@backstage-community/plugin-github-discussions": "npm:^0.9.1"
