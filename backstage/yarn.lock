@@ -3038,19 +3038,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-entity-validation@npm:^0.17.0":
-  version: 0.17.0
-  resolution: "@backstage-community/plugin-entity-validation@npm:0.17.0"
+"@backstage-community/plugin-entity-validation@npm:^0.18.0":
+  version: 0.18.0
+  resolution: "@backstage-community/plugin-entity-validation@npm:0.18.0"
   dependencies:
-    "@backstage/catalog-client": "npm:^1.13.0"
-    "@backstage/catalog-model": "npm:^1.7.6"
-    "@backstage/core-compat-api": "npm:^0.5.8"
-    "@backstage/core-components": "npm:^0.18.7"
-    "@backstage/core-plugin-api": "npm:^1.12.3"
+    "@backstage/catalog-client": "npm:^1.14.0"
+    "@backstage/catalog-model": "npm:^1.7.7"
+    "@backstage/core-compat-api": "npm:^0.5.9"
+    "@backstage/core-components": "npm:^0.18.8"
+    "@backstage/core-plugin-api": "npm:^1.12.4"
     "@backstage/errors": "npm:^1.2.7"
-    "@backstage/frontend-plugin-api": "npm:^0.14.1"
+    "@backstage/frontend-plugin-api": "npm:^0.15.1"
     "@backstage/plugin-catalog-common": "npm:^1.1.8"
-    "@backstage/plugin-catalog-react": "npm:^2.0.0"
+    "@backstage/plugin-catalog-react": "npm:^2.1.0"
     "@codemirror/language": "npm:^6.0.0"
     "@codemirror/legacy-modes": "npm:^6.1.0"
     "@codemirror/view": "npm:^6.0.0"
@@ -3067,7 +3067,7 @@ __metadata:
     react: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-dom: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-router-dom: 6.0.0-beta.0 || ^6.3.0
-  checksum: 10c0/f405ea532219863cb8eedc6a7f3e155b0948a94b2b38294fdb05eb4c5dfa4a85e27147b12a1b07954b9b44286a06ef094300e68ce9a0980082c8ea5f0d637946
+  checksum: 10c0/de6d202b5b0a1dd07de540469a9d81b202df19f7120c582a6f5d244d5921c930efce0d2a54018d10fa03433c68ab8e35aa36e94503696146aed0e1c0669952a4
   languageName: node
   linkType: hard
 
@@ -19741,7 +19741,7 @@ __metadata:
     "@backstage-community/plugin-confluence": "npm:^0.14.1"
     "@backstage-community/plugin-copilot": "npm:^0.19.1"
     "@backstage-community/plugin-entity-feedback": "npm:^0.17.0"
-    "@backstage-community/plugin-entity-validation": "npm:^0.17.0"
+    "@backstage-community/plugin-entity-validation": "npm:^0.18.0"
     "@backstage-community/plugin-explore": "npm:^0.17.0"
     "@backstage-community/plugin-gcalendar": "npm:^0.19.0"
     "@backstage-community/plugin-github-actions": "npm:^0.22.0"
