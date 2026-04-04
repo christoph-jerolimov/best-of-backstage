@@ -3179,18 +3179,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-github-actions@npm:^0.21.0":
-  version: 0.21.1
-  resolution: "@backstage-community/plugin-github-actions@npm:0.21.1"
+"@backstage-community/plugin-github-actions@npm:^0.22.0":
+  version: 0.22.0
+  resolution: "@backstage-community/plugin-github-actions@npm:0.22.0"
   dependencies:
-    "@backstage/catalog-model": "npm:^1.7.6"
-    "@backstage/core-compat-api": "npm:^0.5.8"
-    "@backstage/core-components": "npm:^0.18.7"
-    "@backstage/core-plugin-api": "npm:^1.12.3"
-    "@backstage/frontend-plugin-api": "npm:^0.14.1"
-    "@backstage/integration": "npm:^1.20.1"
-    "@backstage/integration-react": "npm:^1.2.15"
-    "@backstage/plugin-catalog-react": "npm:^2.0.0"
+    "@backstage/catalog-model": "npm:^1.7.7"
+    "@backstage/core-compat-api": "npm:^0.5.9"
+    "@backstage/core-components": "npm:^0.18.8"
+    "@backstage/core-plugin-api": "npm:^1.12.4"
+    "@backstage/frontend-plugin-api": "npm:^0.15.1"
+    "@backstage/integration": "npm:^2.0.0"
+    "@backstage/integration-react": "npm:^1.2.16"
+    "@backstage/plugin-catalog-react": "npm:^2.1.0"
     "@material-ui/core": "npm:^4.12.2"
     "@material-ui/icons": "npm:^4.9.1"
     "@material-ui/lab": "npm:4.0.0-alpha.61"
@@ -3203,7 +3203,7 @@ __metadata:
     react: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-dom: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-router-dom: 6.0.0-beta.0 || ^6.3.0
-  checksum: 10c0/6bfc3b2229d590fff56c510fcd8e3260825d0bc2d0d4fcf2fa8f86deb265fd830f4f164aa1b33c85345af564e40ad9be009e0c5c9320a2af2c3f048a0e22c250
+  checksum: 10c0/f73a2b5281f8d30722abe74166849c10548b4bb9ddb6f65eadd60d971a4f37a20a9adc0a5e4fedac1c4933665cc3f69aa5859ba09e077554f46e9280964d91d2
   languageName: node
   linkType: hard
 
@@ -19744,7 +19744,7 @@ __metadata:
     "@backstage-community/plugin-entity-validation": "npm:^0.17.0"
     "@backstage-community/plugin-explore": "npm:^0.17.0"
     "@backstage-community/plugin-gcalendar": "npm:^0.19.0"
-    "@backstage-community/plugin-github-actions": "npm:^0.21.0"
+    "@backstage-community/plugin-github-actions": "npm:^0.22.0"
     "@backstage-community/plugin-github-deployments": "npm:^0.18.0"
     "@backstage-community/plugin-github-discussions": "npm:^0.10.0"
     "@backstage-community/plugin-github-pull-requests-board": "npm:^0.16.0"
