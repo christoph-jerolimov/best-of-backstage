@@ -3269,17 +3269,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-github-pull-requests-board@npm:^0.15.1":
-  version: 0.15.1
-  resolution: "@backstage-community/plugin-github-pull-requests-board@npm:0.15.1"
+"@backstage-community/plugin-github-pull-requests-board@npm:^0.16.0":
+  version: 0.16.0
+  resolution: "@backstage-community/plugin-github-pull-requests-board@npm:0.16.0"
   dependencies:
-    "@backstage/catalog-model": "npm:^1.7.6"
-    "@backstage/core-compat-api": "npm:^0.5.8"
-    "@backstage/core-components": "npm:^0.18.7"
-    "@backstage/core-plugin-api": "npm:^1.12.3"
-    "@backstage/frontend-plugin-api": "npm:^0.14.1"
-    "@backstage/integration": "npm:^1.20.1"
-    "@backstage/plugin-catalog-react": "npm:^2.0.0"
+    "@backstage/catalog-model": "npm:^1.7.7"
+    "@backstage/core-compat-api": "npm:^0.5.9"
+    "@backstage/core-components": "npm:^0.18.8"
+    "@backstage/core-plugin-api": "npm:^1.12.4"
+    "@backstage/frontend-plugin-api": "npm:^0.15.1"
+    "@backstage/integration": "npm:^2.0.0"
+    "@backstage/plugin-catalog-react": "npm:^2.1.0"
     "@material-ui/core": "npm:^4.12.2"
     "@material-ui/icons": "npm:^4.9.1"
     "@material-ui/lab": "npm:4.0.0-alpha.61"
@@ -3291,7 +3291,7 @@ __metadata:
     react: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-dom: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-router-dom: 6.0.0-beta.0 || ^6.3.0
-  checksum: 10c0/6ad40effff548c39179800af69d7310196463c9b7020057425aa0031699529779ec9c3e016cd9ab7674c6b6cf3bce969df99b292d69530241e2d76631873a8cc
+  checksum: 10c0/67b539db85b07a7b6d162a6c34aefa50d3b79c1c86dfb57f384d4f93a445828117b983b35a7caa098c319d8e7eaa8b53d6ab1477a6715f4126849c5a77c85a22
   languageName: node
   linkType: hard
 
@@ -19747,7 +19747,7 @@ __metadata:
     "@backstage-community/plugin-github-actions": "npm:^0.21.0"
     "@backstage-community/plugin-github-deployments": "npm:^0.18.0"
     "@backstage-community/plugin-github-discussions": "npm:^0.9.1"
-    "@backstage-community/plugin-github-pull-requests-board": "npm:^0.15.1"
+    "@backstage-community/plugin-github-pull-requests-board": "npm:^0.16.0"
     "@backstage-community/plugin-jenkins": "npm:^0.29.0"
     "@backstage-community/plugin-lighthouse": "npm:^0.19.0"
     "@backstage-community/plugin-linkerd": "npm:^0.17.0"
