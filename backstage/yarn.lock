@@ -2659,8 +2659,8 @@ __metadata:
   linkType: hard
 
 "@backstage-community/plugin-announcements@npm:^2.3.0":
-  version: 2.7.0
-  resolution: "@backstage-community/plugin-announcements@npm:2.7.0"
+  version: 2.8.0
+  resolution: "@backstage-community/plugin-announcements@npm:2.8.0"
   dependencies:
     "@backstage-community/plugin-announcements-common": "npm:^0.19.0"
     "@backstage-community/plugin-announcements-react": "npm:^0.24.0"
@@ -2686,12 +2686,12 @@ __metadata:
     "@uiw/react-md-editor": "npm:^4.0.11"
     luxon: "npm:^3.2.0"
     react-use: "npm:^17.2.4"
-    slugify: "npm:1.6.8"
+    slugify: "npm:1.6.9"
   peerDependencies:
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
     react-router-dom: ^6.3.0
-  checksum: 10c0/02448071f1ed5eb8c923190786f23ea012fc39570ce2e9f4527dea78ce703068faf9ce41bc0f79674f0b5faea154a8c267571da26977b3d141eab5093cf92211
+  checksum: 10c0/b387f7f56993d5b71650f7621bd3d5d1ad5a2d22cd62240a7b149d257a2b3c9efb55179026f5bdc26a5ad961b350d9731c7435a1e766a6f75b91f6bf28b1838e
   languageName: node
   linkType: hard
 
@@ -38785,10 +38785,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"slugify@npm:1.6.8, slugify@npm:^1.6.6":
-  version: 1.6.8
-  resolution: "slugify@npm:1.6.8"
-  checksum: 10c0/1052797a5e7bc6263c6e8dc64ad41d6f5ae2fd2e3a17c2aead09ded002f10de75283ff0b4da2b04dd2fbd7fa2f38a83abeaa3ab8d29709ca68e7592edd6e90dc
+"slugify@npm:1.6.9, slugify@npm:^1.6.6":
+  version: 1.6.9
+  resolution: "slugify@npm:1.6.9"
+  checksum: 10c0/8473c566ae00c5db26bfbf6182a4a9478ab3c912a9c926e1fdb410736a77228bfca4fdc5c755b46fafa7d2d9900de482fd7a9bd5e5c91128c4743c2c072d88da
   languageName: node
   linkType: hard
 
