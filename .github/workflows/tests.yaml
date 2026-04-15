@@ -52,13 +52,8 @@ jobs:
       - run: yarn playwright install chromium
         working-directory: backstage
 
-      - run: env
-        working-directory: backstage
-
       - run: yarn test:e2e
         working-directory: backstage
-        env:
-          BACKSTAGE_CONFIG_PATH: ${{ vars.GITHUB_WORKSPACE }}/backstage
 
       - uses: actions/upload-artifact@v7
         if: ${{ !cancelled() }}
