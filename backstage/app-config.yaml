@@ -146,10 +146,10 @@ backend:
       - '@backstage/plugin-techdocs-backend'
 
       # search plugin
-      - '@backstage/plugin-search-backend'
-      - '@backstage/plugin-search-backend-module-pg'
-      - '@backstage/plugin-search-backend-module-catalog'
-      - '@backstage/plugin-search-backend-module-techdocs'
+      # - '@backstage/plugin-search-backend'
+      # - '@backstage/plugin-search-backend-module-pg'
+      # - '@backstage/plugin-search-backend-module-catalog'
+      # - '@backstage/plugin-search-backend-module-techdocs'
 
       # kubernetes plugin
       - '@backstage/plugin-kubernetes-backend'
@@ -199,7 +199,7 @@ backend:
       # - '@backstage-community/plugin-lighthouse-backend'
 
       # todo plugin
-      - '@backstage-community/plugin-todo-backend'
+      # - '@backstage-community/plugin-todo-backend'
 
       # copilot plugin
       # - '@backstage-community/plugin-copilot-backend'
