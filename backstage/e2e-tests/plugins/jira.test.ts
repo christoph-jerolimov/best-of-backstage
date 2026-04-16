@@ -20,5 +20,5 @@ test('Jira plugin card on catalog entity', async ({ backstage }) => {
 
   await expect(backstage.header.getByText('jira-example')).toBeVisible();
 
-  await expect(backstage.content.getByText('Jira')).toBeVisible();
+  await expect(backstage.tabs.getByText('Jira Dashboard')).toBeVisible();
 });

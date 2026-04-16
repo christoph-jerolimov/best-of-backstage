@@ -22,5 +22,10 @@ test('Bookmarks plugin card on catalog entity', async ({ backstage }) => {
 
   await expect(backstage.header.getByText('bookmarks-example')).toBeVisible();
 
-  await expect(backstage.content.getByText('Bookmarks')).toBeVisible();
+  await expect(backstage.tabs.getByText('Bookmarks')).toBeVisible();
+
+  await backstage.tabs.getByRole('tab', { name: 'Bookmarks' }).click();
+
+  await expect(backstage.content.getByText('Cool link')).toBeVisible();
+  await expect(backstage.content.getByText('Open in new tab')).toBeVisible();
 });
