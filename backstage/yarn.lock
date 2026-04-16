@@ -3637,8 +3637,8 @@ __metadata:
   linkType: hard
 
 "@backstage-community/plugin-rbac-backend@npm:^7.7.0":
-  version: 7.12.1
-  resolution: "@backstage-community/plugin-rbac-backend@npm:7.12.1"
+  version: 7.12.2
+  resolution: "@backstage-community/plugin-rbac-backend@npm:7.12.2"
   dependencies:
     "@backstage-community/plugin-rbac-common": "npm:^1.26.0"
     "@backstage-community/plugin-rbac-node": "npm:^1.20.0"
@@ -3650,10 +3650,10 @@ __metadata:
     "@backstage/errors": "npm:^1.2.7"
     "@backstage/plugin-permission-common": "npm:^0.9.7"
     "@backstage/plugin-permission-node": "npm:^0.10.11"
-    "@dagrejs/graphlib": "npm:^2.1.13"
+    "@dagrejs/graphlib": "npm:^4.0.0"
     casbin: "npm:^5.27.1"
     chokidar: "npm:^3.6.0"
-    csv-parse: "npm:^5.5.5"
+    csv-parse: "npm:^6.0.0"
     express: "npm:^4.18.2"
     express-promise-router: "npm:^4.1.0"
     js-yaml: "npm:^4.1.0"
@@ -3661,7 +3661,7 @@ __metadata:
     lodash: "npm:^4.17.21"
     typeorm-adapter: "npm:^1.6.1"
     zod: "npm:^4.3.6"
-  checksum: 10c0/d7f2342ce83ca79c02050e04716b67d8ebd05e314ac924da0eeddff5d5734d8a5a4d51846c99cc48ce880462bf1adf861a1b5caaa6af2e16991d41bab0607ba2
+  checksum: 10c0/fcd7ab6069be71c301b1f243427f9b9054e2ff836f312014f0396d3fae6007ef752da0e5b20f99f59bf1d781315d6641b06426cb542558f703a2925b13170e5f
   languageName: node
   linkType: hard
 
@@ -3686,8 +3686,8 @@ __metadata:
   linkType: hard
 
 "@backstage-community/plugin-rbac@npm:^1.48.0":
-  version: 1.52.0
-  resolution: "@backstage-community/plugin-rbac@npm:1.52.0"
+  version: 1.52.1
+  resolution: "@backstage-community/plugin-rbac@npm:1.52.1"
   dependencies:
     "@backstage-community/plugin-rbac-common": "npm:^1.26.0"
     "@backstage/catalog-model": "npm:^1.7.7"
@@ -3715,7 +3715,7 @@ __metadata:
     react: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-dom: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-router-dom: ^6.0.0
-  checksum: 10c0/622bb54150fdb7acc7a3bb884f82fc820176e10d66cca650b51fdccf7d17c985c2da3b84d218759e1e621024f506af5430c94216aa70804551e73d65cc12fb9b
+  checksum: 10c0/fd041bb4741025d3f769ecbadaedb96b0d5ec198d442946c35e24beefa2b7d648ca146d5ce32b5740ea233883a89d116a70b88e5bffbca512b1bcce575c8cbf7
   languageName: node
   linkType: hard
 
@@ -8236,10 +8236,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@dagrejs/graphlib@npm:2.2.4, @dagrejs/graphlib@npm:^2.1.13":
+"@dagrejs/graphlib@npm:2.2.4":
   version: 2.2.4
   resolution: "@dagrejs/graphlib@npm:2.2.4"
   checksum: 10c0/14597ea9294c46b2571aee78bcaad3a24e3e5e0ebcdf198b6eae5b3805f99af727ac54a477dd9152e8b0a576efea0528fb7d4919c74801e9f669c90e5e6f5bd9
+  languageName: node
+  linkType: hard
+
+"@dagrejs/graphlib@npm:^4.0.0":
+  version: 4.0.1
+  resolution: "@dagrejs/graphlib@npm:4.0.1"
+  checksum: 10c0/03ab574f2eb7d87173af0b9d8bbae87c10e225778b8144a800c663afe307ff71d851c13d96d32ec91db85e325d64914cdabbab1ce76fb043e0a5538e60bb51bd
   languageName: node
   linkType: hard
 
@@ -21870,10 +21877,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"csv-parse@npm:^5.5.5, csv-parse@npm:^5.5.6":
+"csv-parse@npm:^5.5.6":
   version: 5.6.0
   resolution: "csv-parse@npm:5.6.0"
   checksum: 10c0/52f5e6c45359902e0c8e57fc2eeed41366dc6b6d283b495b538dd50c8e8510413d6f924096ea056319cbbb8ed26e111c3a3485d7985c021bcf5abaa9e92425c7
+  languageName: node
+  linkType: hard
+
+"csv-parse@npm:^6.0.0":
+  version: 6.2.1
+  resolution: "csv-parse@npm:6.2.1"
+  checksum: 10c0/8b6f14b244ca62476d4217aac721131ba0ada3e4ed7614e43ebc99203807564dcb054144d1de4ef22ee8b0c63b431640f75d46a0e1e0f72853a954b279ba1c61
   languageName: node
   linkType: hard
 
