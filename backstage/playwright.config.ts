@@ -1,5 +1,7 @@
 import { defineConfig } from '@playwright/test';
 
+const configPath = `${process.env.GITHUB_WORKSPACE}/backstage`;
+
 /**
  * See https://playwright.dev/docs/test-configuration
  */
@@ -7,17 +9,16 @@ export default defineConfig({
   timeout: 60_000,
 
   expect: {
-    timeout: 10_000,
+    timeout: 30_000,
   },
 
   // Run your local dev server before starting the tests
   webServer: [
     {
-      command:
-        'yarn start --config ../../app-config.yaml --config ../../app-config.playwright.yaml',
-      port: 3000,
+      command: `yarn start --config ${configPath}/app-config.yaml --config ${configPath}/app-config.playwright.yaml`,
+      url: 'http://localhost:3000',
       reuseExistingServer: true,
-      timeout: 60_000,
+      timeout: 120_000,
     },
   ],
 

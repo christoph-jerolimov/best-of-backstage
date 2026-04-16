@@ -29,6 +29,6 @@ export class Backstage {
   }
 
   sidebarItem(name: string) {
-    return this.sidebar.getByRole('link', { name });
+    return this.sidebar.getByRole('link', { name, exact: true });
   }
 }
