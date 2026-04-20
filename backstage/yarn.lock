@@ -2737,18 +2737,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-bookmarks@npm:^0.9.0":
-  version: 0.9.0
-  resolution: "@backstage-community/plugin-bookmarks@npm:0.9.0"
+"@backstage-community/plugin-bookmarks@npm:^0.10.0":
+  version: 0.10.0
+  resolution: "@backstage-community/plugin-bookmarks@npm:0.10.0"
   dependencies:
-    "@backstage/catalog-model": "npm:^1.7.7"
-    "@backstage/core-compat-api": "npm:^0.5.9"
-    "@backstage/core-components": "npm:^0.18.8"
-    "@backstage/core-plugin-api": "npm:^1.12.4"
-    "@backstage/frontend-plugin-api": "npm:^0.15.1"
-    "@backstage/frontend-test-utils": "npm:^0.5.1"
-    "@backstage/plugin-catalog-react": "npm:^2.1.0"
-    "@backstage/theme": "npm:^0.7.2"
+    "@backstage/catalog-model": "npm:^1.8.0"
+    "@backstage/core-compat-api": "npm:^0.5.10"
+    "@backstage/core-components": "npm:^0.18.9"
+    "@backstage/core-plugin-api": "npm:^1.12.5"
+    "@backstage/frontend-plugin-api": "npm:^0.16.2"
+    "@backstage/frontend-test-utils": "npm:^0.5.2"
+    "@backstage/plugin-catalog-react": "npm:^2.1.4"
+    "@backstage/theme": "npm:^0.7.3"
     "@mui/icons-material": "npm:^5.18.0"
     "@mui/material": "npm:^5.18.0"
     "@mui/system": "npm:^5.18.0"
@@ -2756,7 +2756,7 @@ __metadata:
   peerDependencies:
     react: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-dom: ^16.13.1 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/37239b5109c33d1ef16ef113f299cbafa9a88afc7a1cb10fc72f2ebe4eb5840cd061a3a42bc306baf84f8bf1b82afa4140138db8210cc89f4aac6a14bffd8bff
+  checksum: 10c0/18ba6db028c6067cb2713af8228aad14dbe86de5b3ac439c1e32bcef9c79db400b29a3fa92d6e94f495e5794370fcc86067ddb4dd81aa722f2e5dbf298f2f1a2
   languageName: node
   linkType: hard
 
@@ -5250,7 +5250,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage/frontend-test-utils@npm:^0.5.1, @backstage/frontend-test-utils@npm:^0.5.2":
+"@backstage/frontend-test-utils@npm:^0.5.2":
   version: 0.5.2
   resolution: "@backstage/frontend-test-utils@npm:0.5.2"
   dependencies:
@@ -18585,7 +18585,7 @@ __metadata:
     "@backstage-community/plugin-adr": "npm:^0.23.0"
     "@backstage-community/plugin-announcements": "npm:^2.8.0"
     "@backstage-community/plugin-badges": "npm:^0.18.0"
-    "@backstage-community/plugin-bookmarks": "npm:^0.9.0"
+    "@backstage-community/plugin-bookmarks": "npm:^0.10.0"
     "@backstage-community/plugin-cicd-statistics": "npm:^0.15.0"
     "@backstage-community/plugin-cicd-statistics-module-github": "npm:^0.13.0"
     "@backstage-community/plugin-cicd-statistics-module-gitlab": "npm:^0.15.0"
