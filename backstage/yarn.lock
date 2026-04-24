@@ -3351,41 +3351,41 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-lighthouse-backend@npm:^0.21.0":
-  version: 0.21.0
-  resolution: "@backstage-community/plugin-lighthouse-backend@npm:0.21.0"
+"@backstage-community/plugin-lighthouse-backend@npm:^0.23.0":
+  version: 0.23.0
+  resolution: "@backstage-community/plugin-lighthouse-backend@npm:0.23.0"
   dependencies:
-    "@backstage-community/plugin-lighthouse-common": "npm:^0.17.0"
-    "@backstage/backend-plugin-api": "npm:^1.8.0"
-    "@backstage/catalog-client": "npm:^1.14.0"
-    "@backstage/catalog-model": "npm:^1.7.7"
-    "@backstage/config": "npm:^1.3.6"
-    "@backstage/plugin-catalog-node": "npm:^2.1.0"
+    "@backstage-community/plugin-lighthouse-common": "npm:^0.19.0"
+    "@backstage/backend-plugin-api": "npm:^1.9.0"
+    "@backstage/catalog-client": "npm:^1.15.0"
+    "@backstage/catalog-model": "npm:^1.8.0"
+    "@backstage/config": "npm:^1.3.7"
+    "@backstage/plugin-catalog-node": "npm:^2.2.0"
     "@backstage/types": "npm:^1.2.2"
-  checksum: 10c0/729b45cbf4a4a2e470f055baf8ac66f36cdfbe1040b73a3c3117b87fd17f213e85a0fe243ad1b13d9f6338c9e806f4de6e5f7a3af2c42c2c710de08472cb6c4e
+  checksum: 10c0/6ecaf991c041d2f30a6b7a4b1671154ed59e61480199680fb68bd58ce245c01ebc72b64d06ccf8f577c2d9ad576164dfac28ad7f653060c0171463d99d8fcbbc
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-lighthouse-common@npm:^0.17.0":
-  version: 0.17.0
-  resolution: "@backstage-community/plugin-lighthouse-common@npm:0.17.0"
+"@backstage-community/plugin-lighthouse-common@npm:^0.19.0":
+  version: 0.19.0
+  resolution: "@backstage-community/plugin-lighthouse-common@npm:0.19.0"
   dependencies:
-    "@backstage/config": "npm:^1.3.6"
-  checksum: 10c0/13290479f9b2859c61d91cd06662cbd22c32ac11daff63a1177909289a2a69007bed461b55d1fa1f7e16c968f91e36afcba2244756a84caad95b5d1dedf5c5a2
+    "@backstage/config": "npm:^1.3.7"
+  checksum: 10c0/b60cbc3ba4dab3a98146535a39e39abf081ba02d21b956af37ba2fddba32f85e94e5224e38ab33fe614d7e411ec3caa1e807e713a64d295ff27f914d43405a37
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-lighthouse@npm:^0.20.0":
-  version: 0.20.0
-  resolution: "@backstage-community/plugin-lighthouse@npm:0.20.0"
+"@backstage-community/plugin-lighthouse@npm:^0.22.0":
+  version: 0.22.0
+  resolution: "@backstage-community/plugin-lighthouse@npm:0.22.0"
   dependencies:
-    "@backstage-community/plugin-lighthouse-common": "npm:^0.17.0"
-    "@backstage/catalog-model": "npm:^1.7.7"
-    "@backstage/core-compat-api": "npm:^0.5.9"
-    "@backstage/core-components": "npm:^0.18.8"
-    "@backstage/core-plugin-api": "npm:^1.12.4"
-    "@backstage/frontend-plugin-api": "npm:^0.15.1"
-    "@backstage/plugin-catalog-react": "npm:^2.1.0"
+    "@backstage-community/plugin-lighthouse-common": "npm:^0.19.0"
+    "@backstage/catalog-model": "npm:^1.8.0"
+    "@backstage/core-compat-api": "npm:^0.5.10"
+    "@backstage/core-components": "npm:^0.18.9"
+    "@backstage/core-plugin-api": "npm:^1.12.5"
+    "@backstage/frontend-plugin-api": "npm:^0.16.2"
+    "@backstage/plugin-catalog-react": "npm:^2.1.4"
     "@material-ui/core": "npm:^4.12.2"
     "@material-ui/icons": "npm:^4.9.1"
     "@material-ui/lab": "npm:4.0.0-alpha.61"
@@ -3395,7 +3395,7 @@ __metadata:
     react: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-dom: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-router-dom: 6.0.0-beta.0 || ^6.3.0
-  checksum: 10c0/624276223fd7655e307e6c32c111ccb0c08d2d2b55800f316e260c45868d9e0a2aade4f8cf7654b5b316b538f2d2f8bb44cf90361ae5c09d640e643605aecc53
+  checksum: 10c0/145c9dbb8c23b653b51a153fb0177dad6367365222a110ca4175ec06108f0594c1852520b133880091311abe88602200e0d579d15adbdd05eb2e717f23f9ed75
   languageName: node
   linkType: hard
 
@@ -18602,7 +18602,7 @@ __metadata:
     "@backstage-community/plugin-github-discussions": "npm:^0.10.0"
     "@backstage-community/plugin-github-pull-requests-board": "npm:^0.16.0"
     "@backstage-community/plugin-jenkins": "npm:^0.30.0"
-    "@backstage-community/plugin-lighthouse": "npm:^0.20.0"
+    "@backstage-community/plugin-lighthouse": "npm:^0.22.0"
     "@backstage-community/plugin-linkerd": "npm:^0.18.0"
     "@backstage-community/plugin-mcp-chat": "npm:^0.6.0"
     "@backstage-community/plugin-nexus-repository-manager": "npm:^1.21.0"
@@ -19333,7 +19333,7 @@ __metadata:
     "@backstage-community/plugin-entity-feedback-backend": "npm:^0.19.0"
     "@backstage-community/plugin-explore-backend": "npm:^0.15.0"
     "@backstage-community/plugin-jenkins-backend": "npm:^0.27.0"
-    "@backstage-community/plugin-lighthouse-backend": "npm:^0.21.0"
+    "@backstage-community/plugin-lighthouse-backend": "npm:^0.23.0"
     "@backstage-community/plugin-mcp-chat-backend": "npm:^0.8.0"
     "@backstage-community/plugin-npm-backend": "npm:^1.17.0"
     "@backstage-community/plugin-playlist-backend": "npm:^0.19.0"
