@@ -3152,21 +3152,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-gcalendar@npm:^0.19.0":
-  version: 0.19.0
-  resolution: "@backstage-community/plugin-gcalendar@npm:0.19.0"
+"@backstage-community/plugin-gcalendar@npm:^0.20.0":
+  version: 0.20.0
+  resolution: "@backstage-community/plugin-gcalendar@npm:0.20.0"
   dependencies:
-    "@backstage/core-components": "npm:^0.18.8"
-    "@backstage/core-plugin-api": "npm:^1.12.4"
-    "@backstage/errors": "npm:^1.2.7"
-    "@backstage/frontend-plugin-api": "npm:^0.15.1"
+    "@backstage/core-components": "npm:^0.18.9"
+    "@backstage/core-plugin-api": "npm:^1.12.5"
+    "@backstage/errors": "npm:^1.3.0"
+    "@backstage/frontend-plugin-api": "npm:^0.16.2"
     "@material-ui/core": "npm:^4.12.2"
     "@material-ui/icons": "npm:^4.9.1"
     "@maxim_mazurok/gapi.client.calendar": "npm:^3.0.20220408"
     "@tanstack/react-query": "npm:^4.1.3"
     "@types/react": "npm:^16.13.1 || ^17.0.0 || ^18.0.0"
     classnames: "npm:^2.3.1"
-    dompurify: "npm:^3.0.0"
+    dompurify: "npm:^3.4.0"
     lodash: "npm:^4.17.21"
     luxon: "npm:^3.0.0"
     material-ui-popup-state: "npm:^1.9.3"
@@ -3175,7 +3175,7 @@ __metadata:
     react: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-dom: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-router-dom: 6.0.0-beta.0 || ^6.3.0
-  checksum: 10c0/936ca55b73fbbc75da03ecfa756b314b3a795324f44cd76beda7b19a5e9147a9cbd7af59977945048ab675810d4ea92532e42565fce6e9de5b10c81f996613a5
+  checksum: 10c0/09efe80e1c12f0fa740baa234cd71bbd2e3c16e9152281400bfc775ec0c37b2516fc886f8f95868ecbfe4e41695c00606f7f967db7a6ff1f8188215805803083
   languageName: node
   linkType: hard
 
@@ -18596,7 +18596,7 @@ __metadata:
     "@backstage-community/plugin-entity-feedback": "npm:^0.17.0"
     "@backstage-community/plugin-entity-validation": "npm:^0.18.0"
     "@backstage-community/plugin-explore": "npm:^0.18.0"
-    "@backstage-community/plugin-gcalendar": "npm:^0.19.0"
+    "@backstage-community/plugin-gcalendar": "npm:^0.20.0"
     "@backstage-community/plugin-github-actions": "npm:^0.22.0"
     "@backstage-community/plugin-github-deployments": "npm:^0.18.0"
     "@backstage-community/plugin-github-discussions": "npm:^0.10.0"
@@ -22832,15 +22832,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dompurify@npm:^3.0.0, dompurify@npm:^3.3.1, dompurify@npm:^3.3.2":
-  version: 3.3.3
-  resolution: "dompurify@npm:3.3.3"
+"dompurify@npm:^3.3.1, dompurify@npm:^3.3.2, dompurify@npm:^3.4.0":
+  version: 3.4.1
+  resolution: "dompurify@npm:3.4.1"
   dependencies:
     "@types/trusted-types": "npm:^2.0.7"
   dependenciesMeta:
     "@types/trusted-types":
       optional: true
-  checksum: 10c0/097c14a21a3f6cb95beded9ecd255f7c3512c42767b048390c747b0fe35736f6a71e02320fc50a9ac2be645834b463e4760915d595d502a56452daf339d0ea9c
+  checksum: 10c0/440a4246020cb54b82ef2cb66381e4d310a0c470f9994655e61b6122811f0eaa00a2f9665d2bed30ca3f58932ba7bb0d5e26fdfce61c8daf35d21a3f5a799e48
   languageName: node
   linkType: hard
 
