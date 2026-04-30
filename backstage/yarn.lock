@@ -1865,35 +1865,36 @@ __metadata:
   linkType: hard
 
 "@axis-backstage/plugin-readme-backend@npm:^0.16.0":
-  version: 0.16.1
-  resolution: "@axis-backstage/plugin-readme-backend@npm:0.16.1"
+  version: 0.16.3
+  resolution: "@axis-backstage/plugin-readme-backend@npm:0.16.3"
   dependencies:
-    "@backstage/backend-plugin-api": "npm:^1.6.2"
-    "@backstage/catalog-client": "npm:^1.12.1"
-    "@backstage/catalog-model": "npm:^1.7.6"
-    "@backstage/config": "npm:^1.3.6"
-    "@backstage/errors": "npm:^1.2.7"
-    "@backstage/integration": "npm:^1.19.1"
+    "@backstage/backend-plugin-api": "npm:^1.9.0"
+    "@backstage/catalog-client": "npm:^1.15.0"
+    "@backstage/catalog-model": "npm:^1.8.0"
+    "@backstage/config": "npm:^1.3.7"
+    "@backstage/errors": "npm:^1.3.0"
+    "@backstage/integration": "npm:^2.0.1"
+    "@backstage/plugin-catalog-node": "npm:^2.2.0"
     "@backstage/types": "npm:^1.2.2"
     "@types/express": "npm:*"
     express: "npm:^4.17.1"
     express-promise-router: "npm:^4.1.0"
-  checksum: 10c0/a3f10e796370a1cc66b8737f9fa6456f72e2dd8540fac358673e45598d623755bc0b4775e378cac4a7be9a2e3ee9d9c72149050f3d526d131cf32bebb21b92df
+  checksum: 10c0/10b1ce166bf4a655900d1b8308c44598e409abff290ade8e7bbf6b7a016e7ff89db4902812edbb9ea50e5821597f873bdb0df734de31623deadcdbd97adf26a2
   languageName: node
   linkType: hard
 
 "@axis-backstage/plugin-readme@npm:^0.18.0":
-  version: 0.18.1
-  resolution: "@axis-backstage/plugin-readme@npm:0.18.1"
+  version: 0.18.2
+  resolution: "@axis-backstage/plugin-readme@npm:0.18.2"
   dependencies:
-    "@backstage/catalog-model": "npm:^1.7.6"
-    "@backstage/core-compat-api": "npm:^0.5.5"
-    "@backstage/core-components": "npm:^0.18.6"
-    "@backstage/core-plugin-api": "npm:^1.12.1"
-    "@backstage/errors": "npm:^1.2.7"
-    "@backstage/frontend-plugin-api": "npm:^0.13.2"
-    "@backstage/plugin-catalog-react": "npm:^1.21.4"
-    "@backstage/theme": "npm:^0.7.1"
+    "@backstage/catalog-model": "npm:^1.8.0"
+    "@backstage/core-compat-api": "npm:^0.5.10"
+    "@backstage/core-components": "npm:^0.18.9"
+    "@backstage/core-plugin-api": "npm:^1.12.5"
+    "@backstage/errors": "npm:^1.3.0"
+    "@backstage/frontend-plugin-api": "npm:^0.16.2"
+    "@backstage/plugin-catalog-react": "npm:^2.1.4"
+    "@backstage/theme": "npm:^0.7.3"
     "@mui/icons-material": "npm:^5.15.7"
     "@mui/material": "npm:^5.15.7"
     react-use: "npm:^17.2.4"
@@ -1902,7 +1903,7 @@ __metadata:
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
     react-router-dom: ^6.3.0
-  checksum: 10c0/1825a23fa16a92ed6aff6f57e2a97ae8275bf407eed654aa333c9d25dfb44d795edaf1b7e4ff7748af79c0de674f38eaea4b1c1d8e8ce950af32cba56e31f7b6
+  checksum: 10c0/ee8e5fecde210f593573adc19a37e4f972c458fb29408804608210a7cb557ed79c70a2073bc627585476a44ab27a99e73fc4b2403f57ba5a7d77c185a34cafa9
   languageName: node
   linkType: hard
 
@@ -5323,7 +5324,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage/integration@npm:^1.15.0, @backstage/integration@npm:^1.18.0, @backstage/integration@npm:^1.19.1, @backstage/integration@npm:^1.20.0, @backstage/integration@npm:^1.20.1":
+"@backstage/integration@npm:^1.15.0, @backstage/integration@npm:^1.18.0, @backstage/integration@npm:^1.20.0, @backstage/integration@npm:^1.20.1":
   version: 1.20.1
   resolution: "@backstage/integration@npm:1.20.1"
   dependencies:
