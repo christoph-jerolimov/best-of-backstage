@@ -3236,38 +3236,39 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-github-discussions-common@npm:^0.11.0":
-  version: 0.11.0
-  resolution: "@backstage-community/plugin-github-discussions-common@npm:0.11.0"
+"@backstage-community/plugin-github-discussions-common@npm:^0.12.0":
+  version: 0.12.0
+  resolution: "@backstage-community/plugin-github-discussions-common@npm:0.12.0"
   dependencies:
-    "@backstage/plugin-permission-common": "npm:^0.9.7"
-    "@backstage/plugin-search-common": "npm:^1.2.22"
-  checksum: 10c0/4bca7dab6b86c701542673e755c32a0883c644925ce1cb4b319803aed3e045e805d84164add568f2fa5655feb6100a7231e8eea8f7bdad090c6debef94487d4c
+    "@backstage/plugin-permission-common": "npm:^0.9.8"
+    "@backstage/plugin-search-common": "npm:^1.2.23"
+  checksum: 10c0/6f66ae4e016f904897e0b1b3d27a5c10a7df70ee3f4ed27db94bb80e3f14d64186de6b3ff30c1e4bfffa17d63f417aa3200cd7f6cd22069e87269a0c1ae9abf0
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-github-discussions@npm:^0.10.0":
-  version: 0.10.0
-  resolution: "@backstage-community/plugin-github-discussions@npm:0.10.0"
+"@backstage-community/plugin-github-discussions@npm:^0.11.0":
+  version: 0.11.0
+  resolution: "@backstage-community/plugin-github-discussions@npm:0.11.0"
   dependencies:
-    "@backstage-community/plugin-github-discussions-common": "npm:^0.11.0"
-    "@backstage/core-compat-api": "npm:^0.5.9"
-    "@backstage/core-components": "npm:^0.18.8"
-    "@backstage/core-plugin-api": "npm:^1.12.4"
-    "@backstage/frontend-plugin-api": "npm:^0.15.1"
-    "@backstage/plugin-search-common": "npm:^1.2.22"
-    "@backstage/plugin-search-react": "npm:^1.11.0"
-    "@backstage/theme": "npm:^0.7.2"
+    "@backstage-community/plugin-github-discussions-common": "npm:^0.12.0"
+    "@backstage/core-compat-api": "npm:^0.5.10"
+    "@backstage/core-components": "npm:^0.18.9"
+    "@backstage/core-plugin-api": "npm:^1.12.5"
+    "@backstage/frontend-plugin-api": "npm:^0.16.2"
+    "@backstage/plugin-search-common": "npm:^1.2.23"
+    "@backstage/plugin-search-react": "npm:^1.11.3"
+    "@backstage/theme": "npm:^0.7.3"
     "@material-ui/core": "npm:^4.12.2"
     "@material-ui/icons": "npm:^4.9.1"
     "@material-ui/lab": "npm:4.0.0-alpha.61"
     "@types/react": "npm:^16.13.1 || ^17.0.0 || ^18.0.0"
     react-use: "npm:^17.2.4"
+    zod: "npm:^4.0.0"
   peerDependencies:
     react: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-dom: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-router-dom: 6.0.0-beta.0 || ^6.3.0
-  checksum: 10c0/bcc3ae508c9bb2603432d0d5c9faf7987031bf19906e1db257afbb66c95f68969ff5c2938884898fe620d5396aacdaac98c7a75cc8c77b377201f0540f4fdd24
+  checksum: 10c0/b1d568ea88d20d377f11a55611a87b960db0d432ff3637e29ef7b9a49f51e8e2d311c86c0ff17901ade506d7c475340734289a18977357c739ede3910d13263e
   languageName: node
   linkType: hard
 
@@ -18601,7 +18602,7 @@ __metadata:
     "@backstage-community/plugin-gcalendar": "npm:^0.20.0"
     "@backstage-community/plugin-github-actions": "npm:^0.22.0"
     "@backstage-community/plugin-github-deployments": "npm:^0.18.0"
-    "@backstage-community/plugin-github-discussions": "npm:^0.10.0"
+    "@backstage-community/plugin-github-discussions": "npm:^0.11.0"
     "@backstage-community/plugin-github-pull-requests-board": "npm:^0.17.0"
     "@backstage-community/plugin-jenkins": "npm:^0.30.0"
     "@backstage-community/plugin-lighthouse": "npm:^0.22.0"
