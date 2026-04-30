@@ -3310,59 +3310,60 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-jenkins-backend@npm:^0.27.0":
-  version: 0.27.0
-  resolution: "@backstage-community/plugin-jenkins-backend@npm:0.27.0"
+"@backstage-community/plugin-jenkins-backend@npm:^0.28.0":
+  version: 0.28.0
+  resolution: "@backstage-community/plugin-jenkins-backend@npm:0.28.0"
   dependencies:
-    "@backstage-community/plugin-jenkins-common": "npm:^0.18.0"
-    "@backstage/backend-defaults": "npm:^0.16.0"
-    "@backstage/backend-plugin-api": "npm:^1.8.0"
-    "@backstage/catalog-model": "npm:^1.7.7"
-    "@backstage/config": "npm:^1.3.6"
-    "@backstage/errors": "npm:^1.2.7"
-    "@backstage/plugin-catalog-node": "npm:^2.1.0"
-    "@backstage/plugin-permission-common": "npm:^0.9.7"
+    "@backstage-community/plugin-jenkins-common": "npm:^0.19.0"
+    "@backstage/backend-defaults": "npm:^0.17.0"
+    "@backstage/backend-plugin-api": "npm:^1.9.0"
+    "@backstage/catalog-model": "npm:^1.8.0"
+    "@backstage/config": "npm:^1.3.7"
+    "@backstage/errors": "npm:^1.3.0"
+    "@backstage/plugin-catalog-node": "npm:^2.2.0"
+    "@backstage/plugin-permission-common": "npm:^0.9.8"
     "@types/express": "npm:^4.17.6"
     express: "npm:^4.17.1"
     express-promise-router: "npm:^4.1.0"
     node-fetch: "npm:^2.6.7"
-  checksum: 10c0/016ef7dd88e627e3e83d2cf9566a7e9bf3e223d9a9f3c833ca4d7eea25a7ea61be4faa603395be1eb20b5f5b8e3259e80bc1f535b17435658e56814ca72b0d99
+  checksum: 10c0/3d24a7bf4e766652e1b4f83bdb5acf594ab3619fccfadd344c9b0845e2500a95babfb6698b3d1dfed979340a21cd2710e95ebcbd2bb6a0a9dc63b1ffaa24f035
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-jenkins-common@npm:^0.18.0":
-  version: 0.18.0
-  resolution: "@backstage-community/plugin-jenkins-common@npm:0.18.0"
+"@backstage-community/plugin-jenkins-common@npm:^0.19.0":
+  version: 0.19.0
+  resolution: "@backstage-community/plugin-jenkins-common@npm:0.19.0"
   dependencies:
-    "@backstage/plugin-catalog-common": "npm:^1.1.8"
-    "@backstage/plugin-permission-common": "npm:^0.9.7"
+    "@backstage/plugin-catalog-common": "npm:^1.1.9"
+    "@backstage/plugin-permission-common": "npm:^0.9.8"
     node-fetch: "npm:^2.6.7"
-  checksum: 10c0/d0f202224b40f333a379f6d64c7b39cc83a6d7a8244fc6773057e837ceb1dea30fa1d0f39257ebc7fb29dadcc5e0239fb5124d43ac283434a599fc3fd4d8af55
+  checksum: 10c0/c2891a03515caa43a26988f8398980830ec49a6edb1fa34e5f420061adaae2db4982f5751b58347d57f5feaab2e6e9146f12d218acf8f21dab69604d2db9610f
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-jenkins@npm:^0.30.0":
-  version: 0.30.0
-  resolution: "@backstage-community/plugin-jenkins@npm:0.30.0"
+"@backstage-community/plugin-jenkins@npm:^0.31.0":
+  version: 0.31.0
+  resolution: "@backstage-community/plugin-jenkins@npm:0.31.0"
   dependencies:
-    "@backstage-community/plugin-jenkins-common": "npm:^0.18.0"
-    "@backstage/catalog-model": "npm:^1.7.7"
-    "@backstage/core-compat-api": "npm:^0.5.9"
-    "@backstage/core-components": "npm:^0.18.8"
-    "@backstage/core-plugin-api": "npm:^1.12.4"
-    "@backstage/errors": "npm:^1.2.7"
-    "@backstage/frontend-plugin-api": "npm:^0.15.1"
-    "@backstage/plugin-catalog-react": "npm:^2.1.0"
+    "@backstage-community/plugin-jenkins-common": "npm:^0.19.0"
+    "@backstage/catalog-model": "npm:^1.8.0"
+    "@backstage/core-compat-api": "npm:^0.5.10"
+    "@backstage/core-components": "npm:^0.18.9"
+    "@backstage/core-plugin-api": "npm:^1.12.5"
+    "@backstage/errors": "npm:^1.3.0"
+    "@backstage/frontend-plugin-api": "npm:^0.16.2"
+    "@backstage/plugin-catalog-react": "npm:^2.1.4"
     "@material-ui/core": "npm:^4.12.2"
     "@material-ui/icons": "npm:^4.9.1"
     "@types/react": "npm:^16.13.1 || ^17.0.0 || ^18.0.0"
     luxon: "npm:^3.0.0"
     react-use: "npm:^17.2.4"
+    zod: "npm:^4.0.0"
   peerDependencies:
     react: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-dom: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-router-dom: 6.0.0-beta.0 || ^6.3.0
-  checksum: 10c0/601f879156dfc1c2bd03f3b1559e234028e31cbf3a7dd950173f25181e23a45554c66e186723066c94ac6c782459afdc5b8d39354433f491b575c34e8d7eb08c
+  checksum: 10c0/060ce6c3fa8eeaddf852b4c16dd52c02e3136896596f1d7f35a2b2e09b05d330cca4e4d426e75cbc9e8f50a47c9ab1efbc56c8c7ed33cd93f9cd3d0e1d3fd76c
   languageName: node
   linkType: hard
 
@@ -3748,14 +3749,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-scaffolder-backend-module-jenkins@npm:^0.20.0":
-  version: 0.20.0
-  resolution: "@backstage-community/plugin-scaffolder-backend-module-jenkins@npm:0.20.0"
+"@backstage-community/plugin-scaffolder-backend-module-jenkins@npm:^0.21.0":
+  version: 0.21.0
+  resolution: "@backstage-community/plugin-scaffolder-backend-module-jenkins@npm:0.21.0"
   dependencies:
-    "@backstage-community/plugin-jenkins-common": "npm:^0.18.0"
-    "@backstage/backend-plugin-api": "npm:^1.8.0"
-    "@backstage/plugin-scaffolder-node": "npm:^0.13.0"
-  checksum: 10c0/2af935da4cd5220f16959e2074e39c8304f49fb64b84de118fafd8dab4b1149ddae67cd3d5d56b83f928c64cc927799a86691632a5e81ddf7226b2d762630ab6
+    "@backstage-community/plugin-jenkins-common": "npm:^0.19.0"
+    "@backstage/backend-plugin-api": "npm:^1.9.0"
+    "@backstage/plugin-scaffolder-node": "npm:^0.13.2"
+  checksum: 10c0/fcdce8d440338e8635017557bcbee1e9ea1f73174b27f1cf4692187c29a6e227efce5ef5dbe475915ec067eac7ddde8cdeb776d2de00d1db6f8403ebcf37b1b3
   languageName: node
   linkType: hard
 
@@ -6017,7 +6018,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage/plugin-catalog-node@npm:^2.1.0, @backstage/plugin-catalog-node@npm:^2.2.0":
+"@backstage/plugin-catalog-node@npm:^2.2.0":
   version: 2.2.0
   resolution: "@backstage/plugin-catalog-node@npm:2.2.0"
   dependencies:
@@ -18616,7 +18617,7 @@ __metadata:
     "@backstage-community/plugin-github-deployments": "npm:^1.0.0"
     "@backstage-community/plugin-github-discussions": "npm:^1.0.0"
     "@backstage-community/plugin-github-pull-requests-board": "npm:^1.0.0"
-    "@backstage-community/plugin-jenkins": "npm:^0.30.0"
+    "@backstage-community/plugin-jenkins": "npm:^0.31.0"
     "@backstage-community/plugin-lighthouse": "npm:^0.22.0"
     "@backstage-community/plugin-linkerd": "npm:^0.18.0"
     "@backstage-community/plugin-mcp-chat": "npm:^0.7.0"
@@ -19347,14 +19348,14 @@ __metadata:
     "@backstage-community/plugin-copilot-backend": "npm:^0.18.2"
     "@backstage-community/plugin-entity-feedback-backend": "npm:^0.20.0"
     "@backstage-community/plugin-explore-backend": "npm:^0.15.0"
-    "@backstage-community/plugin-jenkins-backend": "npm:^0.27.0"
+    "@backstage-community/plugin-jenkins-backend": "npm:^0.28.0"
     "@backstage-community/plugin-lighthouse-backend": "npm:^0.23.0"
     "@backstage-community/plugin-mcp-chat-backend": "npm:^0.9.0"
     "@backstage-community/plugin-npm-backend": "npm:^1.17.0"
     "@backstage-community/plugin-playlist-backend": "npm:^0.20.0"
     "@backstage-community/plugin-rbac-backend": "npm:^7.7.0"
     "@backstage-community/plugin-scaffolder-backend-module-annotator": "npm:^2.14.0"
-    "@backstage-community/plugin-scaffolder-backend-module-jenkins": "npm:^0.20.0"
+    "@backstage-community/plugin-scaffolder-backend-module-jenkins": "npm:^0.21.0"
     "@backstage-community/plugin-scaffolder-backend-module-quay": "npm:^2.16.0"
     "@backstage-community/plugin-scaffolder-backend-module-regex": "npm:^2.13.0"
     "@backstage-community/plugin-scaffolder-backend-module-servicenow": "npm:^2.12.0"

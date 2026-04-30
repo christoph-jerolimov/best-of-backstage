@@ -36,7 +36,7 @@
     "@backstage-community/plugin-github-deployments": "^1.0.0",
     "@backstage-community/plugin-github-discussions": "^1.0.0",
     "@backstage-community/plugin-github-pull-requests-board": "^1.0.0",
-    "@backstage-community/plugin-jenkins": "^0.30.0",
+    "@backstage-community/plugin-jenkins": "^0.31.0",
     "@backstage-community/plugin-lighthouse": "^0.22.0",
     "@backstage-community/plugin-linkerd": "^0.18.0",
     "@backstage-community/plugin-mcp-chat": "^0.7.0",
