@@ -33,7 +33,7 @@
     "@backstage-community/plugin-explore": "^0.18.0",
     "@backstage-community/plugin-gcalendar": "^0.20.0",
     "@backstage-community/plugin-github-actions": "^1.0.0",
-    "@backstage-community/plugin-github-deployments": "^0.18.0",
+    "@backstage-community/plugin-github-deployments": "^1.0.0",
     "@backstage-community/plugin-github-discussions": "^1.0.0",
     "@backstage-community/plugin-github-pull-requests-board": "^0.17.0",
     "@backstage-community/plugin-jenkins": "^0.30.0",
