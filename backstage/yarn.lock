@@ -3236,38 +3236,38 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-github-discussions-common@npm:^0.11.0":
-  version: 0.11.0
-  resolution: "@backstage-community/plugin-github-discussions-common@npm:0.11.0"
+"@backstage-community/plugin-github-discussions-common@npm:^0.12.0":
+  version: 0.12.0
+  resolution: "@backstage-community/plugin-github-discussions-common@npm:0.12.0"
   dependencies:
-    "@backstage/plugin-permission-common": "npm:^0.9.7"
-    "@backstage/plugin-search-common": "npm:^1.2.22"
-  checksum: 10c0/4bca7dab6b86c701542673e755c32a0883c644925ce1cb4b319803aed3e045e805d84164add568f2fa5655feb6100a7231e8eea8f7bdad090c6debef94487d4c
+    "@backstage/plugin-permission-common": "npm:^0.9.8"
+    "@backstage/plugin-search-common": "npm:^1.2.23"
+  checksum: 10c0/6f66ae4e016f904897e0b1b3d27a5c10a7df70ee3f4ed27db94bb80e3f14d64186de6b3ff30c1e4bfffa17d63f417aa3200cd7f6cd22069e87269a0c1ae9abf0
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-github-discussions@npm:^0.10.0":
-  version: 0.10.0
-  resolution: "@backstage-community/plugin-github-discussions@npm:0.10.0"
+"@backstage-community/plugin-github-discussions@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "@backstage-community/plugin-github-discussions@npm:1.0.0"
   dependencies:
-    "@backstage-community/plugin-github-discussions-common": "npm:^0.11.0"
-    "@backstage/core-compat-api": "npm:^0.5.9"
-    "@backstage/core-components": "npm:^0.18.8"
-    "@backstage/core-plugin-api": "npm:^1.12.4"
-    "@backstage/frontend-plugin-api": "npm:^0.15.1"
-    "@backstage/plugin-search-common": "npm:^1.2.22"
-    "@backstage/plugin-search-react": "npm:^1.11.0"
-    "@backstage/theme": "npm:^0.7.2"
-    "@material-ui/core": "npm:^4.12.2"
-    "@material-ui/icons": "npm:^4.9.1"
-    "@material-ui/lab": "npm:4.0.0-alpha.61"
+    "@backstage-community/plugin-github-discussions-common": "npm:^0.12.0"
+    "@backstage/core-compat-api": "npm:^0.5.10"
+    "@backstage/core-components": "npm:^0.18.9"
+    "@backstage/core-plugin-api": "npm:^1.12.5"
+    "@backstage/frontend-plugin-api": "npm:^0.16.2"
+    "@backstage/plugin-search-common": "npm:^1.2.23"
+    "@backstage/plugin-search-react": "npm:^1.11.3"
+    "@backstage/theme": "npm:^0.7.3"
+    "@backstage/ui": "npm:^0.14.3"
+    "@remixicon/react": "npm:^4.2.0"
     "@types/react": "npm:^16.13.1 || ^17.0.0 || ^18.0.0"
     react-use: "npm:^17.2.4"
+    zod: "npm:^4.0.0"
   peerDependencies:
     react: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-dom: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-router-dom: 6.0.0-beta.0 || ^6.3.0
-  checksum: 10c0/bcc3ae508c9bb2603432d0d5c9faf7987031bf19906e1db257afbb66c95f68969ff5c2938884898fe620d5396aacdaac98c7a75cc8c77b377201f0540f4fdd24
+  checksum: 10c0/e89741f1684e925614f58584d90be4c8176cff7449643116ea37618a22bd46c1423403a0fbeda316b9d4c873b55a18ae572acde75c0c51f7b520346af0150c76
   languageName: node
   linkType: hard
 
@@ -7930,9 +7930,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage/ui@npm:^0.14.0, @backstage/ui@npm:^0.14.1, @backstage/ui@npm:^0.14.2":
-  version: 0.14.2
-  resolution: "@backstage/ui@npm:0.14.2"
+"@backstage/ui@npm:^0.14.0, @backstage/ui@npm:^0.14.1, @backstage/ui@npm:^0.14.2, @backstage/ui@npm:^0.14.3":
+  version: 0.14.3
+  resolution: "@backstage/ui@npm:0.14.3"
   dependencies:
     "@backstage/version-bridge": "npm:^1.0.12"
     "@remixicon/react": "npm:^4.6.0"
@@ -7950,7 +7950,7 @@ __metadata:
   peerDependenciesMeta:
     "@types/react":
       optional: true
-  checksum: 10c0/2f2dc8a382b43e669ea0517044a1912acb12b33d639b07d736b2239a3e6e62f807e5cfac8e1e3852ff71cd375a2b19d0078318382fd2648a692416ddfe14e043
+  checksum: 10c0/1b1854db882f94d605ee270160cb95b72e8e8328b2fcc638d03590a27f3e4579da04272059168bbf152baf3bdf7b91e8d1ed55659bd80bde582fa5d8f20e7c72
   languageName: node
   linkType: hard
 
@@ -13558,7 +13558,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@remixicon/react@npm:^4.6.0, @remixicon/react@npm:^4.7.0":
+"@remixicon/react@npm:^4.2.0, @remixicon/react@npm:^4.6.0, @remixicon/react@npm:^4.7.0":
   version: 4.9.0
   resolution: "@remixicon/react@npm:4.9.0"
   peerDependencies:
@@ -18601,7 +18601,7 @@ __metadata:
     "@backstage-community/plugin-gcalendar": "npm:^0.20.0"
     "@backstage-community/plugin-github-actions": "npm:^0.22.0"
     "@backstage-community/plugin-github-deployments": "npm:^0.18.0"
-    "@backstage-community/plugin-github-discussions": "npm:^0.10.0"
+    "@backstage-community/plugin-github-discussions": "npm:^1.0.0"
     "@backstage-community/plugin-github-pull-requests-board": "npm:^0.17.0"
     "@backstage-community/plugin-jenkins": "npm:^0.30.0"
     "@backstage-community/plugin-lighthouse": "npm:^0.22.0"
