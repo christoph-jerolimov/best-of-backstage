@@ -3190,9 +3190,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-github-actions@npm:^0.23.0":
-  version: 0.23.0
-  resolution: "@backstage-community/plugin-github-actions@npm:0.23.0"
+"@backstage-community/plugin-github-actions@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "@backstage-community/plugin-github-actions@npm:1.0.0"
   dependencies:
     "@backstage/catalog-model": "npm:^1.8.0"
     "@backstage/core-compat-api": "npm:^0.5.10"
@@ -3202,20 +3202,22 @@ __metadata:
     "@backstage/integration": "npm:^2.0.1"
     "@backstage/integration-react": "npm:^1.2.17"
     "@backstage/plugin-catalog-react": "npm:^2.1.4"
+    "@backstage/ui": "npm:^0.14.3"
     "@material-ui/core": "npm:^4.12.2"
-    "@material-ui/icons": "npm:^4.9.1"
     "@material-ui/lab": "npm:4.0.0-alpha.61"
     "@octokit/rest": "npm:^19.0.3"
+    "@remixicon/react": "npm:^4.2.0"
     "@types/react": "npm:^16.13.1 || ^17.0.0 || ^18.0.0"
     git-url-parse: "npm:^14.0.0"
     luxon: "npm:^3.0.0"
+    react-aria-components: "npm:^1.3.0"
     react-use: "npm:^17.2.4"
     zod: "npm:^4.0.0"
   peerDependencies:
     react: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-dom: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-router-dom: 6.0.0-beta.0 || ^6.3.0
-  checksum: 10c0/24104dd066f226ebd478accba337764f10fd4decb4c354add96e41df2676eb142b379b66973047c6d0f8b2d55227712cb700f90956e101f0882e48ff65a913c7
+  checksum: 10c0/de1f6246cb985b313a575b6f24d32340c5cd25dca98451667e240e5f59d50e4359a4e041f89c8b7bce89816a0e8186c51332433d850ad7a6ae384660282b0b5c
   languageName: node
   linkType: hard
 
@@ -7940,9 +7942,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage/ui@npm:^0.14.0, @backstage/ui@npm:^0.14.1, @backstage/ui@npm:^0.14.2":
-  version: 0.14.2
-  resolution: "@backstage/ui@npm:0.14.2"
+"@backstage/ui@npm:^0.14.0, @backstage/ui@npm:^0.14.1, @backstage/ui@npm:^0.14.2, @backstage/ui@npm:^0.14.3":
+  version: 0.14.3
+  resolution: "@backstage/ui@npm:0.14.3"
   dependencies:
     "@backstage/version-bridge": "npm:^1.0.12"
     "@remixicon/react": "npm:^4.6.0"
@@ -7960,7 +7962,7 @@ __metadata:
   peerDependenciesMeta:
     "@types/react":
       optional: true
-  checksum: 10c0/2f2dc8a382b43e669ea0517044a1912acb12b33d639b07d736b2239a3e6e62f807e5cfac8e1e3852ff71cd375a2b19d0078318382fd2648a692416ddfe14e043
+  checksum: 10c0/1b1854db882f94d605ee270160cb95b72e8e8328b2fcc638d03590a27f3e4579da04272059168bbf152baf3bdf7b91e8d1ed55659bd80bde582fa5d8f20e7c72
   languageName: node
   linkType: hard
 
@@ -13568,7 +13570,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@remixicon/react@npm:^4.6.0, @remixicon/react@npm:^4.7.0":
+"@remixicon/react@npm:^4.2.0, @remixicon/react@npm:^4.6.0, @remixicon/react@npm:^4.7.0":
   version: 4.9.0
   resolution: "@remixicon/react@npm:4.9.0"
   peerDependencies:
@@ -18609,7 +18611,7 @@ __metadata:
     "@backstage-community/plugin-entity-validation": "npm:^0.19.0"
     "@backstage-community/plugin-explore": "npm:^0.18.0"
     "@backstage-community/plugin-gcalendar": "npm:^0.20.0"
-    "@backstage-community/plugin-github-actions": "npm:^0.23.0"
+    "@backstage-community/plugin-github-actions": "npm:^1.0.0"
     "@backstage-community/plugin-github-deployments": "npm:^0.18.0"
     "@backstage-community/plugin-github-discussions": "npm:^0.10.0"
     "@backstage-community/plugin-github-pull-requests-board": "npm:^0.17.0"
@@ -35107,7 +35109,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-aria-components@npm:^1.14.0, react-aria-components@npm:~1.17.0":
+"react-aria-components@npm:^1.14.0, react-aria-components@npm:^1.3.0, react-aria-components@npm:~1.17.0":
   version: 1.17.0
   resolution: "react-aria-components@npm:1.17.0"
   dependencies:
