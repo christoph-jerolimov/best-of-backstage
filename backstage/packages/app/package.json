@@ -17,7 +17,7 @@
     "@axis-backstage/plugin-jira-dashboard": "^2.3.0",
     "@axis-backstage/plugin-readme": "^0.18.0",
     "@backstage-community/plugin-acr": "^1.24.0",
-    "@backstage-community/plugin-adr": "^0.23.0",
+    "@backstage-community/plugin-adr": "^0.24.0",
     "@backstage-community/plugin-announcements": "^2.8.0",
     "@backstage-community/plugin-badges": "^0.20.0",
     "@backstage-community/plugin-bookmarks": "^0.10.0",
