@@ -2529,8 +2529,8 @@ __metadata:
   linkType: hard
 
 "@backstage-community/plugin-acr@npm:^1.24.0":
-  version: 1.24.0
-  resolution: "@backstage-community/plugin-acr@npm:1.24.0"
+  version: 1.24.1
+  resolution: "@backstage-community/plugin-acr@npm:1.24.1"
   dependencies:
     "@backstage/catalog-model": "npm:^1.7.7"
     "@backstage/core-components": "npm:^0.18.8"
@@ -2543,7 +2543,7 @@ __metadata:
     react-use: "npm:^17.4.0"
   peerDependencies:
     react: ^16.13.1 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/196c3576357b96a129ab35c015cb83a21c46242467c407583e520da04106294faafbd929ca92c0dc40dddeb84f629260c2214ad6eb3aabb1a10042c1e86ac7d2
+  checksum: 10c0/6b0d5a04f3bedcd4b5962b762b8c19001908d68cea8985cc2ac4ca5179c88b9c9bae345d30cd5290c7dad0648433bea7ee4bc2d5e801b0100c59828e0f62710d
   languageName: node
   linkType: hard
 
