@@ -3437,9 +3437,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-mcp-chat-backend@npm:^0.10.0":
-  version: 0.10.0
-  resolution: "@backstage-community/plugin-mcp-chat-backend@npm:0.10.0"
+"@backstage-community/plugin-mcp-chat-backend@npm:^0.11.0":
+  version: 0.11.0
+  resolution: "@backstage-community/plugin-mcp-chat-backend@npm:0.11.0"
   dependencies:
     "@backstage/backend-defaults": "npm:^0.17.0"
     "@backstage/backend-plugin-api": "npm:^1.9.0"
@@ -3453,13 +3453,13 @@ __metadata:
     knex: "npm:^3.1.0"
     ollama: "npm:^0.6.0"
     uuid: "npm:^11.0.0"
-  checksum: 10c0/c008d938a742adeea7a333003d2b00ba328dca9773677a5732bc279e740a96bd23b43c0c98723e14aeed1dd8c1033b6d98b859c3af80eae7fb3eb30a08e3e51a
+  checksum: 10c0/4bfacad10f747a9abc95b1dca3f35a6060057295e60cdc8cef3723db7b62b7d7d78027df775d0c44892684190bc0a2cdfe0188b6eb339f2d7612ca148dd5f538
   languageName: node
   linkType: hard
 
 "@backstage-community/plugin-mcp-chat@npm:^0.7.0":
-  version: 0.7.0
-  resolution: "@backstage-community/plugin-mcp-chat@npm:0.7.0"
+  version: 0.7.1
+  resolution: "@backstage-community/plugin-mcp-chat@npm:0.7.1"
   dependencies:
     "@backstage/core-components": "npm:^0.18.9"
     "@backstage/core-plugin-api": "npm:^1.12.5"
@@ -3476,7 +3476,7 @@ __metadata:
     react-dom: ^17.0.0 || ^18.0.0
     react-router: ^6.30.2
     react-router-dom: ^6.3.0
-  checksum: 10c0/e6b59fff3ec187b07c2ea08e9a7430e2b179c404022418319c1c5f05b29db8f9ac33a438f55f09fabf95c9fb5048eb93538e3a7d923c3440f465246307958de6
+  checksum: 10c0/3aa34726d46f69a0b47519e6c78d9089dbda95b0354ff4dfc223c7331d803016102a4d23acf678ed8655e8ff7004cc4cbbb8d41bbc42aff972fc4fcade1076c6
   languageName: node
   linkType: hard
 
@@ -19086,7 +19086,7 @@ __metadata:
     "@backstage-community/plugin-explore-backend": "npm:^0.15.0"
     "@backstage-community/plugin-jenkins-backend": "npm:^0.28.0"
     "@backstage-community/plugin-lighthouse-backend": "npm:^0.23.0"
-    "@backstage-community/plugin-mcp-chat-backend": "npm:^0.10.0"
+    "@backstage-community/plugin-mcp-chat-backend": "npm:^0.11.0"
     "@backstage-community/plugin-npm-backend": "npm:^1.17.0"
     "@backstage-community/plugin-playlist-backend": "npm:^0.20.0"
     "@backstage-community/plugin-rbac-backend": "npm:^7.7.0"
