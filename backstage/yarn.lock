@@ -2932,8 +2932,8 @@ __metadata:
   linkType: hard
 
 "@backstage-community/plugin-copilot-backend@npm:^0.18.2":
-  version: 0.18.3
-  resolution: "@backstage-community/plugin-copilot-backend@npm:0.18.3"
+  version: 0.18.4
+  resolution: "@backstage-community/plugin-copilot-backend@npm:0.18.4"
   dependencies:
     "@backstage-community/plugin-copilot-common": "npm:^0.17.1"
     "@backstage/backend-app-api": "npm:^1.5.0"
@@ -2953,7 +2953,7 @@ __metadata:
     winston: "npm:^3.2.1"
     yn: "npm:^4.0.0"
     zod: "npm:^3.23.8"
-  checksum: 10c0/322ae9c62edb4d8ebf9171b930dd23224a22dc4f75f0c3d3faabdac7f483adc87b67c383dd24a5c08da20301e36ddf314007da6b0126f87fc2896a97d64ca009
+  checksum: 10c0/ff0ec6f92d48033d48f339328a1ab4e7d3e819fa3dffa02809107c589375d9279d53bfc7164e2d91dbff67cdc55866e56c310c906595bac033fe8f4f6d0cb021
   languageName: node
   linkType: hard
 
