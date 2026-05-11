@@ -3481,8 +3481,8 @@ __metadata:
   linkType: hard
 
 "@backstage-community/plugin-nexus-repository-manager@npm:^1.21.0":
-  version: 1.23.1
-  resolution: "@backstage-community/plugin-nexus-repository-manager@npm:1.23.1"
+  version: 1.23.2
+  resolution: "@backstage-community/plugin-nexus-repository-manager@npm:1.23.2"
   dependencies:
     "@backstage/catalog-model": "npm:^1.7.7"
     "@backstage/core-compat-api": "npm:^0.5.9"
@@ -3500,7 +3500,7 @@ __metadata:
     react: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-dom: ^18.0.0
     react-router-dom: ^6.0.0
-  checksum: 10c0/d4de632fa9dce62af714e2b42dce0e4bff603cf9f2750eae93177a5de7dc520744561f3189be01452c7863b32cb7377971c74e987a46dfd348f4810222387e1e
+  checksum: 10c0/7e7348bfdaf3981d8318250e701000fb81d802c98a11f3a9a1c513845ad112f566b678a228bf25164fdfcf86b9d4ba6cf61bfe28297ba2db3d1921890ffd48c1
   languageName: node
   linkType: hard
 
