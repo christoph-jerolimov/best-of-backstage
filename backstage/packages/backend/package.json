@@ -28,7 +28,7 @@
     "@backstage-community/plugin-explore-backend": "^0.15.0",
     "@backstage-community/plugin-jenkins-backend": "^0.28.0",
     "@backstage-community/plugin-lighthouse-backend": "^0.23.0",
-    "@backstage-community/plugin-mcp-chat-backend": "^0.10.0",
+    "@backstage-community/plugin-mcp-chat-backend": "^0.11.0",
     "@backstage-community/plugin-npm-backend": "^1.17.0",
     "@backstage-community/plugin-playlist-backend": "^0.20.0",
     "@backstage-community/plugin-rbac-backend": "^7.7.0",
