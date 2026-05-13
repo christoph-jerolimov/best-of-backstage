@@ -3628,8 +3628,8 @@ __metadata:
   linkType: hard
 
 "@backstage-community/plugin-quay@npm:^1.30.0":
-  version: 1.32.0
-  resolution: "@backstage-community/plugin-quay@npm:1.32.0"
+  version: 1.32.1
+  resolution: "@backstage-community/plugin-quay@npm:1.32.1"
   dependencies:
     "@backstage-community/plugin-quay-common": "npm:^1.19.0"
     "@backstage/catalog-model": "npm:^1.7.7"
@@ -3648,7 +3648,7 @@ __metadata:
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
     react-router-dom: ^6.0.0
-  checksum: 10c0/3d895a1c0e2d7a3bd7ea66c90e2d247ab432db77dc87f9dc21c75c8ef50a85a5e58872226523b909122cb12ff287abbdddff3714161c91612ab5e64d14179245
+  checksum: 10c0/b6638b098a8bb53cc3e64178a03efebc2ced78a3f969bc1e78a62e2e4dfee5ad2a469908d1bdff13e5d40705ee65924568e1d5196151910b2373e4c2a8483c33
   languageName: node
   linkType: hard
 
