@@ -10,6 +10,16 @@
   ],
   "packageRules": [
     {
+      "matchPackageNames": [
+        "@backstage/**"
+      ],
+      "matchUpdateTypes": [
+        "major",
+        "minor"
+      ],
+      "enabled": false
+    },
+    {
       "groupName": "acr plugin",
       "groupSlug": "acr",
       "matchPackageNames": [
