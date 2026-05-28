@@ -1845,8 +1845,8 @@ __metadata:
   linkType: hard
 
 "@axis-backstage/plugin-jira-dashboard@npm:^2.3.0":
-  version: 2.3.3
-  resolution: "@axis-backstage/plugin-jira-dashboard@npm:2.3.3"
+  version: 2.3.4
+  resolution: "@axis-backstage/plugin-jira-dashboard@npm:2.3.4"
   dependencies:
     "@axis-backstage/plugin-jira-dashboard-common": "npm:^1.15.1"
     "@backstage/catalog-model": "npm:^1.8.0"
@@ -1868,7 +1868,7 @@ __metadata:
     react: ^17.0.0  || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
     react-router-dom: 6.0.0-beta.0 || ^6.3.0
-  checksum: 10c0/116639409fe430fb15fa54b9d7d9059c966ddfef751c185484beabe27a7ed6b764ceeda8437b42051ea3a20afe1c3a81da05252ed4698f3cbe69aa21dc28446d
+  checksum: 10c0/a37268e512f31a4337e0b3896148dae570964fed8e07ffb8576c41774f361e25bfce705bcf338fd03fc5c3186973d6168bfc6d7675d41c08b94d01d552bfd6aa
   languageName: node
   linkType: hard
 
