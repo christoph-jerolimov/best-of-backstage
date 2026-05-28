@@ -3248,29 +3248,29 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-github-discussions-common@npm:^0.12.0":
-  version: 0.12.0
-  resolution: "@backstage-community/plugin-github-discussions-common@npm:0.12.0"
+"@backstage-community/plugin-github-discussions-common@npm:^0.13.0":
+  version: 0.13.0
+  resolution: "@backstage-community/plugin-github-discussions-common@npm:0.13.0"
   dependencies:
-    "@backstage/plugin-permission-common": "npm:^0.9.8"
-    "@backstage/plugin-search-common": "npm:^1.2.23"
-  checksum: 10c0/6f66ae4e016f904897e0b1b3d27a5c10a7df70ee3f4ed27db94bb80e3f14d64186de6b3ff30c1e4bfffa17d63f417aa3200cd7f6cd22069e87269a0c1ae9abf0
+    "@backstage/plugin-permission-common": "npm:^0.9.9"
+    "@backstage/plugin-search-common": "npm:^1.2.24"
+  checksum: 10c0/ec457c71f09d763f8df2ef2182c8f0d248c57300e5c7de6a8d2e005d7aba61a7cbfd4788f249861347485534eea47497484ee5a35c771d8295ef24c7197fe7eb
   languageName: node
   linkType: hard
 
 "@backstage-community/plugin-github-discussions@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "@backstage-community/plugin-github-discussions@npm:1.0.0"
+  version: 1.1.0
+  resolution: "@backstage-community/plugin-github-discussions@npm:1.1.0"
   dependencies:
-    "@backstage-community/plugin-github-discussions-common": "npm:^0.12.0"
-    "@backstage/core-compat-api": "npm:^0.5.10"
-    "@backstage/core-components": "npm:^0.18.9"
-    "@backstage/core-plugin-api": "npm:^1.12.5"
-    "@backstage/frontend-plugin-api": "npm:^0.16.2"
-    "@backstage/plugin-search-common": "npm:^1.2.23"
-    "@backstage/plugin-search-react": "npm:^1.11.3"
+    "@backstage-community/plugin-github-discussions-common": "npm:^0.13.0"
+    "@backstage/core-compat-api": "npm:^0.5.11"
+    "@backstage/core-components": "npm:^0.18.10"
+    "@backstage/core-plugin-api": "npm:^1.12.6"
+    "@backstage/frontend-plugin-api": "npm:^0.17.0"
+    "@backstage/plugin-search-common": "npm:^1.2.24"
+    "@backstage/plugin-search-react": "npm:^1.11.4"
     "@backstage/theme": "npm:^0.7.3"
-    "@backstage/ui": "npm:^0.14.3"
+    "@backstage/ui": "npm:^0.15.0"
     "@remixicon/react": "npm:^4.2.0"
     "@types/react": "npm:^16.13.1 || ^17.0.0 || ^18.0.0"
     react-use: "npm:^17.2.4"
@@ -3279,7 +3279,7 @@ __metadata:
     react: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-dom: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-router-dom: 6.0.0-beta.0 || ^6.3.0
-  checksum: 10c0/e89741f1684e925614f58584d90be4c8176cff7449643116ea37618a22bd46c1423403a0fbeda316b9d4c873b55a18ae572acde75c0c51f7b520346af0150c76
+  checksum: 10c0/4ddbd06c4bc67ce5fa0b2b41110fe6c190f93ae6bb60f5e7c825f7a95c70335cf55a3abf4a45c6e5e0848c49f1669939208adb508539506b9b817dee48263134
   languageName: node
   linkType: hard
 
