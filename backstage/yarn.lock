@@ -1891,9 +1891,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@axis-backstage/plugin-readme@npm:^0.18.0":
-  version: 0.18.2
-  resolution: "@axis-backstage/plugin-readme@npm:0.18.2"
+"@axis-backstage/plugin-readme@npm:^0.19.0":
+  version: 0.19.0
+  resolution: "@axis-backstage/plugin-readme@npm:0.19.0"
   dependencies:
     "@backstage/catalog-model": "npm:^1.8.0"
     "@backstage/core-compat-api": "npm:^0.5.10"
@@ -1906,12 +1906,13 @@ __metadata:
     "@mui/icons-material": "npm:^5.15.7"
     "@mui/material": "npm:^5.15.7"
     react-use: "npm:^17.2.4"
+    zod: "npm:^4.3.6"
   peerDependencies:
     "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
     react-router-dom: ^6.3.0
-  checksum: 10c0/ee8e5fecde210f593573adc19a37e4f972c458fb29408804608210a7cb557ed79c70a2073bc627585476a44ab27a99e73fc4b2403f57ba5a7d77c185a34cafa9
+  checksum: 10c0/4cfba59dac1169ed1eb8bd81087fafd402bc903d71d12fb35e1b043b2472b4a754f41acb6e1614bd496d480e5d2193137d9874bbca1ec4ea166ca70e41476738
   languageName: node
   linkType: hard
 
@@ -18258,7 +18259,7 @@ __metadata:
   resolution: "app@workspace:packages/app"
   dependencies:
     "@axis-backstage/plugin-jira-dashboard": "npm:^2.3.0"
-    "@axis-backstage/plugin-readme": "npm:^0.18.0"
+    "@axis-backstage/plugin-readme": "npm:^0.19.0"
     "@backstage-community/plugin-acr": "npm:^1.24.0"
     "@backstage-community/plugin-adr": "npm:^0.24.0"
     "@backstage-community/plugin-announcements": "npm:^2.8.0"
