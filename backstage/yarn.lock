@@ -3654,19 +3654,19 @@ __metadata:
   linkType: hard
 
 "@backstage-community/plugin-rbac-backend@npm:^7.7.0":
-  version: 7.12.4
-  resolution: "@backstage-community/plugin-rbac-backend@npm:7.12.4"
+  version: 7.13.0
+  resolution: "@backstage-community/plugin-rbac-backend@npm:7.13.0"
   dependencies:
-    "@backstage-community/plugin-rbac-common": "npm:^1.26.1"
-    "@backstage-community/plugin-rbac-node": "npm:^1.20.1"
-    "@backstage/backend-defaults": "npm:^0.16.0"
-    "@backstage/backend-plugin-api": "npm:^1.8.0"
-    "@backstage/catalog-client": "npm:^1.14.0"
-    "@backstage/catalog-model": "npm:^1.7.7"
-    "@backstage/config": "npm:^1.3.6"
-    "@backstage/errors": "npm:^1.2.7"
-    "@backstage/plugin-permission-common": "npm:^0.9.7"
-    "@backstage/plugin-permission-node": "npm:^0.10.11"
+    "@backstage-community/plugin-rbac-common": "npm:^1.27.0"
+    "@backstage-community/plugin-rbac-node": "npm:^1.21.0"
+    "@backstage/backend-defaults": "npm:^0.17.0"
+    "@backstage/backend-plugin-api": "npm:^1.9.0"
+    "@backstage/catalog-client": "npm:^1.15.0"
+    "@backstage/catalog-model": "npm:^1.8.0"
+    "@backstage/config": "npm:^1.3.7"
+    "@backstage/errors": "npm:^1.3.0"
+    "@backstage/plugin-permission-common": "npm:^0.9.8"
+    "@backstage/plugin-permission-node": "npm:^0.10.12"
     "@dagrejs/graphlib": "npm:^4.0.0"
     casbin: "npm:^5.27.1"
     chokidar: "npm:^3.6.0"
@@ -3678,45 +3678,45 @@ __metadata:
     lodash: "npm:^4.17.21"
     typeorm-adapter: "npm:^1.6.1"
     zod: "npm:^4.3.6"
-  checksum: 10c0/c3e0ca725e7d1fefd6575b1c1897a33c6833a3a064dcc62474533b04bd18c90ac967b7e4490fbac1a214a532bd6178392937f036d6791090a1f35d0624f7c925
+  checksum: 10c0/b03ed15b7adc4f6364d6d38af447b38548272647ae309d866230a7de7abfd4dde45c2c4dcc2654397b531c28bc4a7f112881450bdeffb3f558c5c4e70b0af29e
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-rbac-common@npm:^1.26.1":
-  version: 1.26.1
-  resolution: "@backstage-community/plugin-rbac-common@npm:1.26.1"
+"@backstage-community/plugin-rbac-common@npm:^1.27.0":
+  version: 1.27.0
+  resolution: "@backstage-community/plugin-rbac-common@npm:1.27.0"
   peerDependencies:
-    "@backstage/errors": ^1.2.7
-    "@backstage/plugin-permission-common": ^0.9.7
-  checksum: 10c0/2bcc754768100bd7c56d2e8545f72081c6c9e3d41ffd480bddd74c0264e365dfd5899af60af4b6644e4b1a3d3c5662765ed02587cda4cf2a531e182bfe6ce9e5
+    "@backstage/errors": ^1.3.0
+    "@backstage/plugin-permission-common": ^0.9.8
+  checksum: 10c0/198593041500f78b742760e20b39e2e8b97caf7dc84d1894e377d4bef83db8792bee63e164f513a22c50147e0cbf333ed8321c86143d7dee181c4ec99f73a109
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-rbac-node@npm:^1.20.1":
-  version: 1.20.1
-  resolution: "@backstage-community/plugin-rbac-node@npm:1.20.1"
+"@backstage-community/plugin-rbac-node@npm:^1.21.0":
+  version: 1.21.0
+  resolution: "@backstage-community/plugin-rbac-node@npm:1.21.0"
   dependencies:
-    "@backstage-community/plugin-rbac-common": "npm:^1.26.1"
-    "@backstage/backend-plugin-api": "npm:^1.8.0"
-  checksum: 10c0/936f95a638841c1da0a3fd73ac50daf03ba777d829312c05fadedb431f92b5412e71fbd67412411241bb964a659593260ecc94dec8adf788d6fa8aba3c969bb7
+    "@backstage-community/plugin-rbac-common": "npm:^1.27.0"
+    "@backstage/backend-plugin-api": "npm:^1.9.0"
+  checksum: 10c0/d24cc070ef0da213746844c6127cef2c1c2a49e2d13cd744bb5cd414b97f42bc112a18ef247223f94cae458b49288c0a75e44d369eced585d17a90c283f02b91
   languageName: node
   linkType: hard
 
 "@backstage-community/plugin-rbac@npm:^1.48.0":
-  version: 1.52.4
-  resolution: "@backstage-community/plugin-rbac@npm:1.52.4"
+  version: 1.53.0
+  resolution: "@backstage-community/plugin-rbac@npm:1.53.0"
   dependencies:
-    "@backstage-community/plugin-rbac-common": "npm:^1.26.1"
-    "@backstage/catalog-model": "npm:^1.7.7"
-    "@backstage/core-components": "npm:^0.18.8"
-    "@backstage/core-plugin-api": "npm:^1.12.4"
-    "@backstage/frontend-plugin-api": "npm:^0.15.1"
-    "@backstage/plugin-app-react": "npm:^0.2.1"
-    "@backstage/plugin-catalog": "npm:^2.0.1"
-    "@backstage/plugin-catalog-common": "npm:^1.1.8"
-    "@backstage/plugin-permission-common": "npm:^0.9.7"
-    "@backstage/plugin-permission-react": "npm:^0.4.41"
-    "@backstage/theme": "npm:^0.7.2"
+    "@backstage-community/plugin-rbac-common": "npm:^1.27.0"
+    "@backstage/catalog-model": "npm:^1.8.0"
+    "@backstage/core-components": "npm:^0.18.9"
+    "@backstage/core-plugin-api": "npm:^1.12.5"
+    "@backstage/frontend-plugin-api": "npm:^0.16.2"
+    "@backstage/plugin-app-react": "npm:^0.2.2"
+    "@backstage/plugin-catalog": "npm:^2.0.4"
+    "@backstage/plugin-catalog-common": "npm:^1.1.9"
+    "@backstage/plugin-permission-common": "npm:^0.9.8"
+    "@backstage/plugin-permission-react": "npm:^0.5.0"
+    "@backstage/theme": "npm:^0.7.3"
     "@mui/icons-material": "npm:5.18.0"
     "@mui/material": "npm:^5.14.18"
     "@mui/styles": "npm:^6.1.7"
@@ -3732,7 +3732,7 @@ __metadata:
     react: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-dom: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-router-dom: ^6.0.0
-  checksum: 10c0/7060392996b98259062205d8c392198b97fc434dea6ba9a49e2a8448f75905f7b35c3401acc5b8462b548c3a9bcefde94a17d2d3d1bee7ee6267d726ea31527c
+  checksum: 10c0/cd2d7766eda366780b0376db2b674967ef127f43fddef5493338f45e7bf93da8364f2bd4fb8e5e5095cc9f5b4537485c03a0aacc5cf8683deb195750341edef0
   languageName: node
   linkType: hard
 
@@ -5370,7 +5370,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage/plugin-app-react@npm:^0.2.1, @backstage/plugin-app-react@npm:^0.2.2, @backstage/plugin-app-react@npm:^0.2.3":
+"@backstage/plugin-app-react@npm:^0.2.2, @backstage/plugin-app-react@npm:^0.2.3":
   version: 0.2.3
   resolution: "@backstage/plugin-app-react@npm:0.2.3"
   dependencies:
@@ -5785,7 +5785,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage/plugin-catalog-common@npm:^1.1.10, @backstage/plugin-catalog-common@npm:^1.1.7, @backstage/plugin-catalog-common@npm:^1.1.8, @backstage/plugin-catalog-common@npm:^1.1.9":
+"@backstage/plugin-catalog-common@npm:^1.1.10, @backstage/plugin-catalog-common@npm:^1.1.7, @backstage/plugin-catalog-common@npm:^1.1.9":
   version: 1.1.10
   resolution: "@backstage/plugin-catalog-common@npm:1.1.10"
   dependencies:
@@ -6026,7 +6026,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage/plugin-catalog@npm:^2.0.1, @backstage/plugin-catalog@npm:^2.0.5":
+"@backstage/plugin-catalog@npm:^2.0.4, @backstage/plugin-catalog@npm:^2.0.5":
   version: 2.0.5
   resolution: "@backstage/plugin-catalog@npm:2.0.5"
   dependencies:
@@ -6665,7 +6665,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage/plugin-permission-react@npm:^0.4.39, @backstage/plugin-permission-react@npm:^0.4.41":
+"@backstage/plugin-permission-react@npm:^0.4.39":
   version: 0.4.41
   resolution: "@backstage/plugin-permission-react@npm:0.4.41"
   dependencies:
