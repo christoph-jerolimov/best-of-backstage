@@ -19,7 +19,7 @@
     "@backstage-community/plugin-acr": "^1.24.0",
     "@backstage-community/plugin-adr": "^0.24.0",
     "@backstage-community/plugin-announcements": "^2.8.0",
-    "@backstage-community/plugin-badges": "^0.20.0",
+    "@backstage-community/plugin-badges": "^0.21.0",
     "@backstage-community/plugin-bookmarks": "^0.10.0",
     "@backstage-community/plugin-cicd-statistics": "^0.16.0",
     "@backstage-community/plugin-cicd-statistics-module-github": "^0.14.0",
