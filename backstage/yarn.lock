@@ -2771,34 +2771,34 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-cicd-statistics-module-github@npm:^0.14.0":
-  version: 0.14.0
-  resolution: "@backstage-community/plugin-cicd-statistics-module-github@npm:0.14.0"
+"@backstage-community/plugin-cicd-statistics-module-github@npm:^0.15.0":
+  version: 0.15.0
+  resolution: "@backstage-community/plugin-cicd-statistics-module-github@npm:0.15.0"
   dependencies:
-    "@backstage-community/plugin-cicd-statistics": "npm:^0.16.0"
-    "@backstage/catalog-model": "npm:^1.8.0"
-    "@backstage/core-plugin-api": "npm:^1.12.5"
-    "@backstage/frontend-plugin-api": "npm:^0.16.2"
-    "@backstage/integration": "npm:^2.0.1"
-    "@backstage/integration-react": "npm:^1.2.17"
+    "@backstage-community/plugin-cicd-statistics": "npm:^0.17.0"
+    "@backstage/catalog-model": "npm:^1.9.0"
+    "@backstage/core-plugin-api": "npm:^1.12.6"
+    "@backstage/frontend-plugin-api": "npm:^0.17.0"
+    "@backstage/integration": "npm:^2.0.2"
+    "@backstage/integration-react": "npm:^1.2.18"
     "@octokit/rest": "npm:^21.1.1"
     p-limit: "npm:^3.1.0"
   peerDependencies:
     react: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-dom: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-router-dom: 6.0.0-beta.0 || ^6.3.0
-  checksum: 10c0/8902c4a7310f4f8f3a8722a9e14874d7efdc7e6e3dd08c3c522f919344eb7e3c01bdb3965b7cd0ce58ef0b3df462b7cb750a6ab0aa6bfb1897d84a7437565dc5
+  checksum: 10c0/886ae63ef3ddbce81ec05fa826935c02f3501eebf4b168a300011743579700ee378944ad83b61f93b896fefc71e89ee02c37e84d3274c6ba1d4125b12191204a
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-cicd-statistics-module-gitlab@npm:^0.16.0":
-  version: 0.16.0
-  resolution: "@backstage-community/plugin-cicd-statistics-module-gitlab@npm:0.16.0"
+"@backstage-community/plugin-cicd-statistics-module-gitlab@npm:^0.17.0":
+  version: 0.17.0
+  resolution: "@backstage-community/plugin-cicd-statistics-module-gitlab@npm:0.17.0"
   dependencies:
-    "@backstage-community/plugin-cicd-statistics": "npm:^0.16.0"
-    "@backstage/catalog-model": "npm:^1.8.0"
-    "@backstage/core-plugin-api": "npm:^1.12.5"
-    "@backstage/frontend-plugin-api": "npm:^0.16.2"
+    "@backstage-community/plugin-cicd-statistics": "npm:^0.17.0"
+    "@backstage/catalog-model": "npm:^1.9.0"
+    "@backstage/core-plugin-api": "npm:^1.12.6"
+    "@backstage/frontend-plugin-api": "npm:^0.17.0"
     "@gitbeaker/core": "npm:^43.0.0"
     "@gitbeaker/rest": "npm:^43.0.0"
     p-limit: "npm:^3.1.0"
@@ -2806,19 +2806,19 @@ __metadata:
     react: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-dom: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-router-dom: 6.0.0-beta.0 || ^6.3.0
-  checksum: 10c0/69fe314d6b2690a7695c63e398e1c8b021728a68ae80824bbe2cb934d639b6f3f5f610d331938c04b8030e0894b471aa36e9f6159bb845e034fe92419e67e1b1
+  checksum: 10c0/40b3f6dff00a26de0813d4fccab00abeae10e27da1c5a13c6f9efe4f0e5038866c39e60b6d036bc4573101a6374132b2d1585e6a7f64041e22ba464d576c4147
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-cicd-statistics@npm:^0.16.0":
-  version: 0.16.0
-  resolution: "@backstage-community/plugin-cicd-statistics@npm:0.16.0"
+"@backstage-community/plugin-cicd-statistics@npm:^0.17.0":
+  version: 0.17.0
+  resolution: "@backstage-community/plugin-cicd-statistics@npm:0.17.0"
   dependencies:
-    "@backstage/catalog-model": "npm:^1.8.0"
-    "@backstage/core-compat-api": "npm:^0.5.10"
-    "@backstage/core-plugin-api": "npm:^1.12.5"
-    "@backstage/frontend-plugin-api": "npm:^0.16.2"
-    "@backstage/plugin-catalog-react": "npm:^2.1.4"
+    "@backstage/catalog-model": "npm:^1.9.0"
+    "@backstage/core-compat-api": "npm:^0.5.11"
+    "@backstage/core-plugin-api": "npm:^1.12.6"
+    "@backstage/frontend-plugin-api": "npm:^0.17.0"
+    "@backstage/plugin-catalog-react": "npm:^3.0.0"
     "@date-io/luxon": "npm:^1.3.13"
     "@material-ui/core": "npm:^4.12.2"
     "@material-ui/icons": "npm:^4.9.1"
@@ -2834,7 +2834,7 @@ __metadata:
     react: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-dom: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-router-dom: 6.0.0-beta.0 || ^6.3.0
-  checksum: 10c0/4b03fdce454e8fc4fcf6595c75f605770e9cf639f996067d7404404358268af3629df06f62f9f84781da341000dd7a00226ab0053a6c8144889a212adee26613
+  checksum: 10c0/24d2aeba577998ca76cd3ceda061caf80ba62af7e1507c5bfa4997e5af5ac37ae9ab1054e8e1bc4068d6902cbd4b95ce5c4896f5c0120ea60c0f66057a08fba8
   languageName: node
   linkType: hard
 
@@ -18148,9 +18148,9 @@ __metadata:
     "@backstage-community/plugin-announcements": "npm:^2.8.0"
     "@backstage-community/plugin-badges": "npm:^0.20.0"
     "@backstage-community/plugin-bookmarks": "npm:^0.10.0"
-    "@backstage-community/plugin-cicd-statistics": "npm:^0.16.0"
-    "@backstage-community/plugin-cicd-statistics-module-github": "npm:^0.14.0"
-    "@backstage-community/plugin-cicd-statistics-module-gitlab": "npm:^0.16.0"
+    "@backstage-community/plugin-cicd-statistics": "npm:^0.17.0"
+    "@backstage-community/plugin-cicd-statistics-module-github": "npm:^0.15.0"
+    "@backstage-community/plugin-cicd-statistics-module-gitlab": "npm:^0.17.0"
     "@backstage-community/plugin-code-climate": "npm:^0.18.0"
     "@backstage-community/plugin-code-coverage": "npm:^0.14.0"
     "@backstage-community/plugin-confluence": "npm:^0.14.1"
