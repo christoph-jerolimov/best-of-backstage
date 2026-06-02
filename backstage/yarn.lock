@@ -2993,50 +2993,50 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-entity-feedback-backend@npm:^0.20.0":
-  version: 0.20.1
-  resolution: "@backstage-community/plugin-entity-feedback-backend@npm:0.20.1"
+"@backstage-community/plugin-entity-feedback-backend@npm:^0.21.0":
+  version: 0.21.0
+  resolution: "@backstage-community/plugin-entity-feedback-backend@npm:0.21.0"
   dependencies:
-    "@backstage-community/plugin-entity-feedback-common": "npm:^0.16.0"
-    "@backstage/backend-defaults": "npm:^0.17.0"
-    "@backstage/backend-plugin-api": "npm:^1.9.0"
-    "@backstage/catalog-client": "npm:^1.15.0"
-    "@backstage/catalog-model": "npm:^1.8.0"
-    "@backstage/config": "npm:^1.3.7"
-    "@backstage/errors": "npm:^1.3.0"
-    "@backstage/plugin-auth-node": "npm:^0.7.0"
-    "@backstage/plugin-notifications-common": "npm:^0.2.2"
-    "@backstage/plugin-notifications-node": "npm:^0.2.25"
+    "@backstage-community/plugin-entity-feedback-common": "npm:^0.17.0"
+    "@backstage/backend-defaults": "npm:^0.17.1"
+    "@backstage/backend-plugin-api": "npm:^1.9.1"
+    "@backstage/catalog-client": "npm:^1.15.1"
+    "@backstage/catalog-model": "npm:^1.9.0"
+    "@backstage/config": "npm:^1.3.8"
+    "@backstage/errors": "npm:^1.3.1"
+    "@backstage/plugin-auth-node": "npm:^0.7.1"
+    "@backstage/plugin-notifications-common": "npm:^0.2.3"
+    "@backstage/plugin-notifications-node": "npm:^0.2.26"
     "@types/express": "npm:*"
     express: "npm:^4.18.1"
     express-promise-router: "npm:^4.1.0"
     knex: "npm:^3.0.0"
     node-fetch: "npm:^2.6.7"
     yn: "npm:^4.0.0"
-  checksum: 10c0/1324e07c2ef983f0ec1f74cea808828f1b736c72599d1312a32f621268e2ca5faa778b137b0825b572b52c4fe459caedb7f1fc759e5230dd429bbbf657a20371
+  checksum: 10c0/3e3aca8daa4542d23787862abf88f28c77723a575a0a5e627c8941273f4592522b5477ce5cda71d17139eda67f2796cb947ce24f23043f419c5754e543afc665
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-entity-feedback-common@npm:^0.16.0":
-  version: 0.16.0
-  resolution: "@backstage-community/plugin-entity-feedback-common@npm:0.16.0"
-  checksum: 10c0/e72966ea098b4aef71c29c296e91bf36e718c5de410f4b0e53ed24aadf0662b07e5b0345066ca904a09080e35f7ec96579e3b88012cd2c74760be4508bd171a0
+"@backstage-community/plugin-entity-feedback-common@npm:^0.17.0":
+  version: 0.17.0
+  resolution: "@backstage-community/plugin-entity-feedback-common@npm:0.17.0"
+  checksum: 10c0/22e8d5ee6df3a72d5b3a9d5e46ea43acbcafb916f7385437e501f489caa1f7e8f114d531be1bd5348c1cea399cf2d9299316e440adca409e0db75016ace03640
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-entity-feedback@npm:^0.18.0":
-  version: 0.18.0
-  resolution: "@backstage-community/plugin-entity-feedback@npm:0.18.0"
+"@backstage-community/plugin-entity-feedback@npm:^0.19.0":
+  version: 0.19.0
+  resolution: "@backstage-community/plugin-entity-feedback@npm:0.19.0"
   dependencies:
-    "@backstage-community/plugin-entity-feedback-common": "npm:^0.16.0"
-    "@backstage/catalog-model": "npm:^1.8.0"
-    "@backstage/core-compat-api": "npm:^0.5.10"
-    "@backstage/core-components": "npm:^0.18.9"
-    "@backstage/core-plugin-api": "npm:^1.12.5"
-    "@backstage/errors": "npm:^1.3.0"
-    "@backstage/filter-predicates": "npm:^0.1.2"
-    "@backstage/frontend-plugin-api": "npm:^0.16.2"
-    "@backstage/plugin-catalog-react": "npm:^2.1.4"
+    "@backstage-community/plugin-entity-feedback-common": "npm:^0.17.0"
+    "@backstage/catalog-model": "npm:^1.9.0"
+    "@backstage/core-compat-api": "npm:^0.5.11"
+    "@backstage/core-components": "npm:^0.18.10"
+    "@backstage/core-plugin-api": "npm:^1.12.6"
+    "@backstage/errors": "npm:^1.3.1"
+    "@backstage/filter-predicates": "npm:^0.1.3"
+    "@backstage/frontend-plugin-api": "npm:^0.17.0"
+    "@backstage/plugin-catalog-react": "npm:^3.0.0"
     "@material-ui/core": "npm:^4.9.13"
     "@material-ui/icons": "npm:^4.9.1"
     "@types/react": "npm:^16.13.1 || ^17.0.0 || ^18.0.0"
@@ -3045,7 +3045,7 @@ __metadata:
     react: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-dom: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-router-dom: 6.0.0-beta.0 || ^6.3.0
-  checksum: 10c0/5cf33ddbaf3d03a68f17bf55ffca34c6c5d5dce12b29a3c586b3773e06923c7d5cccc802ab07a81bb9b8b2e878544f8cc7da7e740f7145889546bf3217f177cc
+  checksum: 10c0/e909d271b2e327f717125d07497de1c04bcb4a058054ae9638db6fb4f3d11e86e35dba6e4a55d48b1dd78d19c8a2f89e0595dc57b6fa4429a0fee97f4dbe467f
   languageName: node
   linkType: hard
 
@@ -6504,7 +6504,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage/plugin-notifications-common@npm:^0.2.2, @backstage/plugin-notifications-common@npm:^0.2.3":
+"@backstage/plugin-notifications-common@npm:^0.2.3":
   version: 0.2.3
   resolution: "@backstage/plugin-notifications-common@npm:0.2.3"
   dependencies:
@@ -18157,7 +18157,7 @@ __metadata:
     "@backstage-community/plugin-code-coverage": "npm:^0.14.0"
     "@backstage-community/plugin-confluence": "npm:^0.14.1"
     "@backstage-community/plugin-copilot": "npm:^0.20.0"
-    "@backstage-community/plugin-entity-feedback": "npm:^0.18.0"
+    "@backstage-community/plugin-entity-feedback": "npm:^0.19.0"
     "@backstage-community/plugin-entity-validation": "npm:^0.20.0"
     "@backstage-community/plugin-explore": "npm:^0.18.0"
     "@backstage-community/plugin-gcalendar": "npm:^0.20.0"
@@ -18874,7 +18874,7 @@ __metadata:
     "@backstage-community/plugin-badges-backend": "npm:^0.24.0"
     "@backstage-community/plugin-code-coverage-backend": "npm:^0.16.0"
     "@backstage-community/plugin-copilot-backend": "npm:^0.19.0"
-    "@backstage-community/plugin-entity-feedback-backend": "npm:^0.20.0"
+    "@backstage-community/plugin-entity-feedback-backend": "npm:^0.21.0"
     "@backstage-community/plugin-explore-backend": "npm:^0.15.0"
     "@backstage-community/plugin-jenkins-backend": "npm:^0.28.0"
     "@backstage-community/plugin-lighthouse-backend": "npm:^0.23.0"
