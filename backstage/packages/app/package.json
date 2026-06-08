@@ -76,7 +76,7 @@
     "@backstage/plugin-techdocs-module-addons-contrib": "^1.1.36",
     "@backstage/plugin-user-settings": "^0.9.3",
     "@backstage/ui": "^0.15.0",
-    "@mui/icons-material": "^7.0.0",
+    "@mui/icons-material": "^9.0.0",
     "@react-stately/layout": "^4.7.0",
     "@roadiehq/backstage-plugin-jira": "^2.14.0",
     "react": "^18.0.2",
