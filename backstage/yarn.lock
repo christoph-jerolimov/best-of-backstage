@@ -2838,15 +2838,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-code-climate@npm:^0.18.0":
-  version: 0.18.0
-  resolution: "@backstage-community/plugin-code-climate@npm:0.18.0"
+"@backstage-community/plugin-code-climate@npm:^0.19.0":
+  version: 0.19.0
+  resolution: "@backstage-community/plugin-code-climate@npm:0.19.0"
   dependencies:
-    "@backstage/catalog-model": "npm:^1.8.0"
-    "@backstage/core-components": "npm:^0.18.9"
-    "@backstage/core-plugin-api": "npm:^1.12.5"
-    "@backstage/frontend-plugin-api": "npm:^0.16.2"
-    "@backstage/plugin-catalog-react": "npm:^2.1.4"
+    "@backstage/catalog-model": "npm:^1.9.0"
+    "@backstage/core-components": "npm:^0.18.10"
+    "@backstage/core-plugin-api": "npm:^1.12.6"
+    "@backstage/frontend-plugin-api": "npm:^0.17.1"
+    "@backstage/plugin-catalog-react": "npm:^3.0.0"
     "@material-ui/core": "npm:^4.12.2"
     "@types/react": "npm:^16.13.1 || ^17.0.0 || ^18.0.0"
     humanize-duration: "npm:^3.27.1"
@@ -2856,7 +2856,7 @@ __metadata:
     react: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-dom: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-router-dom: 6.0.0-beta.0 || ^6.3.0
-  checksum: 10c0/3d6db8df76c2ad4c256d7bcfb5268dade88f27e5f8464f6a23e66d5697db43a26cce60057d8fda424a2d460b4a81845d6e53967fe649ec31dd659a1bf448a8fc
+  checksum: 10c0/be29c7e678bfdda5927bead116a69883230c632f39da95fb2087cd1aed89dff5a2d056791a3f7f9db15262908ee5b55887c29cc69e1b617c1e1519555412e718
   languageName: node
   linkType: hard
 
@@ -18153,7 +18153,7 @@ __metadata:
     "@backstage-community/plugin-cicd-statistics": "npm:^0.17.0"
     "@backstage-community/plugin-cicd-statistics-module-github": "npm:^0.15.0"
     "@backstage-community/plugin-cicd-statistics-module-gitlab": "npm:^0.17.0"
-    "@backstage-community/plugin-code-climate": "npm:^0.18.0"
+    "@backstage-community/plugin-code-climate": "npm:^0.19.0"
     "@backstage-community/plugin-code-coverage": "npm:^0.14.0"
     "@backstage-community/plugin-confluence": "npm:^0.14.1"
     "@backstage-community/plugin-copilot": "npm:^0.20.0"
