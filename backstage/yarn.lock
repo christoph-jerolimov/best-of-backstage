@@ -3552,20 +3552,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-playlist-backend@npm:^0.20.0":
-  version: 0.20.1
-  resolution: "@backstage-community/plugin-playlist-backend@npm:0.20.1"
+"@backstage-community/plugin-playlist-backend@npm:^0.21.0":
+  version: 0.21.0
+  resolution: "@backstage-community/plugin-playlist-backend@npm:0.21.0"
   dependencies:
-    "@backstage-community/plugin-playlist-common": "npm:^0.17.0"
-    "@backstage/backend-defaults": "npm:^0.17.0"
-    "@backstage/backend-plugin-api": "npm:^1.9.0"
-    "@backstage/catalog-client": "npm:^1.15.0"
-    "@backstage/catalog-model": "npm:^1.8.0"
-    "@backstage/config": "npm:^1.3.7"
-    "@backstage/errors": "npm:^1.3.0"
-    "@backstage/plugin-auth-node": "npm:^0.7.0"
-    "@backstage/plugin-permission-common": "npm:^0.9.8"
-    "@backstage/plugin-permission-node": "npm:^0.10.12"
+    "@backstage-community/plugin-playlist-common": "npm:^0.18.0"
+    "@backstage/backend-defaults": "npm:^0.17.1"
+    "@backstage/backend-plugin-api": "npm:^1.9.1"
+    "@backstage/catalog-client": "npm:^1.15.1"
+    "@backstage/catalog-model": "npm:^1.9.0"
+    "@backstage/config": "npm:^1.3.8"
+    "@backstage/errors": "npm:^1.3.1"
+    "@backstage/plugin-auth-node": "npm:^0.7.1"
+    "@backstage/plugin-permission-common": "npm:^0.9.9"
+    "@backstage/plugin-permission-node": "npm:^0.11.0"
     "@types/express": "npm:*"
     express: "npm:^4.17.1"
     express-promise-router: "npm:^4.1.0"
@@ -3574,33 +3574,33 @@ __metadata:
     uuid: "npm:^13.0.0"
     yn: "npm:^4.0.0"
     zod: "npm:^3.25.76 || ^4.0.0"
-  checksum: 10c0/dcd66647a554f8d6402a488523e54595f2bcce8d411d28567518dff839f9cb7d116ea10dbf8c116494263e2c23d38af80d124a29427c0d91756f37ea5d9f47dd
+  checksum: 10c0/e75db8ab0bc613ca1de22bde8661a11f66d3b342c40261ea5b2436b565893757970316973ba0858b2261c891aa4a759eafc0046940afcbfe93c5597310d656f0
   languageName: node
   linkType: hard
 
-"@backstage-community/plugin-playlist-common@npm:^0.17.0":
-  version: 0.17.0
-  resolution: "@backstage-community/plugin-playlist-common@npm:0.17.0"
-  dependencies:
-    "@backstage/plugin-permission-common": "npm:^0.9.8"
-  checksum: 10c0/6972392c95575acc7a81b5fa3f27984a889d6bbc42734914369747a45bf73ed83cd97a2b1c5aebd56e70a57aa9658577eb4a7c6d352ad22bb4f42ba26c163e20
-  languageName: node
-  linkType: hard
-
-"@backstage-community/plugin-playlist@npm:^0.18.0":
+"@backstage-community/plugin-playlist-common@npm:^0.18.0":
   version: 0.18.0
-  resolution: "@backstage-community/plugin-playlist@npm:0.18.0"
+  resolution: "@backstage-community/plugin-playlist-common@npm:0.18.0"
   dependencies:
-    "@backstage-community/plugin-playlist-common": "npm:^0.17.0"
-    "@backstage/catalog-model": "npm:^1.8.0"
-    "@backstage/core-components": "npm:^0.18.9"
-    "@backstage/core-plugin-api": "npm:^1.12.5"
-    "@backstage/errors": "npm:^1.3.0"
-    "@backstage/plugin-catalog-common": "npm:^1.1.9"
-    "@backstage/plugin-catalog-react": "npm:^2.1.4"
-    "@backstage/plugin-permission-common": "npm:^0.9.8"
-    "@backstage/plugin-permission-react": "npm:^0.5.0"
-    "@backstage/plugin-search-react": "npm:^1.11.3"
+    "@backstage/plugin-permission-common": "npm:^0.9.9"
+  checksum: 10c0/0a3706a016daeefad11ea85fbb5886ffa125bb7abf890977cf25358e17ff15e15f8dd9d6e0109ed37fadbd4e9dd112c1cd5d1a4d59c5b124c7ccf3cae59db73d
+  languageName: node
+  linkType: hard
+
+"@backstage-community/plugin-playlist@npm:^0.19.0":
+  version: 0.19.0
+  resolution: "@backstage-community/plugin-playlist@npm:0.19.0"
+  dependencies:
+    "@backstage-community/plugin-playlist-common": "npm:^0.18.0"
+    "@backstage/catalog-model": "npm:^1.9.0"
+    "@backstage/core-components": "npm:^0.18.10"
+    "@backstage/core-plugin-api": "npm:^1.12.6"
+    "@backstage/errors": "npm:^1.3.1"
+    "@backstage/plugin-catalog-common": "npm:^1.1.10"
+    "@backstage/plugin-catalog-react": "npm:^3.0.0"
+    "@backstage/plugin-permission-common": "npm:^0.9.9"
+    "@backstage/plugin-permission-react": "npm:^0.5.1"
+    "@backstage/plugin-search-react": "npm:^1.11.4"
     "@material-ui/core": "npm:^4.12.2"
     "@material-ui/icons": "npm:^4.9.1"
     "@material-ui/lab": "npm:4.0.0-alpha.61"
@@ -3614,7 +3614,7 @@ __metadata:
     react: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-dom: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-router-dom: 6.0.0-beta.0 || ^6.3.0
-  checksum: 10c0/5d5096faec7e920b8df7b9c0e1b40d7c685e140654b207c4ff14a4a7100bf0899ff64c90b1d7c319744ff9acf88e8e345ff0f4d8e9e8e00a0c75e9bce351ecf5
+  checksum: 10c0/013cdba37ee2222811b8fb561e5f51d3f7553db6ca49d9008e94f039aa1886626cf551d28a7f0d5b4b9431382fe32c54a935a2bad9bb414ff3a1b66d9a26e5f4
   languageName: node
   linkType: hard
 
@@ -18171,7 +18171,7 @@ __metadata:
     "@backstage-community/plugin-mcp-chat": "npm:^0.7.0"
     "@backstage-community/plugin-nexus-repository-manager": "npm:^1.21.0"
     "@backstage-community/plugin-npm": "npm:^1.17.0"
-    "@backstage-community/plugin-playlist": "npm:^0.18.0"
+    "@backstage-community/plugin-playlist": "npm:^0.19.0"
     "@backstage-community/plugin-quay": "npm:^1.30.0"
     "@backstage-community/plugin-rbac": "npm:^1.48.0"
     "@backstage-community/plugin-todo": "npm:^0.20.0"
@@ -18880,7 +18880,7 @@ __metadata:
     "@backstage-community/plugin-lighthouse-backend": "npm:^0.23.0"
     "@backstage-community/plugin-mcp-chat-backend": "npm:^0.11.0"
     "@backstage-community/plugin-npm-backend": "npm:^1.17.0"
-    "@backstage-community/plugin-playlist-backend": "npm:^0.20.0"
+    "@backstage-community/plugin-playlist-backend": "npm:^0.21.0"
     "@backstage-community/plugin-rbac-backend": "npm:^7.7.0"
     "@backstage-community/plugin-scaffolder-backend-module-annotator": "npm:^2.14.0"
     "@backstage-community/plugin-scaffolder-backend-module-jenkins": "npm:^0.21.0"
