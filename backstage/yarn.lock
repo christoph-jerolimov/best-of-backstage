@@ -3703,8 +3703,8 @@ __metadata:
   linkType: hard
 
 "@backstage-community/plugin-rbac@npm:^1.48.0":
-  version: 1.53.0
-  resolution: "@backstage-community/plugin-rbac@npm:1.53.0"
+  version: 1.53.1
+  resolution: "@backstage-community/plugin-rbac@npm:1.53.1"
   dependencies:
     "@backstage-community/plugin-rbac-common": "npm:^1.27.0"
     "@backstage/catalog-model": "npm:^1.8.0"
@@ -3732,7 +3732,7 @@ __metadata:
     react: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-dom: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-router-dom: ^6.0.0
-  checksum: 10c0/cd2d7766eda366780b0376db2b674967ef127f43fddef5493338f45e7bf93da8364f2bd4fb8e5e5095cc9f5b4537485c03a0aacc5cf8683deb195750341edef0
+  checksum: 10c0/68af0e41ee193fee8805b41883ffc51bd417cd9f404115b75698427e53ae8c90d3c6548840e10d0d5509f0c2ef94115aed392efeadd538b880cd24dee16c7886
   languageName: node
   linkType: hard
 
