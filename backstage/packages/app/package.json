@@ -79,8 +79,8 @@
     "@mui/icons-material": "^7.0.0",
     "@react-stately/layout": "^4.7.0",
     "@roadiehq/backstage-plugin-jira": "^2.14.0",
-    "react": "^18.0.2",
-    "react-dom": "^18.0.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
     "react-router": "^7.0.0",
     "react-router-dom": "^7.0.0",
     "zen-observable": "^0.10.0"
