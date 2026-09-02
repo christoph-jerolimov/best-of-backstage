@@ -3783,16 +3783,16 @@ __metadata:
   linkType: hard
 
 "@backstage-community/plugin-scaffolder-backend-module-servicenow@npm:^2.12.0":
-  version: 2.15.2
-  resolution: "@backstage-community/plugin-scaffolder-backend-module-servicenow@npm:2.15.2"
+  version: 2.16.1
+  resolution: "@backstage-community/plugin-scaffolder-backend-module-servicenow@npm:2.16.1"
   dependencies:
-    "@backstage/backend-plugin-api": "npm:^1.8.0"
-    "@backstage/plugin-scaffolder-node": "npm:^0.13.0"
+    "@backstage/backend-plugin-api": "npm:^1.9.2"
+    "@backstage/plugin-scaffolder-node": "npm:^0.13.4"
     abort-controller: "npm:^3.0.0"
     axios: "npm:^1.16.0"
     form-data: "npm:^4.0.0"
     yaml: "npm:^2.3.3"
-  checksum: 10c0/2b994517895cca8002a324c23c432f9d50749d3a88564c1c59e66138ad10b9ad8d701b3bc8691be32cd824c6249e2d622c11a419193081d83cf5202376c39e7b
+  checksum: 10c0/97cc160b1b049f6ae9e9ad0e34319a34c851f908f9520512080e34261cf4669aac5ce5f844c3efc852f90a3b75051b222e857bb5585f204d46e4e05b48102ef4
   languageName: node
   linkType: hard
 
@@ -7088,7 +7088,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage/plugin-scaffolder-node@npm:^0.13.0, @backstage/plugin-scaffolder-node@npm:^0.13.3, @backstage/plugin-scaffolder-node@npm:^0.13.4":
+"@backstage/plugin-scaffolder-node@npm:^0.13.3, @backstage/plugin-scaffolder-node@npm:^0.13.4":
   version: 0.13.4
   resolution: "@backstage/plugin-scaffolder-node@npm:0.13.4"
   dependencies:
