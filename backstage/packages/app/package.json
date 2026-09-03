@@ -71,7 +71,7 @@
     "@backstage/plugin-org": "^0.7.5",
     "@backstage/plugin-scaffolder": "^1.38.0",
     "@backstage/plugin-search": "^1.7.5",
-    "@backstage/plugin-signals": "^0.0.32",
+    "@backstage/plugin-signals": "^0.0.34",
     "@backstage/plugin-techdocs": "^1.17.7",
     "@backstage/plugin-techdocs-module-addons-contrib": "^1.1.37",
     "@backstage/plugin-user-settings": "^0.9.4",
