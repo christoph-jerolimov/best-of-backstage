@@ -16,7 +16,7 @@
     "build-image": "docker build ../.. -f Dockerfile --tag backstage"
   },
   "dependencies": {
-    "@aws/aws-core-plugin-for-backstage-scaffolder-actions": "^0.6.0",
+    "@aws/aws-core-plugin-for-backstage-scaffolder-actions": "^0.7.0",
     "@axis-backstage/plugin-jira-dashboard-backend": "^6.1.0",
     "@axis-backstage/plugin-readme-backend": "^0.16.0",
     "@backstage-community/plugin-adr-backend": "^0.23.0",
