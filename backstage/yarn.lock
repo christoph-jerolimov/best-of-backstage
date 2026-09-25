@@ -18874,7 +18874,7 @@ __metadata:
     "@roadiehq/scaffolder-backend-module-http-request": "npm:^5.5.1"
     "@roadiehq/scaffolder-backend-module-utils": "npm:^4.1.1"
     app: "link:../app"
-    better-sqlite3: "npm:^12.6.2"
+    better-sqlite3: "npm:^13.0.0"
     node-gyp: "npm:^13.0.0"
     pg: "npm:^8.18.0"
   languageName: unknown
@@ -19080,7 +19080,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"better-sqlite3@npm:^12.0.0, better-sqlite3@npm:^12.6.2":
+"better-sqlite3@npm:^12.0.0":
   version: 12.11.1
   resolution: "better-sqlite3@npm:12.11.1"
   dependencies:
@@ -19088,6 +19088,16 @@ __metadata:
     node-gyp: "npm:latest"
     prebuild-install: "npm:^7.1.1"
   checksum: 10c0/162d3fa6c19a68191d09537bd113bd54a636c9fb38b0fc0796f4f270032770695ef35a1bca041a0a0fa9bfa47e20b9e17c94484a3899c31f38881af4d12b7fa5
+  languageName: node
+  linkType: hard
+
+"better-sqlite3@npm:^13.0.0":
+  version: 13.0.3
+  resolution: "better-sqlite3@npm:13.0.3"
+  dependencies:
+    node-addon-api: "npm:^8.0.0"
+    node-gyp: "npm:latest"
+  checksum: 10c0/3daaad4fbd39b3ebddd9840c1aab0a7ccc94a01054fb03f6660ec2c226422b5daf3eb8e55a14103eddb84c2cd16f8e70ae9d41f0e2892b58c8c6152ee7ff09c0
   languageName: node
   linkType: hard
 
@@ -31297,12 +31307,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-addon-api@npm:^8.2.2, node-addon-api@npm:^8.3.0, node-addon-api@npm:^8.3.1":
-  version: 8.5.0
-  resolution: "node-addon-api@npm:8.5.0"
+"node-addon-api@npm:^8.0.0, node-addon-api@npm:^8.2.2, node-addon-api@npm:^8.3.0, node-addon-api@npm:^8.3.1":
+  version: 8.9.2
+  resolution: "node-addon-api@npm:8.9.2"
   dependencies:
     node-gyp: "npm:latest"
-  checksum: 10c0/e4de0b4e70998fed7ef41933946f60565fc3a17cb83b7d626a0c0bb1f734cf7852e0e596f12681e7c8ed424163ee3cdbb4f0abaa9cc269d03f48834c263ba162
+  checksum: 10c0/5cf5231e0da22b22862e6b593982a0e390ca89d022a9ac666c83deceecf20378cb8afe47c456ac1a58a9f62ef60099c950aec05814a287fdfd751d9d154fb12d
   languageName: node
   linkType: hard
 
